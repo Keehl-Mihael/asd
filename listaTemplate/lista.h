@@ -8,8 +8,8 @@
 template <class T,typename P>
 class listalineare{
 public:
-    typedef t tipoelem;
-    typedef p posizione;
+    typedef T tipoelem;
+    typedef P posizione;
     //distruttore
     virtual ~listalineare() {};
     //operatori
