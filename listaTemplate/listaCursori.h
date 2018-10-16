@@ -8,6 +8,9 @@
 typedef int cursor;
 #define DIMENSIONE 1024
 
+
+
+
 template <class T,typename P>
 class listaCursori : public listalineare<T,cursor>{
 public:
@@ -28,7 +31,7 @@ public:
 
 private:
     int lunghezza;
-    T elementi[DIMENSIONE];
+    T* elementi[DIMENSIONE];
 };
 
 template <class T,typename P> listaCursori<T,P>::listaCursori(){
@@ -37,9 +40,14 @@ template <class T,typename P> listaCursori<T,P>::listaCursori(){
 
 template <class T,typename P> void listaCursori<T,P>::creaLista(){
     lunghezza = 0;
-    for (int i = 0; i < lunghezza; ++i) {
+    for (int i = 0; i < DIMENSIONE; ++i) {
+
         elementi[i] = new T[3];
+        elementi[i][0] = i - 1;
+        elementi[i][1] = i;
+        elementi[i][2] = i + 1;
     }
+
 };
 
 template <class T,typename P> bool listaCursori<T,P>::listaVuota() const{

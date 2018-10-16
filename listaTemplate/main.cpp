@@ -10,13 +10,13 @@ using namespace std;
 
 int main(){
     typedef int cur;
-    listaCursori<int*,cur> list();
-    cur pos = 3;
+    listaCursori<int ,int> list();
+    cur pos;
 
     list().creaLista();
-    cout << list().primoLista() << endl;
-    list().scriviLista(10,pos);
-    cout << list().leggiLista(pos) << endl;
+    //cout << list().primoLista() << endl;
+/*    list().scriviLista(10,pos);
+    cout << list().leggiLista(pos) << endl;*/
 
 
     return 0;
