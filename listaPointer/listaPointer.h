@@ -1,0 +1,176 @@
+//
+// Created by arcangelo on 10/18/18.
+//
+
+#ifndef ASD_LISTAPOINTER_H
+#define ASD_LISTAPOINTER_H
+
+#include "lista.h"
+
+
+template <class T>
+class listPointer;
+
+template <class T>
+class cella {
+public:
+    friend class listPointer<T>;
+private:
+    T value;
+    cella<T> * prev;
+    cella<T> * succ;
+};
+
+
+template <class T>
+class listPointer: public listalineare <T,cella<T>*> {
+private:
+    cella<T>* head;
+    int lenght;
+public:
+
+    typedef typename listalineare<T, cella<T>*>::value_type value_type;
+    typedef typename listalineare<T, cella<T>*>::position position;
+
+    listPointer();
+    ~listPointer();
+    void creaLista();
+    bool listaVuota() const;
+    value_type leggiLista(position) const;
+    void scriviLista(const value_type &a,position);
+    position primoLista() const;
+    bool fineLista(position) const;
+    position succLista(position) const;
+    position predLista(position) const;
+    void insLista(value_type,position);
+    void cancLista(position);
+
+    // sovraccarico di operatori
+    listPointer<T>& operator=(const listPointer<T>&); // the assignment operator
+    bool operator==(const listPointer<T> &) const; // tests two list for equality
+
+};
+
+template <class T>
+listPointer<T>::listPointer(){
+    head = new cella<T>;
+    head-> prev = head;
+    head-> succ = head;
+    lenght = 0;
+}
+
+template <class T>
+listPointer<T>::~listPointer(){
+    delete[] head;
+}
+
+template <class T>
+void listPointer<T>::creaLista() {
+    if(listaVuota()){
+        lenght = 0;
+    }
+}
+
+template <class T>
+bool listPointer<T>::listaVuota() const{
+    return (lenght == 0);
+}
+
+template <class T>
+typename listPointer<T>::value_type listPointer<T>::leggiLista(position p) const{
+    if(!fineLista(p)){
+        return p->value;
+
+    }
+
+}
+
+template <class T>
+void listPointer<T>::scriviLista(const value_type &a,position p) {
+    if(!fineLista(p))
+        p->value = a;
+}
+
+template <class T>
+typename listPointer<T>::position listPointer<T>::primoLista() const{
+    return head->prev;
+}
+
+template <class T>
+bool listPointer<T>::fineLista(position p) const {
+    return (p == head);
+}
+
+template <class T>
+typename listPointer<T>::position listPointer<T>::succLista(position p) const{
+    return p->succ;
+}
+
+template <class T>
+typename listPointer<T>::position listPointer<T>::predLista(position p) const{
+    return p->prev;
+}
+
+template <class T>
+void listPointer<T>::insLista(const value_type a,position p) {
+    position t = new cella<T>;
+
+    t->value = a;
+    t->succ = p;
+    t->prev = p->prev;
+    p->prev->succ = t;
+    p->prev = t;
+
+    lenght ++;
+}
+
+template <class T>
+void listPointer<T>::cancLista(position p) {
+    if(!listaVuota() && !fineLista(p))
+        p->prev->succ = p->succ;
+        p->succ->prev = p->prev;
+        delete[] p;
+}
+
+template<class T>
+listPointer<T>& listPointer<T>::operator=(const listPointer<T>& L){
+    if (this != &L){
+        //lenght = L.size();
+
+        head = new cella<T>;
+        head->succ = head;
+        head->prev = head;
+
+        cout << L.listaVuota();
+        //cout << L.size();
+/*        if (!L.listaVuota()){
+            position p = L.last();
+            for (int i=0; i < L.size(); i++){
+                cout << i, L.read(p);
+                insert(L.read(p), begin());
+                p = L.previous(p);
+            }
+        }*/
+    }
+    return *this;
+}
+
+
+template<class T>
+bool listPointer<T>::operator==(const listPointer<T> &L) const{
+//    if (L.size() != lenght)
+//        return false;
+    position p, pL;
+    p = primoLista();
+    pL = L.primoLista();
+    while (!fineLista(p)){
+        if (p->value != pL->value)
+            return false;
+        p = p->succ;
+        pL = pL->prev;
+    }
+    return true;
+}
+
+
+#endif //ASD_LISTAPOINTER_H
