@@ -8,7 +8,7 @@
 typedef int cursor;
 #define DIMENSIONE 1024
 
-
+#include "lista.h"
 
 
 template <class T,typename P>
@@ -34,11 +34,12 @@ private:
     T* elementi[DIMENSIONE];
 };
 
-template <class T,typename P> listaCursori<T,P>::listaCursori(){
-    creaLista();
-};
+template <class T,typename P>
+listaCursori<T,P>::listaCursori(){
+   // creaLista();
+}
 
-template <class T,typename P> void listaCursori<T,P>::creaLista(){
+template <class T,typename P> void listaCursori<T,P>::creaLista() {
     lunghezza = 0;
     for (int i = 0; i < DIMENSIONE; ++i) {
 
@@ -48,42 +49,42 @@ template <class T,typename P> void listaCursori<T,P>::creaLista(){
         elementi[i][2] = i + 1;
     }
 
-};
+}
 
 template <class T,typename P> bool listaCursori<T,P>::listaVuota() const{
     return(lunghezza == 0);
-};
+}
 
 template <class T,typename P> T listaCursori<T,P>::leggiLista(cursor c) const{
     return(elementi[c][1]);
-};
+}
 
 template <class T,typename P> void listaCursori<T,P>::scriviLista(T value,cursor c){
     elementi[c][1]=value;
-};
+}
 
 template <class T,typename P> cursor listaCursori<T,P>::primoLista() const{
-   int i,j;
+   int i;
    cursor x;
    for(i=0;i<lunghezza;i++)
        if(elementi[i][0] == -1)
            x=i;
            return x;
-};
+}
 
 template <class T,typename P> bool listaCursori<T,P>::fineLista(cursor c) const{
     if(elementi[c][2] == lunghezza -1)
         return true;
     return false;
-};
+}
 
 template <class T,typename P> cursor listaCursori<T,P>::succLista(cursor c) const{
     return elementi[c][2];
-};
+}
 
 template <class T,typename P> cursor listaCursori<T,P>::predLista(cursor c) const{
     return elementi[c][1];
-};
+}
 
 template <class T,typename P> void listaCursori<T,P>::insLista(T value,cursor c){
     cursor temp;
@@ -94,7 +95,7 @@ template <class T,typename P> void listaCursori<T,P>::insLista(T value,cursor c)
     elementi [c][1] = value;
     elementi[elementi[c][2]][0] = c;
     lunghezza ++;
-};
+}
 
 template <class T,typename P> void listaCursori<T,P>::cancLista(cursor c){
     lunghezza --;
@@ -107,7 +108,7 @@ template <class T,typename P> void listaCursori<T,P>::cancLista(cursor c){
     elementi[c][2] = 0;
 
 
-};
+}
 
 
 #endif //ASD_LISTACURSORI_H

@@ -9,11 +9,11 @@
 using namespace std;
 
 int main(){
-    typedef int cur;
-    listaCursori<int ,int> list();
-    cur pos;
+    //typedef int cur;
+    listaCursori<int , int> list;
 
-    list().creaLista();
+
+    list.creaLista();
     //cout << list().primoLista() << endl;
 /*    list().scriviLista(10,pos);
     cout << list().leggiLista(pos) << endl;*/

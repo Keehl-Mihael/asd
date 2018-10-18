@@ -9,7 +9,7 @@
 template <class T>
 class CellaCursore {
 	typedef T tipoelem;
-	typedef CellaCursore* cursore;
+	typedef template <class T,typename P> cursore;
 
 	public:
 		CellaCursore() : successivo(nullptr) {}
