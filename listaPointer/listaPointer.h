@@ -15,6 +15,9 @@ template <class T>
 class cella {
 public:
     friend class listPointer<T>;
+    cella<T> operator<(const cella<T>& c ) const { return this->value < c.value; };
+    cella<T> operator<=(const cella<T>& c) const { return this->value <= c.value; };
+    cella<T> operator>(const cella<T>& c) const { return this->value > c.value; };
 private:
     T value;
     cella<T> * prev;
@@ -44,12 +47,17 @@ public:
     position predLista(position) const;
     void insLista(value_type,position);
     void cancLista(position);
+     int lunghezza() ;
+     void inverti() ;
+     bool palindroma() ;
 
     // sovraccarico di operatori
     listPointer<T>& operator=(const listPointer<T>&); // the assignment operator
     bool operator==(const listPointer<T> &) const; // tests two list for equality
 
 };
+
+
 
 template <class T>
 listPointer<T>::listPointer(){
@@ -69,6 +77,47 @@ void listPointer<T>::creaLista() {
     if(listaVuota()){
         lenght = 0;
     }
+}
+template <class T>
+int listPointer<T>::lunghezza(){
+    return (lenght);
+}
+
+template <class T>
+bool listPointer<T>::palindroma(){
+    int i;
+        position p_start, p_end;
+        p_start = succLista(head);
+        p_end = predLista(head);
+        for(i = 0; i <= (int)lenght+1/2; i++){
+            if(p_start->value != p_end->value)
+                return false;
+            else
+                p_end = predLista(p_end);
+                p_start = succLista(p_start);
+
+        }
+
+
+    return (true);
+}
+
+template <class T>
+void listPointer<T>::inverti(){
+    int i;
+    T temp ;
+    position p_start, p_end;
+    p_start = succLista(head);
+    p_end = predLista(head);
+    for(i = 0; i <= (int)lenght+1/2; i++){
+        temp = p_start->value;
+        p_start->value = p_end->value;
+        p_end->value = temp;
+        p_end = predLista(p_end);
+        p_start = succLista(p_start);
+    }
+
+
 }
 
 template <class T>
@@ -93,7 +142,7 @@ void listPointer<T>::scriviLista(const value_type &a,position p) {
 
 template <class T>
 typename listPointer<T>::position listPointer<T>::primoLista() const{
-    return head->prev;
+    return head->succ;
 }
 
 template <class T>
@@ -113,14 +162,17 @@ typename listPointer<T>::position listPointer<T>::predLista(position p) const{
 
 template <class T>
 void listPointer<T>::insLista(const value_type a,position p) {
+    int i;
     position t = new cella<T>;
-
     t->value = a;
+    while(a > p->value && i < lenght ){
+        p = succLista(p);
+        i++;
+    }
     t->succ = p;
     t->prev = p->prev;
     p->prev->succ = t;
     p->prev = t;
-
     lenght ++;
 }
 
@@ -130,27 +182,26 @@ void listPointer<T>::cancLista(position p) {
         p->prev->succ = p->succ;
         p->succ->prev = p->prev;
         delete[] p;
+        lenght --;
 }
 
 template<class T>
 listPointer<T>& listPointer<T>::operator=(const listPointer<T>& L){
     if (this != &L){
-        //lenght = L.size();
+
 
         head = new cella<T>;
         head->succ = head;
         head->prev = head;
 
-        cout << L.listaVuota();
-        //cout << L.size();
-/*        if (!L.listaVuota()){
-            position p = L.last();
-            for (int i=0; i < L.size(); i++){
-                cout << i, L.read(p);
-                insert(L.read(p), begin());
-                p = L.previous(p);
+        if (!L.listaVuota()){
+            position p = head->prev;
+            for (int i=0; i < this->lenght; i++){
+                cout << i, L.leggiLista(p);
+                scriviLista(L.leggiLista(p), primoLista());
+                p = L.predLista(p);
             }
-        }*/
+        }
     }
     return *this;
 }

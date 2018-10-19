@@ -29,30 +29,34 @@ int main(){
     /* visualizing the list list1 */
     cout << "list1=" ; cout << list1;
 
+    cout << "palindroma="<< list1.palindroma();
+    list1.inverti();
+    cout << "inverti" << list1;
+
     /* assigning the list list1 to the list list2.
      * Here we are using the operator =
      */
 
 
-    list2 = list1;
-    /* visualizing the list list2 */
+/*    list2 = list1;
+    *//* visualizing the list list2 *//*
     cout << "After list2=list1, list2="; cout << list2;
 
-    /* comparing for equality the lists list1 and list2 */
+    *//* comparing for equality the lists list1 and list2 *//*
     if (list1 == list2)
         cout << "list1 == list2" << endl;
     else
         cout << "list1 != list2" << endl;
 
-    /* erasing the first element from the list list2 */
+    *//* erasing the first element from the list list2 *//*
     list2.cancLista(list2.primoLista());
-    /* visualizing the list list2 */
+    *//* visualizing the list list2 *//*
     cout << "After erasing the first element, list2="; cout << list2;
-    /* comparing for equality the lists list1 and list2 */
+    *//* comparing for equality the lists list1 and list2 *//*
     if (list1 == list2)
         cout << "list1 == list2" << endl;
     else
-        cout << "list1 != list2" << endl;
+        cout << "list1 != list2" << endl;*/
 
 };
 
