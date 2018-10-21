@@ -5,7 +5,7 @@
 #ifndef ASD_LISTAPOINTER_H
 #define ASD_LISTAPOINTER_H
 
-#include "lista.h"
+#include "../listaPointer/lista.h"
 
 
 template <class T>
@@ -165,14 +165,16 @@ void listPointer<T>::insLista(const value_type a,position p) {
     int i;
     position t = new cella<T>;
     t->value = a;
-    while(a > p->value && i < lenght ){
+    while(a > p->value && i <= lenght  ){
+        t->succ = p;
+        t->prev = p->prev;
+        p->prev->succ = t;
+        p->prev = t;
+
         p = succLista(p);
         i++;
     }
-    t->succ = p;
-    t->prev = p->prev;
-    p->prev->succ = t;
-    p->prev = t;
+
     lenght ++;
 }
 
