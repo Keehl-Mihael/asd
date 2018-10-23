@@ -1,15 +1,12 @@
 //
-// Created by arcangelo on 10/21/18.
+// Created by arcangelo on 10/23/18.
 //
-
 #include <iostream>
 #include "codePointer.h"
 
 using namespace std;
-
-int main(int argv,char* argc[]){
-
-    codePointer<int> C;
+int main (){
+    codePointer<int> C(3);
 
     C.incoda(1);
     C.incoda(2);
@@ -20,7 +17,7 @@ int main(int argv,char* argc[]){
     C.fuoricoda();
     C.incoda(4);
     cout << " " << C.leggicoda();
-    /*C.fuoricoda();
+    C.fuoricoda();
     cout << " " << C.leggicoda();
     C.incoda(5);
     C.fuoricoda();
@@ -28,6 +25,6 @@ int main(int argv,char* argc[]){
     C.fuoricoda();
     cout << " " << C.leggicoda();
     C.fuoricoda();
-    cout << endl;*/
+    cout << endl;
     return 0;
 }

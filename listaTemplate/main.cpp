@@ -2,7 +2,7 @@
 // Created by arcangelo on 10/11/18.
 //
 #include <iostream>
-#include "lista.h"
+
 #include "listaCursori.h"
 
 
