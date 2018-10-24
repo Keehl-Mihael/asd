@@ -32,6 +32,7 @@ class codePointer: public code<T>{
 private:
     typedef typename code<T>::value_type value_type;
     cella<T>* head;
+    cella<T>* tail;
     int lenght;
 public:
 
@@ -42,6 +43,7 @@ public:
 
     void creacoda(){
         head = new cella<T>;
+        tail = head;
         lenght = 0;
     };
 
@@ -61,9 +63,10 @@ public:
     };
     void incoda(value_type v){
         cella<T> incella;
+        head->succ = incella;
+        tail->succ = incella;        
         incella.value = v ;
-        incella.succ = head;
-        head = &incella;
+        incella.succ = nullptr;
         lenght ++;
     }; //aggiungi const
 
