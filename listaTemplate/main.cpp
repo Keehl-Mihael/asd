@@ -3,21 +3,22 @@
 //
 #include <iostream>
 
-#include "listaCursori.h"
+#include "listaVector.h"
 
 
 using namespace std;
 
 int main(){
-    typedef int cur;
-    listaCursori<int> list;
-    cur pos;
+
+    listaVector<int> list;
+
 
 
     list.creaLista();
     cout << list.primoLista() << endl;
-    list.scriviLista(10,list.primoLista());
-    cout << list.leggiLista(list.primoLista()) << endl;
+    list.scriviLista(10,0);
+    cout << list.leggiLista(0);
+
 
 
     return 0;
