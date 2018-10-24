@@ -55,18 +55,18 @@ public:
         return head->succ->value;
     };
     void fuoricoda(){
-        //cella<T>* temp;
-        //temp = head;
+        cella<T>* temp;
+        temp = head;
         head = head->succ;
-        //delete temp;
+    delete[] temp;
         lenght --;
     };
     void incoda(value_type v){
         cella<T> incella;
-        head->succ = incella;
         tail->succ = incella;        
         incella.value = v ;
         incella.succ = nullptr;
+        tail = incella;
         lenght ++;
     }; //aggiungi const
 
