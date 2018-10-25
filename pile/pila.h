@@ -10,7 +10,7 @@ public:
     virtual bool pilavuota() = 0;
     virtual value_type leggipila() = 0;
     virtual void fuoripila() = 0;
-    virtual void inpila() = 0;
+    virtual void inpila(value_type t) = 0;
 };
 
 #endif //PILA_H

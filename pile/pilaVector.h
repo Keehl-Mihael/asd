@@ -3,31 +3,46 @@
 
 template <class t>
 class pilavector;
+//implementare la classe nodo
 
-template <class T>
-class cella {
-public:
-    friend class pilavector<T>;
-    cella<T> operator<(const cella<T>& c ) const { return this->value < c.value; };
-    cella<T> operator<=(const cella<T>& c) const { return this->value <= c.value; };
-    cella<T> operator>(const cella<T>& c) const { return this->value > c.value; };
-private:
-    T value;
-    cella<T> * succ;
-};
+#define MAXLUNG = 10;
 
 template <class T>
 class pilavector : public pila <T>{
 public:
-    ~pila();
-    void creapila();
-    bool pilavuota();
-    value_type leggipila();
-    void fuoripila();
-    void inpila();
+    pila(){
+        creapila();
+    };
+    ~pila(){
+
+    };
+    void creapila(){
+        testa = 0;
+    };
+    bool pilavuota(){
+        return (testa == 0);
+    };
+    value_type leggipila(){
+        return elements[testa];
+    };
+    void fuoripila(){
+        if(!pilavuota())
+            testa -=1;
+        else
+            throw "la pila è vuota";
+    };
+    void inpila(value_type t){
+        if(testa == MAXLUNG){
+            //possibilità di implementare estensione della pila attuale
+            throw "la pila è piena";
+        }else{
+            elements[testa] = t;
+            testa ++;
+        }
+    };
 private:
     int testa;
-    value_type elements[10];
+    value_type elements[MAXLUNG];
 
 };
 
