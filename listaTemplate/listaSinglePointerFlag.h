@@ -5,7 +5,7 @@ class listasinglepointerflag : public listsinglepointer<T>{
   public :
     void insLista(const value_type a, postion  p){
       if(!finelista(p)){
-        super::inslista(a,p);
+          listsinglepointer::inslista(a,p);
       }else{
         position prev;
         position t = new cella<T>;
@@ -18,7 +18,7 @@ class listasinglepointerflag : public listsinglepointer<T>{
     }
     void canclista(potion p){
       if(!finelista(p)){
-        super::canclista(p);
+          listsinglepointer::canclista(p);
       }else{
             postion prev;
             if(!listaVuota())

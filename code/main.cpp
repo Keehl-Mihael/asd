@@ -17,9 +17,10 @@ int main(int argv,char* argc[]){
     C.incoda(4);
 
     cout << " " << C.leggicoda();
+    cout << " " << C.leggicoda();
     C.fuoricoda();
     C.incoda(4);
-    cout << " " << C.leggicoda();
+    //cout << " " << C.leggicoda();
     /*C.fuoricoda();
     cout << " " << C.leggicoda();
     C.incoda(5);
