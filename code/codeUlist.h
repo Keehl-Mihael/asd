@@ -1,12 +1,12 @@
 //
 // Created by arcangelo on 10/27/18.
-// code che utilizzano le liste con singolo puntaotre con flag
+// code che utilizzano le liste con singolo puntatore
 //
 
 #ifndef PROJECT_CODEULIST_H
 #define PROJECT_CODEULIST_H
 
-#include "listaSinglePointerFlag.h"
+#include "listaSinglePointer.h"
 
 template <class T>
 class codaList {
