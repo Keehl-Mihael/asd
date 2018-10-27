@@ -15,6 +15,7 @@ private :
 public:
 
     typedef typename listalineare<T, cella<T>*>::value_type value_type;
+    typedef typename listalineare<T, cella<T>*>::position position;
 
     void creacoda(){
         coda.crealista();
@@ -26,7 +27,15 @@ public:
         return coda.leggilista(coda.primolista());
     }
     void fuoricoda(){
-        return 
+        return coda.canclista(coda.primolista());
+    }
+
+    void incoda(value_type v){
+        position start = coda.primolista();
+        while(finelista(start) != true){
+            start = coda.succlista(start);
+        }
+        coda.inslista(v,start);
     }
 
 
