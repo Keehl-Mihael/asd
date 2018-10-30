@@ -47,7 +47,7 @@ public:
     position predLista(position) const;
     void insLista(value_type,position);
     void cancLista(position);
-    int lunghezza() ;
+    int lunghezza() const;
     void inverti() ;
     bool palindroma() ;
 
@@ -69,7 +69,9 @@ listPointer<T>::listPointer(){
 
 template <class T>
 listPointer<T>::~listPointer(){
-    delete[] head;
+    while(!listaVuota())
+        cancLista(primoLista());
+    delete head;
 }
 
 template <class T>
@@ -79,7 +81,7 @@ void listPointer<T>::creaLista() {
     }
 }
 template <class T>
-int listPointer<T>::lunghezza(){
+int listPointer<T>::lunghezza() const {
     return (lenght);
 }
 
@@ -162,18 +164,13 @@ typename listPointer<T>::position listPointer<T>::predLista(position p) const{
 
 template <class T>
 void listPointer<T>::insLista(const value_type a,position p) {
-    int i;
+
     position t = new cella<T>;
     t->value = a;
-    while(a > p->value && i <= lenght  ){
-        t->succ = p;
-        t->prev = p->prev;
-        p->prev->succ = t;
-        p->prev = t;
-
-        p = succLista(p);
-        i++;
-    }
+    t->succ = p;
+    t->prev = p->prev;
+    p->prev->succ = t;
+    p->prev = t;
 
     lenght ++;
 }
@@ -196,9 +193,9 @@ listPointer<T>& listPointer<T>::operator=(const listPointer<T>& L){
 
         if (!L.listaVuota()){
             position p = head->prev;
-            for (int i=0; i < this->lenght; i++){
+            for (int i=0; i < L.lenght; i++){
                 cout << i, L.leggiLista(p);
-                scriviLista(L.leggiLista(p), primoLista());
+                insLista(L.leggiLista(p), primoLista());
                 p = L.predLista(p);
             }
         }

@@ -27,7 +27,7 @@ public:
     virtual position predLista(position) const = 0;
     virtual void insLista(value_type,position) = 0;
     virtual void cancLista(position) = 0;
-    virtual int lunghezza() = 0;
+    virtual int lunghezza() const = 0;
     virtual void inverti() = 0;
     virtual bool palindroma() = 0;
 };
