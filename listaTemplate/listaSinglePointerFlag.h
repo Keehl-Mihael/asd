@@ -1,31 +1,43 @@
+//
+// Created by arcangelo on 10/18/18.
+//
+
 #ifndef ASD_LISTASINGLEPOINTERFLAG_H
 #define ASD_LISTASINGLEPOINTERFLAG_H
-#inlcude "listaSinglePOinter.h"
-class listasinglepointerflag : public listsinglepointer<T>{
-  public :
-    void insLista(const value_type a, postion  p){
-      if(!finelista(p)){
-          listsinglepointer::inslista(a,p);
+
+#include "listaSinglePointer.h"
+
+
+
+template <class T>
+class listasinglepointerflag : public listasinglepointer<T>{
+
+public :
+    typedef typename listasinglepointer<T>::value_type value_type;
+    typedef typename listasinglepointer<T>::position position;
+    void insLista(const value_type &a, position  p){
+      if(!listasinglepointer<T>::fineLista(p)){
+          listasinglepointer<T>::insLista(a,p);
       }else{
         position prev;
         position t = new cella<T>;
         t->value = a;
-        t->succ = head; 
-        prev = predLista(p)
+        t->succ = listasinglepointer<T>::head;
+        prev = listasinglepointer<T>::predLista(p);
         prev->succ = t;
-        lenght ++;
+          listasinglepointer<T>::lenght ++;
       }
     }
-    void canclista(potion p){
-      if(!finelista(p)){
-          listsinglepointer::canclista(p);
+    void cancLista(position p){
+      if(!listasinglepointer<T>::fineLista(p)){
+          listasinglepointer<T>::cancLista(p);
       }else{
-            postion prev;
-            if(!listaVuota())
+            position prev;
+            if(!listasinglepointer<T>::listaVuota())
                 prev = predLista(p);
-                prev->succ = head;
+                prev->succ = listasinglepointer<T>::head;
                 delete[] p;
-                lenght --;
+                listasinglepointer<T>::lenght --;
       }
     }
   

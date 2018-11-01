@@ -18,22 +18,22 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "listaPointer.h"
+#include "listaSinglePointerFlag.h"
 #include <iostream>
 
 using namespace std;
 
 
 int main() {
-    listPointer<int> list1, list2;
-    listPointer<int>::position iter;
+    listasinglepointerflag<int> list1, list2;
+    listasinglepointerflag<int>::position iter;
 
     int x;
 
     /* inserting three elements into the list list1 */
     x = 1;
-    list1.insLista(0, list1.primoLista());
-    list1.scriviLista(x, list1.primoLista());
+    list1.insLista(x, list1.primoLista());
+
 
 
     x = 2;

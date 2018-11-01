@@ -6,6 +6,7 @@
 #define ASD_LISTASINGLEPOINTER_H
 
 #include "lista.h"
+#include "listaSinglePointerFlag.h"
 
 
 template <class T>
@@ -26,6 +27,8 @@ private:
 
 template <class T>
 class listasinglepointer: public listalineare <T,cella<T>*> {
+    friend class listasinglepointerflag;
+
 private:
     cella<T>* head;
     int lenght;
@@ -166,10 +169,10 @@ listasinglepointer<T>& listasinglepointer<T>::operator=(const listasinglepointer
         head->succ = head;
         
         if (!L.listaVuota()){
-            position p = predLista(L.head);
+            position p = L.predLista(L.head);
             for (int i=0; i < L.lenght; i++){
                 cout << i, L.leggiLista(p);
-                scriviLista(L.leggiLista(p), primoLista());
+                insLista(L.leggiLista(p),primoLista());
                 p = L.predLista(p);
             }
         }
