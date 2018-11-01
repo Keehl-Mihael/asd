@@ -11,15 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="code utilizzando le liste">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listaTemplate/lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/lista.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listaTemplate/listaPointer.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/listaPointer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listaTemplate/tester.cpp" beforeDir="false" />
-    </list>
+    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="debug liste" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-release/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-relwithdebinfo/" />
@@ -66,6 +58,7 @@
     <session id="-475276192">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -93,13 +86,14 @@
         <counts>
           <entry key="cpp" value="24" />
           <entry key="h" value="48" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="11" />
           <entry key="ObjectiveC" value="72" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -276,7 +270,7 @@
       <workItem from="1540390897885" duration="12000" />
       <workItem from="1540390910670" duration="26000" />
       <workItem from="1540625810865" duration="168000" />
-      <workItem from="1540925102621" duration="3660000" />
+      <workItem from="1540925102621" duration="3770000" />
     </task>
     <task id="LOCAL-00001" summary="inizio code, modificare leggicoda e fuoricoda">
       <created>1540623922520</created>
@@ -292,15 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540624930925</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="debug liste">
+      <created>1540929623011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540929623011</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6216000" />
+    <option name="totallyTimeSpent" value="6326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1363" y="0" width="1372" height="771" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.1621212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -368,7 +368,8 @@
     <MESSAGE value="inizio code" />
     <MESSAGE value="inizio code, modificare leggicoda e fuoricoda" />
     <MESSAGE value="code utilizzando le liste" />
-    <option name="LAST_COMMIT_MESSAGE" value="code utilizzando le liste" />
+    <MESSAGE value="debug liste" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug liste" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/esercizio2-1.c">
