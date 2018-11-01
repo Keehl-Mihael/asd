@@ -192,12 +192,13 @@ listPointer<T>& listPointer<T>::operator=(const listPointer<T>& L){
         head->prev = head;
 
         if (!L.listaVuota()){
-            position p = head->prev;
+            position p = L.head->prev;
             for (int i=0; i < L.lenght; i++){
-                cout << i, L.leggiLista(p);
+                cout << i, L.leggiLista(p) ;
                 insLista(L.leggiLista(p), primoLista());
                 p = L.predLista(p);
             }
+            cout << endl;
         }
     }
     return *this;
