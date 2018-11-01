@@ -216,7 +216,7 @@ bool listPointer<T>::operator==(const listPointer<T> &L) const{
         if (p->value != pL->value)
             return false;
         p = p->succ;
-        pL = pL->prev;
+        pL = pL->succ;
     }
     return true;
 }
