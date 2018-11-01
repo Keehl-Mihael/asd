@@ -5,13 +5,20 @@
       <config projectName="test_build" targetName="main" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="debug liste" />
+    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="debug liste lista con doppio puntatore debuggata test passato">
+      <change afterPath="$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listaTemplate/tester_vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-release/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-relwithdebinfo/" />
@@ -69,8 +76,8 @@
         <counts>
           <entry key="Makefile" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="1" />
-          <entry key="h" value="3" />
+          <entry key="cpp" value="4" />
+          <entry key="h" value="5" />
           <entry key="listaTemplate (disassembly)" value="1" />
           <entry key="txt" value="3" />
         </counts>
@@ -80,22 +87,22 @@
           <entry key="CMakeCache.txt" value="1" />
           <entry key="CMakeLists.txt" value="3" />
           <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="4" />
+          <entry key="ObjectiveC" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="24" />
-          <entry key="h" value="88" />
-          <entry key="txt" value="24" />
+          <entry key="cpp" value="45" />
+          <entry key="h" value="276" />
+          <entry key="txt" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="11" />
-          <entry key="ObjectiveC" value="112" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="CMakeLists.txt" value="37" />
+          <entry key="ObjectiveC" value="321" />
+          <entry key="PLAIN_TEXT" value="75" />
         </counts>
       </usages-collector>
     </session>
@@ -104,61 +111,51 @@
     <favorites_list name="asd" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="221" selection-start-line="221" selection-end-line="221" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/listaTemplate/tester_pointer.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/listaTemplate/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/liste/linked_list/linked_list.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="208" column="17" lean-forward="true" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/Downloads/liste/linked_list/linked_list.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="283">
-                  <caret line="220" column="33" selection-start-line="220" selection-start-column="33" selection-end-line="220" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="194" column="37" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="168" column="41" selection-start-line="168" selection-start-column="41" selection-end-line="168" selection-end-column="41" />
+              <folding>
+                <element signature="e#568#577#0" expanded="true" />
+                <element signature="e#2049#2058#0" expanded="true" />
+                <element signature="e#2111#2120#0" expanded="true" />
+                <element signature="e#2921#2930#0" expanded="true" />
+                <element signature="e#3361#3370#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-331">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -182,9 +179,12 @@
         <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" />
         <option value="$PROJECT_DIR$/code/codeUlist.h" />
         <option value="$PROJECT_DIR$/pile/pileUlist.h" />
-        <option value="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/listaTemplate/tester_pointer.cpp" />
         <option value="$PROJECT_DIR$/listaTemplate/listaPointer.h" />
+        <option value="$PROJECT_DIR$/listaTemplate/tester_vector.cpp" />
+        <option value="$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp" />
+        <option value="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" />
       </list>
     </option>
   </component>
@@ -290,7 +290,7 @@
       <workItem from="1540390910670" duration="26000" />
       <workItem from="1540625810865" duration="168000" />
       <workItem from="1540925102621" duration="3770000" />
-      <workItem from="1541061528559" duration="487000" />
+      <workItem from="1541061528559" duration="4168000" />
     </task>
     <task id="LOCAL-00001" summary="inizio code, modificare leggicoda e fuoricoda">
       <created>1540623922520</created>
@@ -327,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541061935412</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="debug liste lista con doppio puntatore debuggata test passato">
+      <created>1541062246780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541062246780</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6813000" />
+    <option name="totallyTimeSpent" value="10494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1363" y="0" width="1372" height="771" extended-state="6" />
@@ -404,15 +411,16 @@
     <MESSAGE value="inizio code, modificare leggicoda e fuoricoda" />
     <MESSAGE value="code utilizzando le liste" />
     <MESSAGE value="debug liste" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug liste" />
+    <MESSAGE value="debug liste lista con doppio puntatore debuggata test passato" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug liste lista con doppio puntatore debuggata test passato" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/listaTemplate/listaPointer.h</url>
-          <line>209</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h</url>
+          <line>169</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -439,13 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -487,31 +488,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/code/cmake-build-debug/CMakeCache.txt" />
-    <entry file="file://$PROJECT_DIR$/listaTemplate/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/liste/linked_list/linked_list.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="208" column="17" lean-forward="true" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
+          <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_vector.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        <state relative-caret-position="119">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/listaTemplate/tester_pointer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        <state relative-caret-position="697">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="194" column="37" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="168" column="41" selection-start-line="168" selection-start-column="41" selection-end-line="168" selection-end-column="41" />
+          <folding>
+            <element signature="e#568#577#0" expanded="true" />
+            <element signature="e#2049#2058#0" expanded="true" />
+            <element signature="e#2111#2120#0" expanded="true" />
+            <element signature="e#2921#2930#0" expanded="true" />
+            <element signature="e#3361#3370#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -9,7 +9,7 @@
 
 
 template <class T>
-class listasinglepointer;
+class listasinglepointer ;
 
 template <class T>
 class cella {
@@ -46,7 +46,7 @@ public:
     position predLista(position) const;
     void insLista(value_type,position);
     void cancLista(position);
-    int lunghezza() ;
+    int lunghezza() const ;
     void inverti() ;
     bool palindroma() ;
 
@@ -77,7 +77,7 @@ void listasinglepointer<T>::creaLista() {
     }
 }
 template <class T>
-int listasinglepointer<T>::lunghezza(){
+int listasinglepointer<T>::lunghezza() const{
     return (lenght);
 }
 
@@ -126,14 +126,15 @@ typename listasinglepointer<T>::position listasinglepointer<T>::succLista(positi
     return p->succ;
 }
 
+
 template <class T>
 typename listasinglepointer<T>::position listasinglepointer<T>::predLista(position p) const{
-    position prev = head->succ;
-    for(int i = 0; i < p ; i++){
+    position prev = p;
+    for(int i = 0; i < lenght  ; i++){
         prev = prev->succ;
     }
     return prev;
-    
+
 }
 
 template <class T>
@@ -142,14 +143,15 @@ void listasinglepointer<T>::insLista(const value_type a,position p) {
     position t = new cella<T>;
     t->value = a;
     t->succ = p; 
-    prev = predLista(p)
+    prev = predLista(p);
     prev->succ = t;
     lenght ++;
 }
 
 template <class T>
 void listasinglepointer<T>::cancLista(position p) {
-    postion prev;
+
+    position prev;
     if(!listaVuota() && !fineLista(p))
         prev = predLista(p);
         prev->succ = p->succ;
@@ -164,8 +166,8 @@ listasinglepointer<T>& listasinglepointer<T>::operator=(const listasinglepointer
         head->succ = head;
         
         if (!L.listaVuota()){
-            position p = head->prev;
-            for (int i=0; i < this->lenght; i++){
+            position p = predLista(L.head);
+            for (int i=0; i < L.lenght; i++){
                 cout << i, L.leggiLista(p);
                 scriviLista(L.leggiLista(p), primoLista());
                 p = L.predLista(p);
@@ -187,7 +189,7 @@ bool listasinglepointer<T>::operator==(const listasinglepointer<T> &L) const{
         if (p->value != pL->value)
             return false;
         p = p->succ;
-        pL = predLista(pL);
+        pL = succLista(pL);
     }
     return true;
 }
