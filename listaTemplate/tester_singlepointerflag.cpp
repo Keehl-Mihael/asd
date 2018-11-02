@@ -26,7 +26,7 @@ using namespace std;
 
 int main() {
     listasinglepointerflag<int> list1, list2;
-    listasinglepointerflag<int>::position iter;
+
 
     int x;
 

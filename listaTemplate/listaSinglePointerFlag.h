@@ -32,14 +32,17 @@ public :
       if(!listasinglepointer<T>::fineLista(p)){
           listasinglepointer<T>::cancLista(p);
       }else{
-            position prev;
-            if(!listasinglepointer<T>::listaVuota())
-                prev = predLista(p);
+            position prev = nullptr;
+            if(!listasinglepointer<T>::listaVuota()){
+                prev = listasinglepointer<T>::predLista(p);
                 prev->succ = listasinglepointer<T>::head;
                 delete[] p;
                 listasinglepointer<T>::lenght --;
+            }
+
       }
     }
   
 };
+
 #endif // ASD_LISTASINGLEPOINTERFLAG_H
