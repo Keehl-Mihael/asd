@@ -34,21 +34,16 @@ int main() {
     x = 1;
     list1.insLista(x, list1.primoLista());
 
-
-
     x = 2;
-    list1.insLista(0, list1.primoLista());
-    list1.scriviLista(x, list1.primoLista());
+    list1.insLista(x, list1.primoLista());
+
 
     x = 3;
-    list1.insLista(0, list1.primoLista());
+    list1.insLista(x, list1.primoLista());
 
-    list1.scriviLista(x, list1.primoLista());
 
     x = 4;
-    list1.insLista(0, list1.primoLista());
-
-    list1.scriviLista(x, list1.primoLista());
+    list1.insLista(x, list1.primoLista());
 
     /* visualizing the list list1 */
     cout << "list1=";
