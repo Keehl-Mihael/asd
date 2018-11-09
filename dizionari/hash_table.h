@@ -166,6 +166,9 @@ public:
 
   bool lookfor(const E &e ) const;
 
+  E values() const;
+  K keys() const;
+
 private:
  Entry<K, E>** table;    // the hash table
  Hash<K> hashm;		            // maps type K to nonnegative integer
@@ -273,6 +276,16 @@ bool HashTable<K,E>::lookfor(const E &e) const {
     } while (j != i);
 
     return false;                                 // the table is full
+}
+
+template<class K, class E>
+E HashTable<K,E>::values() const {
+
+}
+
+template<class K, class E>
+K HashTable<K,E>::keys() const {
+
 }
 
 #endif
