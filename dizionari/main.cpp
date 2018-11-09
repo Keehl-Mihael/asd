@@ -1,7 +1,10 @@
 #include <iostream>
-#include "hash_table.h"
 
 using namespace std;
+
+#include "hash_table.h"
+
+
 
 int main() {
   HashTable<string,string> t(10);
@@ -17,6 +20,8 @@ int main() {
   e2.second="marco";
   t.insert(e2);
   cout << t.find("rossi")->second << endl;
+
+  cout << t.lookfor("marco");
 
   return 0;
 }

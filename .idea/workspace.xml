@@ -11,10 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="creazione insieme">
+    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="esercizio 8.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizionari/dictionary.h" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/dictionary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dizionari/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dizionari/hash_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/hash_table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dizionari/testhash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-release/" />
@@ -108,28 +109,31 @@
     <session id="-250544581">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="3" />
+          <entry key="cpp" value="4" />
           <entry key="h" value="12" />
-          <entry key="txt" value="2" />
+          <entry key="log" value="1" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="15" />
+          <entry key="CMakeLists.txt" value="4" />
+          <entry key="ObjectiveC" value="16" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="h" value="696" />
-          <entry key="txt" value="31" />
+          <entry key="cpp" value="43" />
+          <entry key="h" value="901" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="14" />
-          <entry key="ObjectiveC" value="696" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="ObjectiveC" value="944" />
+          <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -149,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="262" column="26" lean-forward="true" selection-start-line="262" selection-start-column="26" selection-end-line="262" selection-end-column="26" />
+            <state relative-caret-position="198">
+              <caret line="268" column="23" lean-forward="true" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
               <folding>
                 <element signature="e#9604#9622#0" expanded="true" />
               </folding>
@@ -161,13 +165,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dizionari/dictionary.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+            <state relative-caret-position="271">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dizionari/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dizionari/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -179,9 +208,11 @@
       <find>insli</find>
       <find>listsinglepointer</find>
       <find>ins</find>
-      <find>search</find>
       <find>hashm</find>
       <find>table</find>
+      <find>search</find>
+      <find>find</find>
+      <find>dsize</find>
     </findStrings>
     <replaceStrings>
       <replace>pila</replace>
@@ -204,9 +235,10 @@
         <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" />
         <option value="$PROJECT_DIR$/insiemi/insiemi.h" />
         <option value="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/dizionari/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/dizionari/dictionary.h" />
+        <option value="$PROJECT_DIR$/dizionari/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/dizionari/hash_table.h" />
+        <option value="$PROJECT_DIR$/dizionari/main.cpp" />
       </list>
     </option>
   </component>
@@ -239,6 +271,19 @@
               <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
               <item name="asd" type="462c0819:PsiDirectoryNode" />
               <item name="dizionari" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asd" type="462c0819:PsiDirectoryNode" />
+              <item name="dizionari" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asd" type="462c0819:PsiDirectoryNode" />
+              <item name="dizionari" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
@@ -326,7 +371,7 @@
       <workItem from="1541061528559" duration="4246000" />
       <workItem from="1541099551617" duration="2027000" />
       <workItem from="1541146046351" duration="1370000" />
-      <workItem from="1541750045405" duration="2090000" />
+      <workItem from="1541750045405" duration="4552000" />
     </task>
     <task id="LOCAL-00001" summary="inizio code, modificare leggicoda e fuoricoda">
       <created>1540623922520</created>
@@ -398,21 +443,28 @@
       <option name="project" value="LOCAL" />
       <updated>1541419402677</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="esercizio 8.1">
+      <created>1541755461571</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541755461571</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18461000" />
+    <option name="totallyTimeSpent" value="20923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.17121212" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.17121212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.17121212" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32921174" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.33384854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -420,10 +472,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32921174" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.39876354" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32921174" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" visible="true" weight="0.32741934" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32903227" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.32419354" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" weight="0.32921174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -505,7 +557,8 @@
     <MESSAGE value="debug liste con singolo puntatore contreollare predlista" />
     <MESSAGE value="risoluzione lista con puntatore flag" />
     <MESSAGE value="creazione insieme" />
-    <option name="LAST_COMMIT_MESSAGE" value="creazione insieme" />
+    <MESSAGE value="esercizio 8.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercizio 8.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/esercizio2-1.c">
@@ -603,20 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/testhash.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insiemi/insiemi.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -649,17 +688,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dizionari/cmake-build-debug/CMakeFiles/CMakeOutput.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dizionari/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dizionari/dictionary.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        <state relative-caret-position="271">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dizionari/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="262" column="26" lean-forward="true" selection-start-line="262" selection-start-column="26" selection-end-line="262" selection-end-column="26" />
+        <state relative-caret-position="198">
+          <caret line="268" column="23" lean-forward="true" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
           <folding>
             <element signature="e#9604#9622#0" expanded="true" />
           </folding>
