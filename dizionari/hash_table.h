@@ -164,6 +164,8 @@ public:
 
   void insert(Entry< K, E>& );
 
+  bool lookfor(const k &k ) const;
+
 private:
  Entry<K, E>** table;    // the hash table
  Hash<K> hashm;		            // maps type K to nonnegative integer
@@ -255,6 +257,17 @@ void HashTable<K,E>::erase(const K& k){
 template<class K, class E>
 void HashTable<K,E>::modify(const K& k, const E& e){
   // TO DO
+}
+
+
+template<class K, class E>
+bool HashTable<K,E>::lookfor(const K &k) const {
+  for(int i=0; i < dsize; i++){
+    if(table[search(i)]->second == k){
+      return true;
+    }
+  }
+  return false;
 }
 
 #endif
