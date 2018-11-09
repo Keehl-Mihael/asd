@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.3)
 project(test_build)
-set(CMAKE_C_COMPILER /usr/bin/clang)
-set(CMAKE_CXX_COMPILER /usr/bin/clang++)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
 
 set(BUILD_1 main)
 set(SOURCE_FILES_1 main.cpp)

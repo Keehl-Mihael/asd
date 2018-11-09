@@ -10,6 +10,8 @@ int main() {
   HashTable<string,string> t(10);
   cout << " size " << t.size() << endl;
   struct Entry<string,string> e1;
+  string test = "giovannewi";
+
   e1.first="rossi";
   e1.second="giovanni";
   t.insert(e1);
@@ -21,7 +23,7 @@ int main() {
   t.insert(e2);
   cout << t.find("rossi")->second << endl;
 
-  cout << t.lookfor("marco");
+  cout << t.lookfor(test);
 
   return 0;
 }

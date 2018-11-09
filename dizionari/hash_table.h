@@ -164,7 +164,7 @@ public:
 
   void insert(Entry< K, E>& );
 
-  bool lookfor(const K &k ) const;
+  bool lookfor(const E &e ) const;
 
 private:
  Entry<K, E>** table;    // the hash table
@@ -261,20 +261,18 @@ void HashTable<K,E>::modify(const K& k, const E& e){
 
 
 template<class K, class E>
-bool HashTable<K,E>::lookfor(const K &k) const {
-    K key;
-    Entry< K, E>* temp;
-  for(int i=0; i < size(); i++){
-      key = i;
-      temp = find(key);
-      if(temp != NULL){
-          if(temp->second == k){
-              return true;
-          }
-      }
+bool HashTable<K,E>::lookfor(const E &e) const {
+    int i = (int) hashm(e) % divisor;   // the home bucket
+    int j = i;
+    do {
+        if (table[j] == NULL || table[j]->second == e){
+            if(table[j] == NULL ){ return false; }
+            return true;
+        }
+        j = (j+1) % divisor;                    // the next bucket
+    } while (j != i);
 
-  }
-  return false;
+    return false;                                 // the table is full
 }
 
 #endif
