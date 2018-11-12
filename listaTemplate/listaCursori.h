@@ -28,9 +28,13 @@ public:
      cursor predLista(cursor) const;
      void insLista(T,cursor);
     void cancLista(cursor);
-    int lunghezza();
+    int lunghezza() const;
     void inverti();
     bool palindroma();
+
+    // sovraccarico di operatori
+    listaCursori<T>& operator=(const listaCursori<T>&); // the assignment operator
+    bool operator==(const listaCursori<T> &) const; // tests two list for equality
 
 private:
     int lenght;
@@ -115,7 +119,7 @@ template <class T> void listaCursori<T>::cancLista(cursor c){
 }
 
 template < class T>
-int listaCursori<T>::lunghezza() {
+int listaCursori<T>::lunghezza() const{
      return this->lenght;
 }
 
@@ -127,6 +131,30 @@ void listaCursori<T>::inverti() {
 template < class T>
 bool listaCursori<T>::palindroma() {
 
+}
+
+
+template<class T>
+listaCursori<T>& listaCursori<T>::operator=(const listaCursori<T>& L){
+/*    if (this != &L){   // attenzione agli autoassegnamenti: l = l
+        this->lenght = L.lenght;
+        delete this->elementi;
+        this->elementi = new T[DIMENSIONE];
+        for (int i=0; i< DIMENSIONE; i++)
+            this->elementi[i] = L.elementi[i];
+    }
+    return *this;*/
+}
+
+
+template<class T>
+bool listaCursori<T>::operator==(const listaCursori<T> &L) const{
+/*    if (L.lunghezza() != lenght)
+        return false;
+    for (int i=0; i< DIMENSIONE; i++)
+        if (this->elementi[i] != L.elementi[i])
+            return false;*/
+    return true;
 }
 
 

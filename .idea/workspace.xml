@@ -11,25 +11,60 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="esercizio 8.1 modificare la chiave di ricerca">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="file tester resi uguali , debug effetuato su lista vector">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listaTemplate/tester_cursori.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizionari/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizionari/dictionary.h" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/dictionary.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizionari/hash_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/hash_table.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizionari/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listaTemplate/listaCursori.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/listaCursori.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-release/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-relwithdebinfo/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-release-1/" />
     <ignored path="$PROJECT_DIR$/listaTemplate/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/dizionari/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="information_schema: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="information_schema: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="CHARACTER_SETS: view" type="bd137a56:MysqlImplModel$View" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
@@ -67,89 +102,51 @@
     <session id="-475276192">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
+          <entry key="character_sets" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="5" />
-          <entry key="h" value="10" />
-          <entry key="listaTemplate (disassembly)" value="1" />
-          <entry key="txt" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeCache.txt" value="1" />
-          <entry key="CMakeLists.txt" value="3" />
-          <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="15" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="72" />
-          <entry key="h" value="581" />
-          <entry key="txt" value="205" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="41" />
-          <entry key="ObjectiveC" value="653" />
-          <entry key="PLAIN_TEXT" value="164" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-250544581">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Makefile" value="3" />
-          <entry key="Unnamed (disassembly)" value="5" />
-          <entry key="cpp" value="5" />
-          <entry key="h" value="18" />
-          <entry key="log" value="1" />
-          <entry key="txt" value="5" />
+          <entry key="cpp" value="9" />
+          <entry key="h" value="13" />
+          <entry key="listaTemplate (disassembly)" value="3" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="1" />
           <entry key="CMakeLists.txt" value="4" />
-          <entry key="Disassembly" value="5" />
-          <entry key="ObjectiveC" value="23" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Database Element" value="1" />
+          <entry key="Disassembly" value="3" />
+          <entry key="ObjectiveC" value="22" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Makefile" value="23" />
-          <entry key="cpp" value="85" />
-          <entry key="h" value="1351" />
-          <entry key="txt" value="102" />
+          <entry key="cpp" value="77" />
+          <entry key="h" value="878" />
+          <entry key="txt" value="279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="37" />
-          <entry key="ObjectiveC" value="1436" />
-          <entry key="PLAIN_TEXT" value="88" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="CMakeLists.txt" value="54" />
+          <entry key="ObjectiveC" value="955" />
+          <entry key="PLAIN_TEXT" value="225" />
         </counts>
       </usages-collector>
     </session>
@@ -159,60 +156,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="270" column="9" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="9" />
+            <state relative-caret-position="765">
+              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
-                <element signature="e#9604#9622#0" expanded="true" />
+                <element signature="e#1465#1500#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dizionari/dictionary.h">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/lista.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+            <state relative-caret-position="714">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dizionari/main.cpp">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="102">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/listaVector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" selection-start-line="51" selection-end-line="53" selection-end-column="81" />
+              <folding>
+                <element signature="e#545#554#0" expanded="true" />
+                <element signature="e#1141#1150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/tester_cursori.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+              <folding>
+                <element signature="e#1465#1490#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/listaCursori.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3332">
+              <caret line="196" column="21" selection-start-line="186" selection-end-line="222" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CMakeLists.txt" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>main</find>
       <find>scriviLista</find>
+      <find>ins</find>
       <find>lenght</find>
       <find>listaVuota</find>
       <find>insert</find>
       <find>insli</find>
       <find>listsinglepointer</find>
-      <find>ins</find>
-      <find>hashm</find>
-      <find>table</find>
-      <find>find</find>
-      <find>dsize</find>
-      <find>search</find>
+      <find>lunghezza</find>
+      <find>leggiLista</find>
+      <find>insLista</find>
     </findStrings>
     <replaceStrings>
       <replace>pila</replace>
@@ -226,20 +266,17 @@
       <list>
         <option value="$PROJECT_DIR$/code/codeUlist.h" />
         <option value="$PROJECT_DIR$/pile/pileUlist.h" />
-        <option value="$PROJECT_DIR$/listaTemplate/tester_pointer.cpp" />
         <option value="$PROJECT_DIR$/listaTemplate/listaPointer.h" />
-        <option value="$PROJECT_DIR$/listaTemplate/tester_vector.cpp" />
         <option value="$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp" />
-        <option value="$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp" />
         <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" />
         <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" />
-        <option value="$PROJECT_DIR$/insiemi/insiemi.h" />
+        <option value="$PROJECT_DIR$/listaTemplate/tester_pointer.cpp" />
+        <option value="$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp" />
+        <option value="$PROJECT_DIR$/listaTemplate/tester_vector.cpp" />
+        <option value="$PROJECT_DIR$/listaTemplate/listaVector.h" />
+        <option value="$PROJECT_DIR$/listaTemplate/tester_cursori.cpp" />
         <option value="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/dizionari/Makefile" />
-        <option value="$PROJECT_DIR$/dizionari/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/dizionari/dictionary.h" />
-        <option value="$PROJECT_DIR$/dizionari/main.cpp" />
-        <option value="$PROJECT_DIR$/dizionari/hash_table.h" />
+        <option value="$PROJECT_DIR$/listaTemplate/listaCursori.h" />
       </list>
     </option>
   </component>
@@ -250,8 +287,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1366" />
-    <option name="height" value="742" />
+    <option name="x" value="1363" />
+    <option name="width" value="1372" />
+    <option name="height" value="771" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -272,7 +310,12 @@
             <path>
               <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
               <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="dizionari" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asd" type="462c0819:PsiDirectoryNode" />
+              <item name="listaTemplate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,13 +324,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dizionari" />
       <recent name="$PROJECT_DIR$/listaTemplate" />
       <recent name="$PROJECT_DIR$/pile" />
     </key>
@@ -304,12 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/dizionari" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test_build" RUN_TARGET_NAME="main" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.listaTemplate">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/listaTemplate" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/listaTemplate/t.o" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -326,7 +365,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.listaTemplate" />
       <item itemvalue="Application.main" />
     </list>
@@ -348,9 +386,9 @@
       <workItem from="1540925102621" duration="3770000" />
       <workItem from="1541061528559" duration="4246000" />
       <workItem from="1541099551617" duration="2027000" />
-      <workItem from="1541146046351" duration="1370000" />
-      <workItem from="1541750045405" duration="4664000" />
-      <workItem from="1541788461120" duration="4292000" />
+      <workItem from="1541146046351" duration="5648000" />
+      <workItem from="1541232981139" duration="1112000" />
+      <workItem from="1541835972319" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="inizio code, modificare leggicoda e fuoricoda">
       <created>1540623922520</created>
@@ -408,65 +446,51 @@
       <option name="project" value="LOCAL" />
       <updated>1541101601226</updated>
     </task>
-    <task id="LOCAL-00009" summary="creazione insieme">
-      <created>1541417931764</created>
+    <task id="LOCAL-00009" summary="risoluzione lista con puntatore flag">
+      <created>1541147433968</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1541417931764</updated>
+      <updated>1541147433968</updated>
     </task>
-    <task id="LOCAL-00010" summary="creazione insieme">
-      <created>1541419402677</created>
+    <task id="LOCAL-00010" summary="file tester resi uguali , debug effetuato su lista vector">
+      <created>1541150348557</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1541419402677</updated>
+      <updated>1541150348557</updated>
     </task>
-    <task id="LOCAL-00011" summary="esercizio 8.1">
-      <created>1541755461571</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1541755461571</updated>
-    </task>
-    <task id="LOCAL-00012" summary="esercizio 8.1 modificare la chiave di ricerca">
-      <created>1541757862834</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1541757862834</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25327000" />
+    <option name="totallyTimeSpent" value="20103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="742" extended-state="6" />
-    <editor active="true" />
+    <frame x="1363" y="0" width="1372" height="771" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.17348485" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.17121212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.17121212" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.15967742" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848485" weight="0.32921174" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.33384854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.39876354" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32903227" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.32419354" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" weight="0.32903227" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32921174" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32921174" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49924242" visible="true" weight="0.32921174" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.32921174" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" weight="0.32921174" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49924242" visible="true" weight="0.32921174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.16666667" />
@@ -495,32 +519,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -542,10 +540,8 @@
     <MESSAGE value="debug liste lista con doppio puntatore debuggata test passato" />
     <MESSAGE value="debug liste con singolo puntatore contreollare predlista" />
     <MESSAGE value="risoluzione lista con puntatore flag" />
-    <MESSAGE value="creazione insieme" />
-    <MESSAGE value="esercizio 8.1" />
-    <MESSAGE value="esercizio 8.1 modificare la chiave di ricerca" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizio 8.1 modificare la chiave di ricerca" />
+    <MESSAGE value="file tester resi uguali , debug effetuato su lista vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="file tester resi uguali , debug effetuato su lista vector" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/esercizio2-1.c">
@@ -580,20 +576,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/listaTemplate/cmake_install.cmake" />
-    <entry file="file://$PROJECT_DIR$/code/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/code/cmake-build-debug/CMakeCache.txt" />
-    <entry file="file://$USER_HOME$/Downloads/liste/linked_list/linked_list.h" />
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_vector.cpp">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="-967">
+          <caret line="80" column="10" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_pointer.cpp">
+    <entry file="file://$PROJECT_DIR$/code/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/code/cmake-build-debug/CMakeCache.txt" />
+    <entry file="file://$USER_HOME$/Downloads/liste/linked_list/linked_list.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="34">
+          <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -604,117 +599,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/lista.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="825">
+          <caret line="164" column="18" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_pointer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_vector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c2de6540-80dd-4fe8-b21d-4ab8859d449e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+    <entry file="das://c2de6540-80dd-4fe8-b21d-4ab8859d449e/schema/information_schema/view/character_sets">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/insiemi.h">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="765">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="e#1465#1500#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/lista.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="714">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaVector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="53" selection-end-column="81" />
+          <folding>
+            <element signature="e#545#554#0" expanded="true" />
+            <element signature="e#1141#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_cursori.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="e#1465#1490#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="197" column="19" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="19" />
+        <state relative-caret-position="3332">
+          <caret line="196" column="21" selection-start-line="186" selection-end-line="222" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/cmake-build-debug/CMakeFiles/CMakeOutput.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/cmake-build-debug/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/Makefile">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="10" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="10" />
+        <state relative-caret-position="680">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/Makefile">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaCursori.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/6/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="5074" selection-start-line="5074" selection-end-line="5074" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/dictionary.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="270" column="9" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="9" />
-          <folding>
-            <element signature="e#9604#9622#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="351">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
         </state>
       </provider>
     </entry>
