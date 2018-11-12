@@ -166,8 +166,8 @@ public:
 
   bool lookfor(const E &e ) const;
 
-  E values() const;
-  K keys() const;
+  E* values() const;
+  K* keys() const;
 
 private:
  Entry<K, E>** table;    // the hash table
@@ -279,13 +279,25 @@ bool HashTable<K,E>::lookfor(const E &e) const {
 }
 
 template<class K, class E>
-E HashTable<K,E>::values() const {
-
+E* HashTable<K,E>::values() const {
+    E *values = new E[divisor];
+    for (int i=0; i<divisor; i++){
+        if(table[i] != NULL){
+            values[i] = table[i]->second;
+        }
+    }
+    return values;
 }
 
 template<class K, class E>
-K HashTable<K,E>::keys() const {
-
+K* HashTable<K,E>::keys() const {
+    K *keys = new K[divisor];
+    for (int i=0; i<divisor; i++){
+        if(table[i] != NULL){
+            keys[i] = table[i]->first;
+        }
+    }
+    return keys;
 }
 
 #endif

@@ -59,8 +59,8 @@ public:
   virtual void erase(const K& k) = 0;	// delete the entry with key k
   virtual void modify(const K& k, const E& e) = 0; // modify the value of the entry with key k to e
   virtual bool lookfor(const E &e) const = 0;
-    virtual E values() const = 0 ;
-    virtual K keys() const = 0 ;
+    virtual E* values() const = 0 ;
+    virtual K* keys() const = 0 ;
 };
 
 #endif
