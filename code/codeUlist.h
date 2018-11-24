@@ -6,7 +6,7 @@
 #ifndef PROJECT_CODEULIST_H
 #define PROJECT_CODEULIST_H
 
-#include "listaSinglePointer.h"
+#include "../listaTemplate/listaSinglePointer.h"
 
 template <class T>
 class codaList {

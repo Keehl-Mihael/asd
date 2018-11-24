@@ -10,6 +10,30 @@
 using namespace std;
 #include "binarytree.h"
 
+#include "../code/codePointer.h"
+
+
+template < typename F>
+void visitaPerLivelli(BinaryTree<F>* t){
+
+  codePointer<F> C;
+  C.incoda(t->key());
+  while(!C.codavuota()){ //todo chiedere a professore perchè t left va a null dopo codavuota
+    F nodo = C.leggicoda();
+    C.fuoricoda();
+    BinaryTree<F>*  nodoAlbero = t->lookupNode(nodo);
+    cout << nodoAlbero->key() << "\n";
+    if(nodoAlbero->left != 0){
+      F val = nodoAlbero->left->key();
+      C.incoda(val);
+    }
+    if(nodoAlbero->right != 0){
+      F val1 = nodoAlbero->right->key();
+      C.incoda(val1);
+    }
+  }
+}
+
 int main() {
   BinaryTree<int>* t = new BinaryTree<int>(4, 40);
   t->insertNode(2, 42);
@@ -25,7 +49,7 @@ int main() {
   t->insertNode(8, 30);
 
 
-  int modulo;
+/*  int modulo;
 
   cout << "Rimuovo nodi 0 e 4" << endl;
   t = t->removeNode(0);
@@ -55,9 +79,16 @@ int main() {
   while(s) {
     cout << "Nodo: " << s->key() << "=" << s->value() << endl;
     s = s->predecessorNode();
-  }
+  }*/
 
-  t->simmetricView(t->root());
+  //t->simmetricView(t->root());
+
+  visitaPerLivelli(t->root());
+
 
   delete t;
 }
+
+
+
+

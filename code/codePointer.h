@@ -62,10 +62,10 @@ public:
         lenght --;
     };
     void incoda(value_type v){
-        cella<T> incella;
+        cella<T>* incella;
         tail->succ = incella;        
-        incella.value = v ;
-        incella.succ = nullptr;
+        incella->value = v ;
+        incella->succ = 0;
         tail = incella;
         lenght ++;
     }; //aggiungi const
