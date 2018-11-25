@@ -7,30 +7,44 @@
 
 
 #include <iostream>
+#include <string.h>
+#include <stdlib.h>
 using namespace std;
 #include "binarytree.h"
 
-#include "../code/codePointer.h"
+#include "../code/codavtprof.h"
+
 
 
 template < typename F>
 void visitaPerLivelli(BinaryTree<F>* t){
+  int level = 1;
+  Coda<F> C(15);
+  C.inCoda(t->key());
+  while(C.codaVuota() == false){
+    F nodo = C.leggiCoda();
+    C.fuoriCoda();
+    BinaryTree<F>* nodoAlbero = t->lookupNode(nodo);
+    //level --;
+    cout << nodoAlbero->key() << /* " livello: "<< level << */ "\n"; //inserire eliminazione
+    /*    modulo = s->value() % 2;
 
-  codePointer<F> C;
-  C.incoda(t->key());
-  while(C.codavuota() == false){ //todo chiedere a professore perchè t left va a null dopo codavuota
-    F nodo = C.leggicoda();
-    C.fuoricoda();
-    BinaryTree<F>*  nodoAlbero = t->lookupNode(nodo);
-    cout << nodoAlbero->key() << "\n"; //inserire eliminazione
+    if(modulo != 0 && s->left ==0 && s->right ){
+        cout << "da cancellare per esercizio 9.1 "<< endl;
+    }*/
     if(nodoAlbero->left != 0){
       F val = nodoAlbero->left->key();
-      C.incoda(val);
+      C.inCoda(val);
+
     }
     if(nodoAlbero->right != 0){
       F val1 = nodoAlbero->right->key();
-      C.incoda(val1);
+      C.inCoda(val1);
     }
+
+/*    if(nodoAlbero->right != 0 || nodoAlbero->left != 0){
+      level ++;
+    }*/
   }
 }
 
@@ -66,13 +80,9 @@ int main() {
   cout << "Ora stampo i nodi dell'albero in ordine: " << endl;
   BinaryTree<int>* s = t->min();
   while(s) {
-    cout << "Nodo: " << s->key() << "=" << s->value() << " nodi sotto" << s->countNodi(s)<< endl;
+    cout << "Nodo: " << s->key() << "=" << s->value() << " nodi sotto" << s->countNodi(s)<<  endl;
 
-/*    modulo = s->value() % 2;
 
-    if(modulo != 0 && s->left ==0 && s->right ){
-        cout << "da cancellare per esercizio 9.1 "<< endl;
-    }*/
 
     s = s->successorNode();
   }
@@ -94,7 +104,7 @@ int main() {
 
   cout << "\n level view \n";
 
-  //visitaPerLivelli(t->root());
+  visitaPerLivelli(t->root());
 
 
   delete t;

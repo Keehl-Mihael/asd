@@ -52,10 +52,13 @@ private:
   T _key;
   int _num_nodi;
   int _lenght;
+  int index_color;
+  string colors[3]= {"red","green","white"};
 };
 
 template <class T>
-BinaryTree<T>::BinaryTree(T k, T v) : _key(k), _value(v), parent(0), left(0), right(0), _lenght(0),_num_nodi(0){ }
+BinaryTree<T>::BinaryTree(T k, T v) : _key(k), _value(v), parent(0), left(0), right(0),
+_lenght(0),_num_nodi(0){ }
 
 template <class T>
 BinaryTree<T>* BinaryTree<T>::lookupNode(T x) {
@@ -95,6 +98,7 @@ void BinaryTree<T>::insertNode(T x, T v)
   if (u != 0 && u->key() == x) {
     u->_value = v;
     u->_num_nodi = countNodi(u);
+    u->index_color = rand() %  2;
   }
   else {
     BinaryTree<T>* n = new BinaryTree<T>(x, v);
@@ -259,7 +263,7 @@ int BinaryTree<T>::countNodi(BinaryTree<T>* nodo){
         if(nodo->left != 0 ){
             count += countNodi(nodo->left);
         }
-        if(nodo->right != 0 ){f
+        if(nodo->right != 0 ){
             count += countNodi(nodo->right);
         }
     }

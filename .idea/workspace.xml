@@ -11,8 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323b142b-3734-473c-9667-460c82c998cc" name="esercizi 9" comment="esercizi 9.1 , implementato visita per livelli">
+    <list default="true" id="2bd1dca6-a9d2-45b4-bbfe-5f841f321912" name="esercizi10" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/siroid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alberibinari/color_bin_tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alberibinari/color_bin_tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/codavtprof.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alberibinari/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alberibinari/binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/binarytree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alberibinari/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/main.cpp" afterDir="false" />
     </list>
@@ -123,37 +128,37 @@
           <entry key="Makefile" value="1" />
           <entry key="character_sets" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="16" />
-          <entry key="h" value="29" />
+          <entry key="cpp" value="19" />
+          <entry key="h" value="38" />
           <entry key="listaTemplate (disassembly)" value="4" />
           <entry key="main (disassembly)" value="2" />
           <entry key="sql" value="1" />
-          <entry key="txt" value="7" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="1" />
-          <entry key="CMakeLists.txt" value="7" />
+          <entry key="CMakeLists.txt" value="8" />
           <entry key="Database Element" value="1" />
           <entry key="Disassembly" value="6" />
-          <entry key="ObjectiveC" value="45" />
+          <entry key="ObjectiveC" value="57" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1337" />
-          <entry key="h" value="1923" />
-          <entry key="txt" value="324" />
+          <entry key="cpp" value="1689" />
+          <entry key="h" value="2300" />
+          <entry key="txt" value="378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="55" />
-          <entry key="ObjectiveC" value="3260" />
-          <entry key="PLAIN_TEXT" value="269" />
+          <entry key="ObjectiveC" value="3989" />
+          <entry key="PLAIN_TEXT" value="323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -172,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alberibinari/binarytree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+            <state relative-caret-position="1683">
+              <caret line="99" column="4" lean-forward="true" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -181,11 +186,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alberibinari/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+            <state relative-caret-position="-8">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding>
-                <element signature="e#117#140#0" expanded="true" />
+                <element signature="e#76#95#0" expanded="true" />
+                <element signature="e#157#180#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/codavt.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/codavtprof.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -193,8 +231,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/codePointer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="178">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -231,6 +269,8 @@
       <find>min</find>
       <find>predecessorNode</find>
       <find>_key</find>
+      <find>insertnode</find>
+      <find>lookupnode</find>
     </findStrings>
     <replaceStrings>
       <replace>pila</replace>
@@ -262,9 +302,10 @@
         <option value="$PROJECT_DIR$/dizionari/hash_table.h" />
         <option value="$PROJECT_DIR$/dizionari/dictionary.h" />
         <option value="$PROJECT_DIR$/dizionari/main.cpp" />
-        <option value="$PROJECT_DIR$/alberibinari/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/code/codeUlist.h" />
         <option value="$PROJECT_DIR$/code/codePointer.h" />
+        <option value="$PROJECT_DIR$/alberibinari/color_bin_tree.h" />
+        <option value="$PROJECT_DIR$/alberibinari/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/alberibinari/binarytree.h" />
         <option value="$PROJECT_DIR$/alberibinari/main.cpp" />
       </list>
@@ -322,7 +363,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,6 +389,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,16 +398,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/alberibinari/CMakeLists.txt" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/alberibinari" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code" />
       <recent name="$PROJECT_DIR$/alberibinari" />
       <recent name="$PROJECT_DIR$/listaTemplate" />
       <recent name="$PROJECT_DIR$/pile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/alberibinari" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,7 +454,7 @@
       <created>1540390681353</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542020671806</updated>
+      <updated>1543141841725</updated>
       <workItem from="1540390682468" duration="210000" />
       <workItem from="1540390897885" duration="12000" />
       <workItem from="1540390910670" duration="26000" />
@@ -424,6 +466,7 @@
       <workItem from="1541232981139" duration="1112000" />
       <workItem from="1541835972319" duration="744000" />
       <workItem from="1542020551892" duration="120000" />
+      <workItem from="1543141830414" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="inizio code, modificare leggicoda e fuoricoda">
       <created>1540623922520</created>
@@ -512,17 +555,6 @@
       <updated>1543081973858</updated>
       <workItem from="1543081410311" duration="562000" />
     </task>
-    <task active="true" id="LOCAL-00014" summary="esercizi 9">
-      <branch name="master" repository="$PROJECT_DIR$" />
-      <changelist id="323b142b-3734-473c-9667-460c82c998cc" name="esercizi 9" comment="" />
-      <created>1543081966763</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1543081973860</updated>
-      <workItem from="1543081974464" duration="3261000" />
-      <workItem from="1543136133934" duration="2848000" />
-    </task>
     <task id="LOCAL-00015" summary="esercizi 9.1 , implementato visita per livelli">
       <created>1543085109914</created>
       <option name="number" value="00015" />
@@ -530,7 +562,31 @@
       <option name="project" value="LOCAL" />
       <updated>1543085109914</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="conteggio nodi">
+      <created>1543139012211</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1543139012211</updated>
+    </task>
+    <task id="LOCAL-00017" summary="manipulation (ambigua correttezza)">
+      <created>1543141763934</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1543141763934</updated>
+    </task>
+    <task active="true" id="LOCAL-00018" summary="esercizi10">
+      <branch name="master" repository="$PROJECT_DIR$" />
+      <changelist id="2bd1dca6-a9d2-45b4-bbfe-5f841f321912" name="esercizi10" comment="" />
+      <created>1543141898129</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1543141902745</updated>
+      <workItem from="1543141903315" duration="4491000" />
+    </task>
+    <option name="localTasksCounter" value="19" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -545,7 +601,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38682000" />
+    <option name="totallyTimeSpent" value="45526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,7 +716,9 @@
     <MESSAGE value="file tester resi uguali , debug effetuato su lista vector" />
     <MESSAGE value="completati values e keys" />
     <MESSAGE value="esercizi 9.1 , implementato visita per livelli" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizi 9.1 , implementato visita per livelli" />
+    <MESSAGE value="conteggio nodi" />
+    <MESSAGE value="manipulation (ambigua correttezza)" />
+    <option name="LAST_COMMIT_MESSAGE" value="manipulation (ambigua correttezza)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -783,24 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/codavt.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1168">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -832,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/codePointer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/code.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -846,22 +883,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alberibinari/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/codePointer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/codavtprof.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/codavt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alberibinari/binarytree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+        <state relative-caret-position="1683">
+          <caret line="99" column="4" lean-forward="true" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alberibinari/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+        <state relative-caret-position="-8">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding>
-            <element signature="e#117#140#0" expanded="true" />
+            <element signature="e#76#95#0" expanded="true" />
+            <element signature="e#157#180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
