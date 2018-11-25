@@ -32,6 +32,8 @@ public:
 
   BinaryTree<T>* root();
 
+  int countNodi(BinaryTree<T>*);
+
   int lenght();
 
   ~BinaryTree();
@@ -46,11 +48,12 @@ public:
 private:
   T _value;
   T _key;
+  int _num_nodi;
   int _lenght;
 };
 
 template <class T>
-BinaryTree<T>::BinaryTree(T k, T v) : _key(k), _value(v), parent(0), left(0), right(0), _lenght(0){ }
+BinaryTree<T>::BinaryTree(T k, T v) : _key(k), _value(v), parent(0), left(0), right(0), _lenght(0),_num_nodi(0){ }
 
 template <class T>
 BinaryTree<T>* BinaryTree<T>::lookupNode(T x) {
@@ -89,10 +92,12 @@ void BinaryTree<T>::insertNode(T x, T v)
   }
   if (u != 0 && u->key() == x) {
     u->_value = v;
+    u->_num_nodi = countNodi(u);
   }
   else {
     BinaryTree<T>* n = new BinaryTree<T>(x, v);
     link(s, n, x);
+    n->_num_nodi = countNodi(n);
   }
   _lenght ++;
 }
@@ -110,6 +115,7 @@ BinaryTree<T>* BinaryTree<T>::removeNode(T x) {
 
       u->_key = s->key();
       u->_value = s->value();
+      u->_num_nodi = countNodi(u);
 
       x = s->key();
 
@@ -125,11 +131,11 @@ BinaryTree<T>* BinaryTree<T>::removeNode(T x) {
     }
 
     link(u->parent, t, x);
-
+    t->_num_nodi = countNodi(t);
     _lenght --;
 
 
-      if (u->parent == 0) {  // u is the root, u==this
+     if (u->parent == 0) {  // u is the root, u==this
       if (t != 0) {
         t->parent = 0;  // t is the new root
       }
@@ -240,6 +246,22 @@ int BinaryTree<T>::lenght() {
 template <class T>
 BinaryTree<T>* BinaryTree<T>::root() {
     return this;
+}
+
+template <class T>
+int BinaryTree<T>::countNodi(BinaryTree<T>* nodo){
+    int count = 0;
+    if(nodo->left == 0 && nodo->right == 0){
+        count = 1;
+    }else{
+        if(nodo->left != 0 ){
+            count += countNodi(nodo->left);
+        }
+        if(nodo->right != 0 ){
+            count += countNodi(nodo->right);
+        }
+    }
+    return count;
 }
 
 #endif

@@ -11,11 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323b142b-3734-473c-9667-460c82c998cc" name="esercizi 9" comment="">
+    <list default="true" id="323b142b-3734-473c-9667-460c82c998cc" name="esercizi 9" comment="esercizi 9.1 , implementato visita per livelli">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alberibinari/binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/binarytree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alberibinari/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/codePointer.h" beforeDir="false" afterPath="$PROJECT_DIR$/code/codePointer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/codeUlist.h" beforeDir="false" afterPath="$PROJECT_DIR$/code/codeUlist.h" afterDir="false" />
     </list>
     <list id="c88bbd29-7dfc-4f64-bbb0-47fa2740e98a" name="aggiungere distruttori a tutte le realizzazioni" comment="" />
     <list id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="file tester resi uguali , debug effetuato su lista vector" />
@@ -105,17 +104,18 @@
     <session id="-475276192">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -124,7 +124,7 @@
           <entry key="character_sets" value="1" />
           <entry key="cmake" value="1" />
           <entry key="cpp" value="16" />
-          <entry key="h" value="28" />
+          <entry key="h" value="29" />
           <entry key="listaTemplate (disassembly)" value="4" />
           <entry key="main (disassembly)" value="2" />
           <entry key="sql" value="1" />
@@ -137,23 +137,23 @@
           <entry key="CMakeLists.txt" value="7" />
           <entry key="Database Element" value="1" />
           <entry key="Disassembly" value="6" />
-          <entry key="ObjectiveC" value="44" />
+          <entry key="ObjectiveC" value="45" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1198" />
-          <entry key="h" value="1539" />
-          <entry key="txt" value="284" />
+          <entry key="cpp" value="1337" />
+          <entry key="h" value="1923" />
+          <entry key="txt" value="324" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="55" />
-          <entry key="ObjectiveC" value="2737" />
-          <entry key="PLAIN_TEXT" value="229" />
+          <entry key="ObjectiveC" value="3260" />
+          <entry key="PLAIN_TEXT" value="269" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -172,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alberibinari/binarytree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="208" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="274">
+              <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -181,8 +181,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alberibinari/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="20" column="88" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
+            <state relative-caret-position="280">
+              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
               <folding>
                 <element signature="e#117#140#0" expanded="true" />
               </folding>
@@ -193,7 +193,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/codePointer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="680">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
@@ -322,6 +322,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,7 +349,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,9 +520,17 @@
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
       <updated>1543081973860</updated>
-      <workItem from="1543081974464" duration="3106000" />
+      <workItem from="1543081974464" duration="3261000" />
+      <workItem from="1543136133934" duration="2848000" />
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="esercizi 9.1 , implementato visita per livelli">
+      <created>1543085109914</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1543085109914</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -537,7 +545,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35679000" />
+    <option name="totallyTimeSpent" value="38682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,13 +560,13 @@
     <frame x="1363" y="0" width="1372" height="771" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.24166666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.16363636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.17121212" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848485" weight="0.30602783" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" visible="true" weight="0.48840803" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848485" visible="true" weight="0.30602783" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.48840803" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921174" />
@@ -651,17 +659,11 @@
     <MESSAGE value="risoluzione lista con puntatore flag" />
     <MESSAGE value="file tester resi uguali , debug effetuato su lista vector" />
     <MESSAGE value="completati values e keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="completati values e keys" />
+    <MESSAGE value="esercizi 9.1 , implementato visita per livelli" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercizi 9.1 , implementato visita per livelli" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/alberibinari/main.cpp</url>
-          <line>85</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -830,6 +832,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/codePointer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/code.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -837,24 +846,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/codePointer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alberibinari/binarytree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        <state relative-caret-position="274">
+          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alberibinari/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="20" column="88" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
+        <state relative-caret-position="280">
+          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
           <folding>
             <element signature="e#117#140#0" expanded="true" />
           </folding>

@@ -18,11 +18,11 @@ void visitaPerLivelli(BinaryTree<F>* t){
 
   codePointer<F> C;
   C.incoda(t->key());
-  while(!C.codavuota()){ //todo chiedere a professore perchè t left va a null dopo codavuota
+  while(C.codavuota() == false){ //todo chiedere a professore perchè t left va a null dopo codavuota
     F nodo = C.leggicoda();
     C.fuoricoda();
     BinaryTree<F>*  nodoAlbero = t->lookupNode(nodo);
-    cout << nodoAlbero->key() << "\n";
+    cout << nodoAlbero->key() << "\n"; //inserire eliminazione
     if(nodoAlbero->left != 0){
       F val = nodoAlbero->left->key();
       C.incoda(val);
@@ -49,10 +49,10 @@ int main() {
   t->insertNode(8, 30);
 
 
-/*  int modulo;
+  int modulo;
 
   cout << "Rimuovo nodi 0 e 4" << endl;
-  t = t->removeNode(0);
+  //t = t->removeNode(0);
   //t = t->removeNode(4);
 
 
@@ -60,7 +60,7 @@ int main() {
   cout << "Ora stampo i nodi dell'albero in ordine: " << endl;
   BinaryTree<int>* s = t->min();
   while(s) {
-    cout << "Nodo: " << s->key() << "=" << s->value() << endl;
+    cout << "Nodo: " << s->key() << "=" << s->value() << " nodi sotto" << s->countNodi(s)<< endl;
 
     modulo = s->value() % 2;
 
@@ -71,17 +71,22 @@ int main() {
     s = s->successorNode();
   }
 
-  cout << "nodi " << t->lenght() << endl;
+  cout << "\n numero nodi " << t->lenght() << endl;
 
   cout << endl;
   cout << "Ora stampo i nodi dell'albero in ordine inverso: " << endl;
   s = t->max();
   while(s) {
     cout << "Nodo: " << s->key() << "=" << s->value() << endl;
-    s = s->predecessorNode();
-  }*/
 
-  //t->simmetricView(t->root());
+    s = s->predecessorNode();
+  }
+
+  cout << "\n simmetric view \n";
+
+  t->simmetricView(t->root());
+
+  cout << "\n level view \n";
 
   visitaPerLivelli(t->root());
 
