@@ -34,6 +34,8 @@ public:
 
   int countNodi(BinaryTree<T>*);
 
+  void changesubtree(BinaryTree<T>* nodo1, BinaryTree<T>* nodo2);
+
   int lenght();
 
   ~BinaryTree();
@@ -115,7 +117,7 @@ BinaryTree<T>* BinaryTree<T>::removeNode(T x) {
 
       u->_key = s->key();
       u->_value = s->value();
-      u->_num_nodi = countNodi(u);
+
 
       x = s->key();
 
@@ -131,7 +133,7 @@ BinaryTree<T>* BinaryTree<T>::removeNode(T x) {
     }
 
     link(u->parent, t, x);
-    t->_num_nodi = countNodi(t);
+
     _lenght --;
 
 
@@ -257,11 +259,28 @@ int BinaryTree<T>::countNodi(BinaryTree<T>* nodo){
         if(nodo->left != 0 ){
             count += countNodi(nodo->left);
         }
-        if(nodo->right != 0 ){
+        if(nodo->right != 0 ){f
             count += countNodi(nodo->right);
         }
     }
     return count;
+}
+
+template <class T>
+void BinaryTree<T>::changesubtree(BinaryTree<T>* nodo1, BinaryTree<T>* nodo2){
+    BinaryTree<T>* temp;
+
+    temp->parent = nodo1->parent;
+    temp->left = nodo1->left;
+    temp->right = nodo1->right;
+
+    nodo1->parent = nodo2->parent;
+    nodo1->right = nodo2->right;
+    nodo1->left = nodo2->left;
+
+    nodo2->parent = temp->parent;
+    nodo2->left = temp->left;
+    nodo2->right = temp->right;
 }
 
 #endif

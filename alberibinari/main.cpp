@@ -48,11 +48,17 @@ int main() {
   t->insertNode(7, 5);
   t->insertNode(8, 30);
 
+  BinaryTree<int>* k = new BinaryTree<int>(4, 40);
+  k->insertNode(2, 4);
+  k->insertNode(5, 7);
+
+  t->changesubtree(t->lookupNode(3),k->lookupNode(2));
+
 
   int modulo;
 
   cout << "Rimuovo nodi 0 e 4" << endl;
-  //t = t->removeNode(0);
+  t = t->removeNode(0);
   //t = t->removeNode(4);
 
 
@@ -62,11 +68,11 @@ int main() {
   while(s) {
     cout << "Nodo: " << s->key() << "=" << s->value() << " nodi sotto" << s->countNodi(s)<< endl;
 
-    modulo = s->value() % 2;
+/*    modulo = s->value() % 2;
 
     if(modulo != 0 && s->left ==0 && s->right ){
-        cout << "da cancellare "<< endl;
-    }
+        cout << "da cancellare per esercizio 9.1 "<< endl;
+    }*/
 
     s = s->successorNode();
   }
@@ -77,7 +83,7 @@ int main() {
   cout << "Ora stampo i nodi dell'albero in ordine inverso: " << endl;
   s = t->max();
   while(s) {
-    cout << "Nodo: " << s->key() << "=" << s->value() << endl;
+    cout << "Nodo: " << s->key() << "=" << s->value()  << " nodi sotto" << s->countNodi(s) << endl;
 
     s = s->predecessorNode();
   }
@@ -88,7 +94,7 @@ int main() {
 
   cout << "\n level view \n";
 
-  visitaPerLivelli(t->root());
+  //visitaPerLivelli(t->root());
 
 
   delete t;
