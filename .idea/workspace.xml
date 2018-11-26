@@ -11,13 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="esercizio 8.1 modificare la chiave di ricerca">
+    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="completare colo bin tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alberibinari/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alberibinari/binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/binarytree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alberibinari/color_bin_tree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alberibinari/color_bin_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/color_bin_tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alberibinari/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-release/" />
@@ -135,14 +130,14 @@
           <entry key="Makefile" value="23" />
           <entry key="cpp" value="200" />
           <entry key="h" value="2217" />
-          <entry key="txt" value="102" />
+          <entry key="txt" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="37" />
           <entry key="ObjectiveC" value="2417" />
-          <entry key="PLAIN_TEXT" value="88" />
+          <entry key="PLAIN_TEXT" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -164,8 +159,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+            <state relative-caret-position="98">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding>
                 <element signature="e#114#133#0" expanded="true" />
                 <element signature="e#258#267#0" expanded="true" />
@@ -201,8 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alberibinari/binarytree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="443">
+              <caret line="306" selection-start-line="306" selection-end-line="306" />
               <folding>
                 <element signature="e#126#145#0" expanded="true" />
                 <element signature="e#5273#5282#0" expanded="true" />
@@ -236,6 +231,7 @@
       <find>find</find>
       <find>dsize</find>
       <find>search</find>
+      <find>cout</find>
     </findStrings>
     <replaceStrings>
       <replace>pila</replace>
@@ -380,7 +376,7 @@
       <workItem from="1541750045405" duration="4664000" />
       <workItem from="1541788461120" duration="4292000" />
       <workItem from="1543231357956" duration="332000" />
-      <workItem from="1543232010761" duration="4667000" />
+      <workItem from="1543232010761" duration="5007000" />
     </task>
     <task id="LOCAL-00001" summary="inizio code, modificare leggicoda e fuoricoda">
       <created>1540623922520</created>
@@ -466,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541757862834</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="completare colo bin tree">
+      <created>1543236698002</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543236698002</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30446000" />
+    <option name="totallyTimeSpent" value="30786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="6" />
@@ -481,8 +484,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.17121212" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.15967742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" visible="true" weight="0.5354839" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -575,7 +578,19 @@
     <MESSAGE value="creazione insieme" />
     <MESSAGE value="esercizio 8.1" />
     <MESSAGE value="esercizio 8.1 modificare la chiave di ricerca" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizio 8.1 modificare la chiave di ricerca" />
+    <MESSAGE value="completare colo bin tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="completare colo bin tree" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/alberibinari/color_bin_tree.h</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/esercizio2-1.c">
@@ -752,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alberibinari/binarytree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="443">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
           <folding>
             <element signature="e#126#145#0" expanded="true" />
             <element signature="e#5273#5282#0" expanded="true" />
@@ -776,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+        <state relative-caret-position="98">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
             <element signature="e#114#133#0" expanded="true" />
             <element signature="e#258#267#0" expanded="true" />
