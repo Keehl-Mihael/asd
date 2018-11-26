@@ -76,7 +76,7 @@ int main() {
   cout << "Ora stampo i nodi dell'albero in ordine: " << endl;
   BinaryTree<int>* s = t->min();
   while(s) {
-    cout << "Nodo: " << s->key() << "=" << s->value() << " nodi sotto" << s->countNodi(s)<<  endl;
+    cout << "Nodo: " << s->key() << "=" << s->value() << " nodi sotto" << s->countNodi(s) << " colore "<< s->getColor() << " livello " <<s->getLevel()  <<  endl;
 
 
 

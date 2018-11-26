@@ -56,9 +56,17 @@ int color_bin_tree::getNumberofRed(BinaryTree<T> * BT) {
 
         if(pari_o_dispari == 1){
             if(nodoAlbero->getColor() == 0){
-                if(nodoAlbero->left->getColor() == 2 || nodoAlbero->right->getColor() == 2){
-                    has_red = 1;
+                if(nodoAlbero->left != 0) {
+                    if (nodoAlbero->left->getColor() == 2) {
+                        has_red = 1;
 
+                    }
+                }
+                if(nodoAlbero->right != 0) {
+                    if (nodoAlbero->right->getColor() == 2) {
+                        has_red = 1;
+
+                    }
                 }
             }
             max += nodoAlbero->value();

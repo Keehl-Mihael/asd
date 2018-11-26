@@ -106,7 +106,7 @@ void BinaryTree<T>::insertNode(T x, T v)
   if (u != 0 && u->key() == x) {
     u->_value = v;
     u->_num_nodi = countNodi(u);
-    u->index_color = rand() %  2;
+    u->index_color =  rand() %  3 ;
     u->level = level;
   }
   else {
