@@ -7,8 +7,8 @@
 
 #ifndef BINARYTREE_H
 #define BINARYTREE_H
-
-
+#include <iostream>
+#include <string>
 template <class T>
 class BinaryTree {
 public:
@@ -38,6 +38,9 @@ public:
 
   int lenght();
 
+    int getLevel();
+    int getColor();
+
   ~BinaryTree();
 
   T key() {return _key;}
@@ -46,14 +49,17 @@ public:
   BinaryTree* parent;
   BinaryTree* left;
   BinaryTree* right;
+  int _num_nodi;
+  int index_color;
+  int level;
 
 private:
   T _value;
   T _key;
-  int _num_nodi;
+
   int _lenght;
-  int index_color;
-  string colors[3]= {"red","green","white"};
+
+  std::string colors[3]= {"red","green","white"};
 };
 
 template <class T>
@@ -90,20 +96,25 @@ void BinaryTree<T>::insertNode(T x, T v)
 {
   BinaryTree<T>* s = 0;
   BinaryTree<T>* u = this;
+  int level = 0;
 
   while (u != 0 && u->key() != x) {
     s = u;
     u = x < u->key() ? u->left : u->right;
+    level ++;
   }
   if (u != 0 && u->key() == x) {
     u->_value = v;
     u->_num_nodi = countNodi(u);
     u->index_color = rand() %  2;
+    u->level = level;
   }
   else {
     BinaryTree<T>* n = new BinaryTree<T>(x, v);
     link(s, n, x);
     n->_num_nodi = countNodi(n);
+    n->level = level;
+
   }
   _lenght ++;
 }
@@ -235,7 +246,7 @@ void BinaryTree<T>::simmetricView(BinaryTree<T>* x) {
         simmetricView(x->left);
     }
 
-    cout << x->key() << " " << x->value() << endl;
+    std::cout << x->key() << " " << x->value() << std::endl;
 
     if (x->right != 0) {
         //cout << "destra"  << endl;
@@ -285,6 +296,15 @@ void BinaryTree<T>::changesubtree(BinaryTree<T>* nodo1, BinaryTree<T>* nodo2){
     nodo2->parent = temp->parent;
     nodo2->left = temp->left;
     nodo2->right = temp->right;
+}
+
+template <class T>
+int BinaryTree<T>::getLevel(){
+    return level;
+}
+template <class T>
+int BinaryTree<T>::getColor(){
+    return index_color;
 }
 
 #endif

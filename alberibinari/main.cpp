@@ -7,26 +7,25 @@
 
 
 #include <iostream>
-#include <string.h>
+#include <string>
 #include <stdlib.h>
 using namespace std;
 #include "binarytree.h"
-
 #include "../code/codavtprof.h"
+#include "color_bin_tree.h"
 
 
 
 template < typename F>
 void visitaPerLivelli(BinaryTree<F>* t){
-  int level = 1;
   Coda<F> C(15);
+  BinaryTree<F>* nodoAlbero;
   C.inCoda(t->key());
   while(C.codaVuota() == false){
     F nodo = C.leggiCoda();
     C.fuoriCoda();
-    BinaryTree<F>* nodoAlbero = t->lookupNode(nodo);
-    //level --;
-    cout << nodoAlbero->key() << /* " livello: "<< level << */ "\n"; //inserire eliminazione
+    nodoAlbero = t->lookupNode(nodo);
+    cout << nodoAlbero->key() <<  " livello: "<< nodoAlbero->getLevel() << "\n"; //inserire eliminazione
     /*    modulo = s->value() % 2;
 
     if(modulo != 0 && s->left ==0 && s->right ){
@@ -42,9 +41,6 @@ void visitaPerLivelli(BinaryTree<F>* t){
       C.inCoda(val1);
     }
 
-/*    if(nodoAlbero->right != 0 || nodoAlbero->left != 0){
-      level ++;
-    }*/
   }
 }
 
@@ -106,6 +102,10 @@ int main() {
 
   visitaPerLivelli(t->root());
 
+
+
+
+  color_bin_tree::getNumberofRed<int>(t);
 
   delete t;
 }
