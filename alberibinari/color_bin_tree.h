@@ -28,12 +28,12 @@ int color_bin_tree::getNumberofRed(BinaryTree<T> * BT) {
     std::cout << "\n get number of red \n";
     t = BT->root();
     C.inCoda(t->key());
-    int start_level = 0,current_level,pari_o_dispari,max=0,has_red=0,first_max = 0,position=0;
+    int start_level = 0,current_level,pari_o_dispari,max=0,has_red=0,first_max = 0,position=0,edited = 0;
     while(C.codaVuota() == false){
         T nodo = C.leggiCoda();
         C.fuoriCoda();
         nodoAlbero = t->lookupNode(nodo);
-        cout << nodoAlbero->key() <<  " livello: "<< nodoAlbero->getLevel() << "\n"; //inserire eliminazione
+       // cout << nodoAlbero->key() << " value:" << nodoAlbero->value()  <<  " livello: "<< nodoAlbero->getLevel() << " color:" << nodoAlbero->getColor()<< "\n"; //inserire eliminazione
 
         current_level = nodoAlbero->getLevel();
         pari_o_dispari = (current_level % 2  == 0) ? 1 : 0;
@@ -59,6 +59,7 @@ int color_bin_tree::getNumberofRed(BinaryTree<T> * BT) {
                 if(nodoAlbero->left != 0) {
                     if (nodoAlbero->left->getColor() == 2) {
                         has_red = 1;
+                        edited = 1;
 
                     }
                 }
@@ -87,7 +88,14 @@ int color_bin_tree::getNumberofRed(BinaryTree<T> * BT) {
 
     }
 
-    std::cout << first_max <<  " livello: "<< position << "\n"; //inserire eliminazione
+    if(edited){
+        std::cout << "Level of max red valore " << first_max <<  " livello: "<< position << "\n"; //inserire eliminazione
+
+    } else
+    {
+        std::cout << "Nessun nodo rosso ha figlio bianco";
+    }
+
 
 }
 
