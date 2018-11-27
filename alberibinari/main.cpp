@@ -18,7 +18,7 @@ using namespace std;
 
 template < typename F>
 void visitaPerLivelli(BinaryTree<F>* t){
-  Coda<F> C(15);
+  Coda<F> C(t->lenght());
   BinaryTree<F>* nodoAlbero;
   C.inCoda(t->key());
   while(C.codaVuota() == false){
@@ -26,9 +26,9 @@ void visitaPerLivelli(BinaryTree<F>* t){
     C.fuoriCoda();
     nodoAlbero = t->lookupNode(nodo);
     cout << nodoAlbero->key() <<  " livello: "<< nodoAlbero->getLevel() << "\n"; //inserire eliminazione
-    /*    modulo = s->value() % 2;
+    /*    modulo = nodoAlbero->value() % 2;
 
-    if(modulo != 0 && s->left ==0 && s->right ){
+    if(modulo != 0 && s->left ==0 && s->right == 0 ){
         cout << "da cancellare per esercizio 9.1 "<< endl;
     }*/
     if(nodoAlbero->left != 0){
@@ -44,19 +44,55 @@ void visitaPerLivelli(BinaryTree<F>* t){
   }
 }
 
+template < typename F>
+void eliminafogliepari(BinaryTree<F>* t){
+  Coda<F> C(t->lenght());
+  BinaryTree<F>* nodoAlbero;
+  C.inCoda(t->key());
+  int modulo = 0;
+  int remove;
+  while(C.codaVuota() == false){
+    remove =0;
+    F nodo = C.leggiCoda();
+    C.fuoriCoda();
+    nodoAlbero = t->lookupNode(nodo);
+    cout << nodoAlbero->value() <<  " livello: "<< nodoAlbero->getLevel() << "\n"; //inserire eliminazione
+        modulo = nodoAlbero->value() % 2;
+
+    if(modulo == 0 && nodoAlbero->left ==0 && nodoAlbero->right == 0 ){
+        t->removeNode(nodoAlbero->key());
+        remove = 1;
+    }
+    if(remove == 0){
+      if(nodoAlbero->left != 0){
+        F val = nodoAlbero->left->key();
+        C.inCoda(val);
+
+      }
+      if(nodoAlbero->right != 0){
+        F val1 = nodoAlbero->right->key();
+        C.inCoda(val1);
+      }
+    }
+
+
+  }
+}
+
 int main() {
   BinaryTree<int>* t = new BinaryTree<int>(4, 40);
   t->insertNode(2, 42);
-  t->insertNode(5, 5);
   t->insertNode(2, 20);
   t->insertNode(0, 1);
   t->insertNode(99, 99);
   t->insertNode(3, 30);
   t->insertNode(1, 10);
+  t->insertNode(8, 30);
   t->insertNode(0, 42);
+  t->insertNode(10, 5);
+
   t->insertNode(-1, 10);
   t->insertNode(7, 5);
-  t->insertNode(8, 30);
 
   BinaryTree<int>* k = new BinaryTree<int>(4, 40);
   k->insertNode(2, 4);
@@ -105,7 +141,11 @@ int main() {
 
 
 
-  color_bin_tree::getNumberofRed<int>(t);
+  cout << color_bin_tree::getNumberofRed<int>(t);
+  cout << "\n number of green leafs \n";
+  cout << color_bin_tree::getNumberofGreenLeafs<int>(t);
+  cout << "\n";
+  eliminafogliepari(t->root());
 
   delete t;
 }

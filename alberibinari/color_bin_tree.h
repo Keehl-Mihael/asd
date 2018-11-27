@@ -16,19 +16,21 @@ class color_bin_tree {
 public:
     template <class T>
     static int getNumberofRed(BinaryTree<T>*);
+    template <class T>
+    static int getNumberofGreenLeafs(BinaryTree<T>*);
 
 };
 
 
 template <class T>
 int color_bin_tree::getNumberofRed(BinaryTree<T> * BT) {
-    Coda<T> C(15);
+    Coda<T> C(BT->lenght());
     BinaryTree<T>* nodoAlbero;
     BinaryTree<T>* t;
     std::cout << "\n get number of red \n";
     t = BT->root();
     C.inCoda(t->key());
-    int start_level = 0,current_level,pari_o_dispari,max=0,has_red=0,first_max = 0,position=0,edited = 0;
+    int start_level = 0,current_level,pari_o_dispari,max=0,has_red=0,first_max = 0,position=0,count=0;
     while(C.codaVuota() == false){
         T nodo = C.leggiCoda();
         C.fuoriCoda();
@@ -59,7 +61,7 @@ int color_bin_tree::getNumberofRed(BinaryTree<T> * BT) {
                 if(nodoAlbero->left != 0) {
                     if (nodoAlbero->left->getColor() == 2) {
                         has_red = 1;
-                        edited = 1;
+                        count ++;
 
                     }
                 }
@@ -88,15 +90,32 @@ int color_bin_tree::getNumberofRed(BinaryTree<T> * BT) {
 
     }
 
-    if(edited){
+/*    if(count){
         std::cout << "Level of max red valore " << first_max <<  " livello: "<< position << "\n"; //inserire eliminazione
 
     } else
     {
         std::cout << "Nessun nodo rosso ha figlio bianco";
-    }
+    }*/
+
+    return count;
 
 
 }
 
+
+template < class T>
+int  color_bin_tree::getNumberofGreenLeafs(BinaryTree<T>* t){
+    BinaryTree<T>* s;
+    s = t->max();
+    int count =0;
+    while(s) {
+
+        if(s->left == 0 && s->right == 0 && s->getColor() == 1){
+            count++;
+        }
+        s = s->predecessorNode();
+    }
+    return count;
+}
 #endif //TEST_BUILD_COLOR_BIN_TREE_H
