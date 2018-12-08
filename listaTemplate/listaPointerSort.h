@@ -40,7 +40,7 @@ public:
     void creaLista();
     bool listaVuota() const;
     value_type leggiLista(position) const;
-    position leggiLista(value_type) const;
+    position leggiLista(value_type &p) const;
     void scriviLista(const value_type &a,position);
     position primoLista() const;
     bool fineLista(position) const;

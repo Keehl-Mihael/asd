@@ -8,48 +8,34 @@
 #include "insiemi.h"
 #include "../listaTemplate/listaPointerSort.h"
 
-template <class T>
-class insiemeList;
-
-template <class T>
-class cella {
-public:
-    friend class insiemeList<T>;
-    cella<T> operator<(const cella<T>& c ) const { return this->value < c.value; };
-    cella<T> operator<=(const cella<T>& c) const { return this->value <= c.value; };
-    cella<T> operator>(const cella<T>& c) const { return this->value > c.value; };
-private:
-    T value;
-    cella<T> * prev;
-    cella<T> * succ;
-};
 
 template <class T>
 class insiemeList : public insieme<T,cella<T>*>{
 private:
     typedef typename listalineare<T, cella<T>*>::value_type value_type;
-    listPointer<T> insieme;
+    typedef typename listalineare<T, cella<T>*>::position position;
+    listPointer<T> insiemeElem;
     int lenght;
 public:
     insiemeList(){
         crea();
     };
     ~insiemeList(){
-        delete insieme;
+        delete insiemeElem;
     };
     void crea(){
-        if(insiemeVuoto()){
+        if(vuoto()){
             lenght = 0;
         }
     };
-    bool insiemeVuoto(){
-        return insieme.listaVuota();
+    bool vuoto(){
+        return insiemeElem.listaVuota();
     }
-    bool appartiene(value_type &a){
+    bool appartiene(value_type &a) const{
         listPointer<int>::position iter;
         iter = 0;
-        while(!insieme.fineLista(iter)){
-            if(a == insieme.leggiLista(iter)){
+        while(!insiemeElem.fineLista(iter)){
+            if(a == insiemeElem.leggiLista(iter)){
                 return true;
             }
             iter ++;
@@ -60,17 +46,17 @@ public:
 
     void inserisci(value_type &a){
         if(!appartiene(a)){
-            insieme.insLista(a,insieme.primoLista());
+            insiemeElem.insLista(a,insiemeElem.primoLista());
         }
     }
 
     void cancella(value_type &a){
         if(appartiene(a)){
-            insieme.cancLista(insieme.leggiLista(a));
+            insiemeElem.cancLista(insiemeElem.leggiLista(a));
         }
     }
 
-    void unione(insieme i){
+    void unione(insiemeList<T> i){
         position iter = i.primoLista();
         value_type v ;
         while (!i.fineLista(iter)){
@@ -82,8 +68,8 @@ public:
         }
     }
 
-    void intersezione(insieme i){
-        insieme intersection;
+    void intersezione(insiemeList<T> i){
+        insiemeList<T> intersection;
         position iter = i.primoLista();
         value_type v ;
         while (!i.fineLista(iter)){
@@ -96,8 +82,8 @@ public:
         this = intersection;
     }
 
-    void differenza(insieme i){
-        insieme diff;
+    void differenza(insiemeList<T> i){
+        insiemeList<T> diff;
         position iter = i.primoLista();
         value_type v ;
         while (!i.fineLista(iter)){
