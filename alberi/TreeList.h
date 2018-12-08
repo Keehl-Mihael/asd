@@ -47,15 +47,15 @@ class TreeList : public Tree<I, int> {
 		create();
 	};
 
-	virtual void create () ;
-	virtual bool empty () const ;
-	virtual void insRoot (node) ;
-	virtual node root () const ;
-	virtual node parent (node) const ;
-	virtual bool leaf (node) const ;
-	virtual node firstChild (node) const ;
-	virtual bool lastSibling (node) const ;
-	virtual node nextSibling (node) const ;
+	void create () ;
+	bool empty () const ;
+	void insRoot (node) ;
+	node root () const ;
+	node parent (node) const ;
+	bool leaf (node) const ;
+	node firstChild (node) const ;
+	bool lastSibling (node) const ;
+	node nextSibling (node) const ;
 	// DA IMPLEMENTARE
 	//	virtual void insFirstSubTree (node, TreeList &) ;
 	//	virtual void insSubTree (node, TreeList &) ;
@@ -64,8 +64,8 @@ class TreeList : public Tree<I, int> {
 	void insFirst(node, item);
 	void ins(node, item);
 
-	virtual void writeNode (node, item) ;
-	virtual item readNode (node) const ;
+	void writeNode (node, item) ;
+	item readNode (node) const ;
 
 	void print() const;
     void depth_search(node nodo, int &max_level) const;
@@ -145,7 +145,7 @@ typename TreeList<I>::node TreeList<I>::parent (node n) const{
 				child = nodes[i].childs.next(child);
 			}
 			if (found)
-				return(i);
+				return(p);
 		}
 	}
 }

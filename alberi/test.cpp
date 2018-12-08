@@ -44,7 +44,10 @@ int main(){
 	Tree.print();	
 
 	cout << "\n depth" << endl;
-	cout << Tree.depth();
+	//
+	 cout << Tree.depth();
+
+
 
 	return 0;
 }

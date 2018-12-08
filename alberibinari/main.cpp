@@ -98,7 +98,7 @@ int main() {
   k->insertNode(2, 4);
   k->insertNode(5, 7);
 
-  t->changesubtree(t->lookupNode(3),k->lookupNode(2));
+  //t->changesubtree(t->lookupNode(3),k->lookupNode(2));
 
 
   int modulo;

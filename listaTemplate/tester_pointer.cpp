@@ -18,7 +18,7 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "listaPointer.h"
+#include "listaPointerSort.h"
 #include <iostream>
 
 using namespace std;
@@ -34,6 +34,11 @@ int main() {
     x = 1;
     list1.insLista(x, list1.primoLista());
 
+    x = 4;
+    list1.insLista(x, list1.primoLista());
+
+
+
     x = 2;
     list1.insLista(x, list1.primoLista());
 
@@ -42,8 +47,7 @@ int main() {
     list1.insLista(x, list1.primoLista());
 
 
-    x = 4;
-    list1.insLista(x, list1.primoLista());
+
 
     /* visualizing the list list1 */
     cout << "list1=";

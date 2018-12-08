@@ -296,6 +296,9 @@ void BinaryTree<T>::changesubtree(BinaryTree<T>* nodo1, BinaryTree<T>* nodo2){
     nodo2->parent = temp->parent;
     nodo2->left = temp->left;
     nodo2->right = temp->right;
+
+    nodo1->parent->parent = nodo2;
+    nodo2->parent->parent = nodo1;
 }
 
 template <class T>
