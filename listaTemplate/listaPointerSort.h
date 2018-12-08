@@ -40,6 +40,7 @@ public:
     void creaLista();
     bool listaVuota() const;
     value_type leggiLista(position) const;
+    position leggiLista(value_type) const;
     void scriviLista(const value_type &a,position);
     position primoLista() const;
     bool fineLista(position) const;
@@ -131,9 +132,20 @@ template <class T>
 typename listPointer<T>::value_type listPointer<T>::leggiLista(position p) const{
     if(!fineLista(p)){
         return p->value;
-
     }
 
+}
+
+template <class T>
+typename listPointer<T>::position listPointer<T>::leggiLista(value_type &p) const{
+    position iter = 0;
+    while(!fineLista(iter)){
+        if(p == succLista(iter)->value){
+            return iter;
+        }
+        iter++;
+    }
+    throw ("not in list");
 }
 
 template <class T>
