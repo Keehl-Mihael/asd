@@ -3,13 +3,13 @@
 //
 
 #include <iostream>
-#include "codePointer.h"
+#include "codeUlist.h"
 
 using namespace std;
 
 int main(int argv,char* argc[]){
 
-    codePointer<int> C;
+    codaList<int> C;
 
     C.incoda(1);
     C.incoda(2);

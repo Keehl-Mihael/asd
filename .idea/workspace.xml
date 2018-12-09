@@ -11,16 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="insiemi ultilizzando liste ordinate">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="terminare insiemi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/codavtprof.h" beforeDir="false" afterPath="$PROJECT_DIR$/code/codavtprof.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insiemi/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/insiemi/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h" beforeDir="false" afterPath="$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insiemi/insiemi.h" beforeDir="false" afterPath="$PROJECT_DIR$/insiemi/insiemi.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/insiemi/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listaTemplate/lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/lista.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listaTemplate/listaPointerSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/listaPointerSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/code/cmake-build-release/" />
@@ -38,28 +37,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/insiemi/insiemi.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="306">
-                    <caret line="18" column="27" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="27" />
-                    <folding>
-                      <element signature="e#90#107#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
@@ -97,46 +74,47 @@
     <session id="-475276192">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="15" />
-          <entry key="h" value="44" />
+          <entry key="cpp" value="25" />
+          <entry key="h" value="56" />
           <entry key="listaTemplate (disassembly)" value="1" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="1" />
-          <entry key="CMakeLists.txt" value="5" />
+          <entry key="CMakeLists.txt" value="8" />
           <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="59" />
+          <entry key="ObjectiveC" value="81" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="356" />
-          <entry key="h" value="2456" />
-          <entry key="txt" value="292" />
+          <entry key="cpp" value="390" />
+          <entry key="h" value="2557" />
+          <entry key="txt" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="61" />
-          <entry key="ObjectiveC" value="2812" />
-          <entry key="PLAIN_TEXT" value="231" />
+          <entry key="CMakeLists.txt" value="76" />
+          <entry key="ObjectiveC" value="2947" />
+          <entry key="PLAIN_TEXT" value="250" />
         </counts>
       </usages-collector>
     </session>
@@ -191,23 +169,35 @@
     <favorites_list name="asd" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointerSort.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="496">
+              <caret line="126" column="31" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alberi/TreeList.h">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2210">
-              <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+            <state relative-caret-position="105">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
-                <element signature="e#3460#3469#0" expanded="true" />
+                <element signature="e#1465#1496#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/tester_pointer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-99">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="e#1465#1494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,20 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insiemi/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="85">
               <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointerSort.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-              <folding>
-                <element signature="e#3080#3089#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -237,34 +215,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#129#149#0" expanded="true" />
+                <element signature="e#188#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listaTemplate/lista.h">
+        <entry file="file://$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="81">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#164#181#0" expanded="true" />
+                <element signature="e#44#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listaTemplate/main.cpp">
+        <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="102">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#43#62#0" expanded="true" />
+                <element signature="e#164#173#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -281,7 +259,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>listaVuota</find>
       <find>insli</find>
       <find>listsinglepointer</find>
       <find>ins</find>
@@ -311,6 +288,7 @@
       <find>leggili</find>
       <find>leggilis</find>
       <find>insiemeVuoto</find>
+      <find>listaVuota</find>
     </findStrings>
     <replaceStrings>
       <replace>pila</replace>
@@ -328,7 +306,6 @@
         <option value="$PROJECT_DIR$/listaTemplate/tester_vector.cpp" />
         <option value="$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp" />
         <option value="$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp" />
-        <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" />
         <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" />
         <option value="$PROJECT_DIR$/dizionari/Makefile" />
         <option value="$PROJECT_DIR$/dizionari/CMakeLists.txt" />
@@ -351,10 +328,13 @@
         <option value="$PROJECT_DIR$/alberi/test.cpp" />
         <option value="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/listaTemplate/tester_pointer.cpp" />
-        <option value="$PROJECT_DIR$/insiemi/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/listaTemplate/lista.h" />
         <option value="$PROJECT_DIR$/listaTemplate/listaPointerSort.h" />
         <option value="$PROJECT_DIR$/insiemi/insiemi.h" />
+        <option value="$PROJECT_DIR$/code/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/code/main.cpp" />
+        <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" />
+        <option value="$PROJECT_DIR$/insiemi/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp" />
         <option value="$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h" />
       </list>
@@ -419,19 +399,19 @@
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/insiemi" />
-      <recent name="$PROJECT_DIR$/listaTemplate" />
-      <recent name="$PROJECT_DIR$/alberi" />
-      <recent name="$PROJECT_DIR$/alberinari" />
-      <recent name="$PROJECT_DIR$/codepriority" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/listaTemplate" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/codepriority" />
       <recent name="$PROJECT_DIR$/alberinari" />
       <recent name="$PROJECT_DIR$/dizionari" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/insiemi" />
+      <recent name="$PROJECT_DIR$/code" />
+      <recent name="$PROJECT_DIR$/listaTemplate" />
+      <recent name="$PROJECT_DIR$/alberi" />
+      <recent name="$PROJECT_DIR$/alberinari" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -501,7 +481,8 @@
       <workItem from="1543837679645" duration="2203000" />
       <workItem from="1543860474276" duration="1263000" />
       <workItem from="1544168983171" duration="4823000" />
-      <workItem from="1544275188490" duration="7698000" />
+      <workItem from="1544275188490" duration="7825000" />
+      <workItem from="1544353670155" duration="2868000" />
     </task>
     <task id="LOCAL-00001" summary="inizio code, modificare leggicoda e fuoricoda">
       <created>1540623922520</created>
@@ -622,23 +603,30 @@
       <option name="project" value="LOCAL" />
       <updated>1544281902546</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="terminare insiemi">
+      <created>1544283062607</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1544283062607</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55847000" />
+    <option name="totallyTimeSpent" value="58842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1363" y="0" width="1372" height="771" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.1621212" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.16439395" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.16287878" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.17121212" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32612056" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.547812" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.54714066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -648,30 +636,30 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.39876354" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32766616" />
       <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.32302937" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" visible="true" weight="0.44822258" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" weight="0.44822258" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.15681818" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.16439395" />
+      <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.16287878" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.17121212" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32903227" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.15967742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32612056" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" visible="true" weight="0.54714066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32901135" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.39876354" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32903227" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.32419354" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32766616" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.32302937" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" weight="0.44822258" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -735,7 +723,8 @@
     <MESSAGE value="10.1 funzionante" />
     <MESSAGE value="liste ordinate" />
     <MESSAGE value="insiemi ultilizzando liste ordinate" />
-    <option name="LAST_COMMIT_MESSAGE" value="insiemi ultilizzando liste ordinate" />
+    <MESSAGE value="terminare insiemi" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminare insiemi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,11 +734,15 @@
           <line>87</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/cmake-build-debug/CMakeCache.txt" />
     <entry file="file://$USER_HOME$/Downloads/liste/linked_list/linked_list.h" />
     <entry file="file://$PROJECT_DIR$/listaTemplate/tester_vector.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -762,21 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -857,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="e#107#126#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,13 +896,6 @@
     <entry file="file://$PROJECT_DIR$/pile/pila.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/code.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-980">
@@ -942,18 +910,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/listaTemplate/listaCursoriGiuseppe.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/listaTemplate/listaCursori.h">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alberi/TreeList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/lista.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#164#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/code.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insiemi/insiemi.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#90#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/codePointer.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -962,93 +971,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/codeUlist.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
+        <state relative-caret-position="85">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="14" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="-2787">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/test.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#164#173#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insiemi/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="85">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointerSort.h">
+    <entry file="file://$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="81">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#3080#3089#0" expanded="true" />
+            <element signature="e#44#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/lista.h">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
-            <element signature="e#164#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/TreeList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
-          <folding>
-            <element signature="e#3460#3469#0" expanded="true" />
+            <element signature="e#1465#1496#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/listaTemplate/tester_pointer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-99">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
-            <element signature="e#43#62#0" expanded="true" />
+            <element signature="e#1465#1494#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp">
+    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointerSort.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/insiemi.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#90#107#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="496">
+          <caret line="126" column="31" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#129#149#0" expanded="true" />
+            <element signature="e#188#197#0" expanded="true" />
           </folding>
         </state>
       </provider>

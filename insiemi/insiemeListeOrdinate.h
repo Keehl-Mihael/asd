@@ -5,18 +5,20 @@
 #ifndef TEST_BUILD_INSIEMELISTEORDINATE_H
 #define TEST_BUILD_INSIEMELISTEORDINATE_H
 
-#include "insiemi.h"
+
 #include "../listaTemplate/listaPointerSort.h"
 
 
 template <class T>
-class insiemeList : public insieme<T,cella<T>*>{
+class insiemeList{
+
 private:
-    typedef typename listalineare<T, cella<T>*>::value_type value_type;
-    typedef typename listalineare<T, cella<T>*>::position position;
-    listPointer<T> insiemeElem;
+
+    listPointer<T>* insiemeElem;
     int lenght;
 public:
+    typedef typename listPointer<T>::value_type value_type;
+    typedef typename listPointer<T>::position position;
     insiemeList(){
         crea();
     };
@@ -29,13 +31,13 @@ public:
         }
     };
     bool vuoto(){
-        return insiemeElem.listaVuota();
+        return insiemeElem->listaVuota();
     }
     bool appartiene(value_type &a) const{
         listPointer<int>::position iter;
         iter = 0;
-        while(!insiemeElem.fineLista(iter)){
-            if(a == insiemeElem.leggiLista(iter)){
+        while(!insiemeElem->fineLista(iter)){
+            if(a == insiemeElem->leggiLista(iter)){
                 return true;
             }
             iter ++;
@@ -46,13 +48,13 @@ public:
 
     void inserisci(value_type &a){
         if(!appartiene(a)){
-            insiemeElem.insLista(a,insiemeElem.primoLista());
+            insiemeElem->insLista(a,insiemeElem->primoLista());
         }
     }
 
     void cancella(value_type &a){
         if(appartiene(a)){
-            insiemeElem.cancLista(insiemeElem.leggiLista(a));
+            insiemeElem->cancLista(insiemeElem->leggiLista(a));
         }
     }
 
