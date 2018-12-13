@@ -2,6 +2,7 @@
 // Created by arcangelo on 10/18/18.
 //
 
+
 #ifndef ASD_LISTASINGLEPOINTERFLAG_H
 #define ASD_LISTASINGLEPOINTERFLAG_H
 
@@ -10,7 +11,7 @@
 
 
 template <class T>
-class listasinglepointerflag : public listasinglepointer<T>{
+class listasinglepointerflag : public listasinglepointer<T> {
 
 public :
     typedef typename listasinglepointer<T>::value_type value_type;

@@ -12,12 +12,14 @@ using namespace std;
 int main(){
 
     insiemeList<int> list;
+    insiemeList<int>::value_type  v;
+    v = 10;
 
 
 
     list.crea();
 
-    list.inserisci(10);
+    list.inserisci(v);
 
 
 
