@@ -12,32 +12,35 @@
 template <class T>
 class insiemeList{
 
+
 private:
 
-    listPointer<T>* insiemeElem;
+    listPointerSort<T> insiemeElem;
+
     int lenght;
 public:
-    typedef typename listPointer<T>::value_type value_type;
-    typedef typename listPointer<T>::position position;
+    typedef typename listPointerSort<T>::value_type value_type;
+    typedef typename listPointerSort<T>::position position;
     insiemeList(){
         crea();
     };
     ~insiemeList(){
-        delete insiemeElem;
+        delete insiemeElem.getHead();
     };
     void crea(){
+
         if(vuoto()){
             lenght = 0;
         }
     };
     bool vuoto(){
-        return insiemeElem->listaVuota();
+        return insiemeElem.listaVuota();
     }
     bool appartiene(value_type &a) const{
-        listPointer<int>::position iter;
-        iter = 0;
-        while(!insiemeElem->fineLista(iter)){
-            if(a == insiemeElem->leggiLista(iter)){
+        position iter;
+        iter = insiemeElem.getHead();
+        while(!insiemeElem.fineLista(iter)){
+            if(a == insiemeElem.leggiLista(iter)){
                 return true;
             }
             iter ++;
@@ -48,13 +51,15 @@ public:
 
     void inserisci(value_type &a){
         if(!appartiene(a)){
-            insiemeElem->insLista(a,insiemeElem->primoLista());
+            insiemeElem.insLista(a,insiemeElem.primoLista());
+            lenght ++;
         }
     }
 
     void cancella(value_type &a){
         if(appartiene(a)){
-            insiemeElem->cancLista(insiemeElem->leggiLista(a));
+            insiemeElem.cancLista(insiemeElem.leggiLista(a));
+            lenght --;
         }
     }
 
@@ -97,7 +102,6 @@ public:
         }
         this = diff;
     }
-
 
 
 

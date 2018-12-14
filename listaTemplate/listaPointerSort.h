@@ -9,12 +9,12 @@
 
 
 template <class T>
-class listPointer;
+class listPointerSort;
 
 template <class T>
 class cella {
 public:
-    friend class listPointer<T>;
+    friend class listPointerSort<T>;
     cella<T> operator<(const cella<T>& c ) const { return this->value < c.value; };
     cella<T> operator<=(const cella<T>& c) const { return this->value <= c.value; };
     cella<T> operator>(const cella<T>& c) const { return this->value > c.value; };
@@ -26,7 +26,7 @@ private:
 
 
 template <class T>
-class listPointer: public listalineare <T,cella<T>*> {
+class listPointerSort: public listalineare <T,cella<T>*> {
 private:
     cella<T>* head;
     int lenght;
@@ -35,12 +35,12 @@ public:
     typedef typename listalineare<T, cella<T>*>::value_type value_type;
     typedef typename listalineare<T, cella<T>*>::position position;
 
-    listPointer();
-    ~listPointer();
+    listPointerSort();
+    ~listPointerSort();
     void creaLista();
     bool listaVuota() const;
     value_type leggiLista(position) const;
-    position leggiLista(value_type &p) const;
+    value_type leggiLista(value_type &p) ;
     void scriviLista(const value_type &a,position);
     position primoLista() const;
     bool fineLista(position) const;
@@ -51,17 +51,18 @@ public:
     int lunghezza() const;
     void inverti() ;
     bool palindroma() ;
+    position getHead() const;
 
     // sovraccarico di operatori
-    listPointer<T>& operator=(const listPointer<T>&); // the assignment operator
-    bool operator==(const listPointer<T> &) const; // tests two list for equality
+    listPointerSort<T>& operator=(const listPointerSort<T>&); // the assignment operator
+    bool operator==(const listPointerSort<T> &) const; // tests two list for equality
 
 };
 
 
 
 template <class T>
-listPointer<T>::listPointer(){
+listPointerSort<T>::listPointerSort(){
     head = new cella<T>;
     head-> prev = head;
     head-> succ = head;
@@ -69,25 +70,25 @@ listPointer<T>::listPointer(){
 }
 
 template <class T>
-listPointer<T>::~listPointer(){
+listPointerSort<T>::~listPointerSort(){
     while(!listaVuota())
         cancLista(primoLista());
     delete head;
 }
 
 template <class T>
-void listPointer<T>::creaLista() {
+void listPointerSort<T>::creaLista() {
     if(listaVuota()){
         lenght = 0;
     }
 }
 template <class T>
-int listPointer<T>::lunghezza() const {
+int listPointerSort<T>::lunghezza() const {
     return (lenght);
 }
 
 template <class T>
-bool listPointer<T>::palindroma(){
+bool listPointerSort<T>::palindroma(){
     int i;
         position p_start, p_end;
         p_start = succLista(head);
@@ -106,7 +107,7 @@ bool listPointer<T>::palindroma(){
 }
 
 template <class T>
-void listPointer<T>::inverti(){
+void listPointerSort<T>::inverti(){
     int i;
     T temp ;
     position p_start, p_end;
@@ -124,12 +125,12 @@ void listPointer<T>::inverti(){
 }
 
 template <class T>
-bool listPointer<T>::listaVuota() const{
+bool listPointerSort<T>::listaVuota() const{
     return (lenght == 0);
 }
 
 template <class T>
-typename listPointer<T>::value_type listPointer<T>::leggiLista(position p) const{
+typename listPointerSort<T>::value_type listPointerSort<T>::leggiLista(position p) const{
     if(!fineLista(p)){
         return p->value;
     }
@@ -137,11 +138,11 @@ typename listPointer<T>::value_type listPointer<T>::leggiLista(position p) const
 }
 
 template <class T>
-typename listPointer<T>::position listPointer<T>::leggiLista(value_type &p) const{
+typename listPointerSort<T>::value_type listPointerSort<T>::leggiLista(value_type &p) {
     position iter = 0;
     while(!fineLista(iter)){
         if(p == succLista(iter)->value){
-            return iter;
+            return succLista(iter)->value;
         }
         iter++;
     }
@@ -149,33 +150,33 @@ typename listPointer<T>::position listPointer<T>::leggiLista(value_type &p) cons
 }
 
 template <class T>
-void listPointer<T>::scriviLista(const value_type &a,position p) {
+void listPointerSort<T>::scriviLista(const value_type &a,position p) {
     if(!fineLista(p))
         p->value = a;
 }
 
 template <class T>
-typename listPointer<T>::position listPointer<T>::primoLista() const{
+typename listPointerSort<T>::position listPointerSort<T>::primoLista() const{
     return head->succ;
 }
 
 template <class T>
-bool listPointer<T>::fineLista(position p) const {
+bool listPointerSort<T>::fineLista(position p) const {
     return (p == head);
 }
 
 template <class T>
-typename listPointer<T>::position listPointer<T>::succLista(position p) const{
+typename listPointerSort<T>::position listPointerSort<T>::succLista(position p) const{
     return p->succ;
 }
 
 template <class T>
-typename listPointer<T>::position listPointer<T>::predLista(position p) const{
+typename listPointerSort<T>::position listPointerSort<T>::predLista(position p) const{
     return p->prev;
 }
 
 template <class T>
-void listPointer<T>::insLista(const value_type a,position p) {
+void listPointerSort<T>::insLista(const value_type a,position p) {
 
     position t = new cella<T>;
     t->value = a;
@@ -204,7 +205,7 @@ void listPointer<T>::insLista(const value_type a,position p) {
 }
 
 template <class T>
-void listPointer<T>::cancLista(position p) {
+void listPointerSort<T>::cancLista(position p) {
     if(!listaVuota() && !fineLista(p))
         p->prev->succ = p->succ;
         p->succ->prev = p->prev;
@@ -213,7 +214,7 @@ void listPointer<T>::cancLista(position p) {
 }
 
 template<class T>
-listPointer<T>& listPointer<T>::operator=(const listPointer<T>& L){
+listPointerSort<T>& listPointerSort<T>::operator=(const listPointerSort<T>& L){
     if (this != &L){
         head = new cella<T>;
         head->succ = head;
@@ -234,7 +235,7 @@ listPointer<T>& listPointer<T>::operator=(const listPointer<T>& L){
 
 
 template<class T>
-bool listPointer<T>::operator==(const listPointer<T> &L) const{
+bool listPointerSort<T>::operator==(const listPointerSort<T> &L) const{
    if (L.lunghezza() != lenght)
         return false;
     position p, pL;
@@ -249,5 +250,8 @@ bool listPointer<T>::operator==(const listPointer<T> &L) const{
     return true;
 }
 
-
+template<class T>
+typename listPointerSort<T>::position  listPointerSort<T>::getHead() const {
+    return head;
+}
 #endif //ASD_LISTAPOINTER_H

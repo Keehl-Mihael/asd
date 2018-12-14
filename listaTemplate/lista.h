@@ -20,7 +20,6 @@ public:
     virtual void creaLista() = 0;
     virtual bool listaVuota() const = 0;
     virtual value_type leggiLista(position) const = 0;
-    virtual position leggiLista(value_type) const = 0;
     virtual void scriviLista(const value_type &x,position) = 0;
     virtual position primoLista() const = 0;
     virtual bool fineLista(position) const = 0;
@@ -31,6 +30,7 @@ public:
     virtual int lunghezza() const = 0;
     virtual void inverti() = 0;
     virtual bool palindroma() = 0;
+    virtual position getHead() const = 0;
 };
 
 /* sovraccarica <<. Attenzione se il tipo restituito da read non è primitivo, allora
