@@ -8,7 +8,7 @@ using namespace std;
 int main(){
 	GrafoList<string,double> G(10);
 
-	lab12<GrafoList<string,double>> esercizi(G);
+	lab12<GrafoList<string,double>> esercizi;
 
 	NodoG n1,n2,n3,n4,n5,n6;
 
@@ -57,7 +57,9 @@ int main(){
 	cout << endl;
 
 
-	cout << esercizi.inDegree(n4);
+	cout << esercizi.outDegree(G, n1);
+	cout << endl;
+	cout << esercizi.inDegree(G, n1);
 
 
 
