@@ -1,4 +1,5 @@
 #include "GrafoList.h"
+#include "lab12.h"
 
 #include <string>
 
@@ -6,6 +7,8 @@ using namespace std;
 
 int main(){
 	GrafoList<string,double> G(10);
+
+	lab12<GrafoList<string,double>> esercizi(G);
 
 	NodoG n1,n2,n3,n4,n5,n6;
 
@@ -52,6 +55,9 @@ int main(){
 	}
 
 	cout << endl;
+
+
+	cout << esercizi.inDegree(n4);
 
 
 
