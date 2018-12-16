@@ -6,19 +6,18 @@
 #define ASD_LISTASINGLEPOINTER_H
 
 #include "lista.h"
-#include "listaSinglePointerFlag.h"
+
 
 
 template <class T>
 class listasinglepointer ;
-template <class T>
-class listasinglepointerflag;
+
 
 template <class T>
 class cella {
 public:
     friend class listasinglepointer<T>;
-    friend class listasinglepointerflag<T>;
+
     cella<T> operator<(const cella<T>& c ) const { return this->value < c.value; };
     cella<T> operator<=(const cella<T>& c) const { return this->value <= c.value; };
     cella<T> operator>(const cella<T>& c) const { return this->value > c.value; };
@@ -30,7 +29,7 @@ private:
 
 template <class T>
 class listasinglepointer: public listalineare <T,cella<T>*> {
-    friend class listasinglepointerflag<T>;
+
 
 private:
     cella<T>* head;

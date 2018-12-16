@@ -35,8 +35,8 @@ public:
         create();
     };
     ~alberiPuntatori(){
-/*        while(!this.empty()){
-            erase()
+/*       while(!empty()){
+            erase();
         }*/
         delete _root;
     };
@@ -71,6 +71,8 @@ public:
     };
 
     //virtual void costr(Bin_tree<T,N>);
+
+
     void erase(Nodo n){
 
         while(!sx_empty(n)){
@@ -79,8 +81,8 @@ public:
         while(!dx_empty(n)){
             if(!dx_empty(n)) erase(n->dxn);
         }
-        if(sx_empty(n) && dx_empty(n)){
 
+        if(sx_empty(n) && dx_empty(n)){
             delete n;
         }
     };

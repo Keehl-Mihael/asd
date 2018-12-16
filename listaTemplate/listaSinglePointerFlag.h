@@ -11,7 +11,7 @@
 
 
 template <class T>
-class listasinglepointerflag : public listasinglepointer<T> {
+class listasinglepointerflag : public listasinglepointer {
 
 public :
     typedef typename listasinglepointer<T>::value_type value_type;

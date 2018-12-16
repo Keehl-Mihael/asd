@@ -11,8 +11,8 @@ using namespace std;
 
 int main(){
 
-    insiemeList<int> list;
-    insiemeList<int>::value_type  v;
+    insiemeList list;
+    insiemeList::value_type  v;
     v = 10;
 
 

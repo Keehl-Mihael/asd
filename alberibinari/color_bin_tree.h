@@ -6,7 +6,7 @@
 #define TEST_BUILD_COLOR_BIN_TREE_H
 
 #include <iostream>
-#include "binarytree.h"
+#include "../alberibinariricerca/binarytree.h"
 #include "../code/codavtprof.h"
 
 using namespace std;

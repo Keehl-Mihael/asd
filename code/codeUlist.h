@@ -11,31 +11,32 @@
 template <class T>
 class codaList {
 private :
-    listasinglepointerflag<T> coda;
+    listasinglepointer<T> coda;
 public:
 
     typedef typename listalineare<T, cella<T>*>::value_type value_type;
     typedef typename listalineare<T, cella<T>*>::position position;
 
     void creacoda(){
-        coda.crealista();
+        coda.creaLista();
     }
+
     bool codavuota(){
-        return coda.listavuota();
+        return coda.listaVuota();
     }
     value_type leggicoda(){
-        return coda.leggilista(coda.primolista());
+        return coda.leggiLista(coda.primoLista());
     }
     void fuoricoda(){
-        return coda.canclista(coda.primolista());
+        return coda.leggiLista(coda.primoLista());
     }
 
     void incoda(value_type v){
-        position start = coda.primolista();
-        while(finelista(start) != true){
-            start = coda.succlista(start);
+        position start = coda.primoLista();
+        while(fineLista(start) != true){
+            start = coda.succLista(start);
         }
-        coda.inslista(v,start);
+        coda.insLista(v,start);
     }
 
 
