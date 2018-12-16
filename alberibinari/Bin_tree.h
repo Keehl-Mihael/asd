@@ -47,7 +47,7 @@ class Bin_tree {
     virtual void erase(Nodo) = 0;
 
     virtual T read(Nodo) const = 0;
-    virtual void write(Nodo , value_type ) = 0;
+    virtual void write(Nodo ,const value_type &v ) = 0;
 
     virtual void ins_root(Nodo) = 0;
     virtual void ins_sx(Nodo) = 0;

@@ -15,9 +15,10 @@ class cella {
 public:
     friend class alberiPuntatori<T>;
 private:
+
     T value;
-    cella<T> * sx;
-    cella<T> * dx;
+    cella<T> * sxn;
+    cella<T> * dxn;
     cella<T> * father;
 };
 
@@ -41,10 +42,10 @@ public:
     };
     void create(){
         lenght = 0;
+        _root = NULL;
     };
     bool empty() const{
-        if(root()!= NULL) return false;
-        return true;
+        return (root() == NULL);
     };
 
 
@@ -55,27 +56,33 @@ public:
         return n->father;
     };
     Nodo sx(Nodo n) const {
-        return n->sx;
+        return n->sxn;
     };
 
     Nodo dx(Nodo n) const{
-        return n->dx;
+        return n->dxn;
     } ;
     bool sx_empty(Nodo n) const{
-        return (n->sx == NULL);
+        return (n->sxn == NULL);
     };
 
     bool dx_empty(Nodo n) const{
-        return (n->dx == NULL);
+        return (n->dxn == NULL);
     };
 
     //virtual void costr(Bin_tree<T,N>);
     void erase(Nodo n){
-        while(!sx_empty(n) || !dx_empty(n)){
-            if(!sx_empty(n)) erase(n->sx());
-            if(!dx_empty(n)) erase(n->dx());
+
+        while(!sx_empty(n)){
+            if(!sx_empty(n)) erase(n->sxn);
         }
-        //erase(n);
+        while(!dx_empty(n)){
+            if(!dx_empty(n)) erase(n->dxn);
+        }
+        if(sx_empty(n) && dx_empty(n)){
+
+            delete n;
+        }
     };
 
 
@@ -83,26 +90,26 @@ public:
         return n->value;
     };
 
-    void write(Nodo n, value_type v){
-        if(this->_root == _root){ //nodo appartiene ad albero
+    void write(Nodo n, const value_type &v){
+        if(n != NULL)
             n->value = v;
-        }
     };
 
     void ins_root(Nodo n){
         if(_root != NULL){
             throw(" radice già presente");
         }
-        _root = n;
-        write(_root,read(n));
-        _root->dx = n->dx;
-        _root->sx = n->sx;
+        _root = new cella<T>;
+        _root->father = NULL;
+        _root->dxn = NULL;
+        _root->sxn = NULL;
+
     };
     void ins_sx(Nodo n){
-        //this->sx = n;
+        n->sxn = new cella<T>;
     };
     void ins_dx(Nodo n){
-        //this->dx = n;
+        n->dxn = new cella<T>;
     };
 };
 

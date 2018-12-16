@@ -27,6 +27,9 @@ using namespace std;
 int main(){
 	alberiPuntatori<int> T;
 	typename alberiPuntatori<int>::Nodo n1, n2;
+	typename alberiPuntatori<int>::value_type v1;
+
+	v1 = 1;
 
 	T.ins_root(n1);
 	T.write(T.root(),1);
@@ -38,6 +41,7 @@ int main(){
 	T.write(n1, 3);
 	T.ins_dx(n1);
 	T.write(T.dx(n1), 4);
+	T.erase(n1);
 	T.print();
 	cout << T;
 }
