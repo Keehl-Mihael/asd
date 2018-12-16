@@ -60,6 +60,10 @@ int main(){
 	cout << esercizi.outDegree(G, n1);
 	cout << endl;
 	cout << esercizi.inDegree(G, n1);
+	cout << endl;
+	cout << esercizi.meanOutDegree(G);
+	cout << endl;
+	//cout << esercizi.findPath(G,n1,n4);
 
 
 
