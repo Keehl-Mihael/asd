@@ -34,7 +34,7 @@ public:
         }
     };
     bool vuoto(){
-        return insiemeElem.listaVuota();
+        return insiemeElem.listaVuota()
     }
     bool appartiene(value_type &a) const{
         position iter;
