@@ -1,375 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/alberibinari/alberiPuntatori.h" line="37" mnemonic="7" />
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
   </component>
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
-    <generated>
-      <config projectName="test_build" targetName="main" />
-    </generated>
-  </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="puntatore non valido nell'insieme">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="21a1f77b-0a89-4c11-85ac-431f65108613" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/alberibinari/Bin_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/Bin_tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alberibinari/alberiPuntatori.h" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/alberiPuntatori.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alberibinari/tester.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/tester.cpp" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/code/codavtprof.h" beforeDir="false" afterPath="$PROJECT_DIR$/code/codavtprof.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/codeUlist.h" beforeDir="false" afterPath="$PROJECT_DIR$/code/codeUlist.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insiemi/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/insiemi/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h" beforeDir="false" afterPath="$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/librerieStandard/grafoConHashMap.h" beforeDir="false" afterPath="$PROJECT_DIR$/librerieStandard/grafoConHashMap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/librerieStandard/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/librerieStandard/main.cpp" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/code/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/code/cmake-build-release/" />
-    <ignored path="$PROJECT_DIR$/code/cmake-build-relwithdebinfo/" />
-    <ignored path="$PROJECT_DIR$/code/cmake-build-release-1/" />
-    <ignored path="$PROJECT_DIR$/listaTemplate/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/dizionari/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/alberibinari/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/alberinari/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/codepriority/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/alberi/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/insiemi/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/librerieStandard/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="-1704391697">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="h" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ObjectiveC" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="h" value="604" />
-          <entry key="txt" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="604" />
-          <entry key="PLAIN_TEXT" value="27" />
-        </counts>
-      </usages-collector>
+    <session id="-250544581">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-475276192">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Makefile" value="1" />
-          <entry key="cmake" value="1" />
-          <entry key="cpp" value="27" />
-          <entry key="h" value="61" />
-          <entry key="listaTemplate (disassembly)" value="1" />
-          <entry key="txt" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeCache.txt" value="1" />
-          <entry key="CMakeLists.txt" value="9" />
-          <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="88" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="392" />
-          <entry key="h" value="2871" />
-          <entry key="txt" value="369" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="86" />
-          <entry key="ObjectiveC" value="3263" />
-          <entry key="PLAIN_TEXT" value="283" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-250544581">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Makefile" value="3" />
-          <entry key="Unnamed (disassembly)" value="5" />
-          <entry key="c" value="1" />
-          <entry key="cpp" value="20" />
-          <entry key="h" value="49" />
-          <entry key="log" value="1" />
-          <entry key="main (disassembly)" value="6" />
-          <entry key="txt" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeCache.txt" value="2" />
-          <entry key="CMakeLists.txt" value="12" />
-          <entry key="Disassembly" value="11" />
-          <entry key="ObjectiveC" value="70" />
-          <entry key="PLAIN_TEXT" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Makefile" value="23" />
-          <entry key="cpp" value="624" />
-          <entry key="h" value="4844" />
-          <entry key="txt" value="156" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="66" />
-          <entry key="ObjectiveC" value="5468" />
-          <entry key="PLAIN_TEXT" value="113" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="9" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="h" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="1" />
         </counts>
       </usages-collector>
     </session>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="asd" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alberibinari/Bin_tree.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alberibinari/Bin_treec.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="262" column="24" selection-start-line="262" selection-start-column="19" selection-end-line="262" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alberibinari/alberiPuntatori.h">
+        <entry file="file://$PROJECT_DIR$/alberi/Tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alberibinari/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alberibinari/tester.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#1465#1493#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-=======
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
->>>>>>> Stashed changes
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CMakeLists.txt" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-<<<<<<< Updated upstream
-=======
-      <find>ins</find>
-      <find>hashm</find>
-      <find>table</find>
-      <find>find</find>
-      <find>dsize</find>
-      <find>search</find>
-      <find>cout</find>
-      <find>insert</find>
-      <find>build_tree</find>
-      <find>leftmostChild</find>
-      <find>item</find>
-      <find>root</find>
-      <find>depth_search</find>
-      <find>firstChild</find>
-      <find>print</find>
-      <find>end</find>
-      <find>parent</find>
->>>>>>> Stashed changes
-      <find>insLista</find>
-      <find>lenght</find>
-      <find>insl</find>
-      <find>iter</find>
-      <find>fineLista</find>
-      <find>primo</find>
-      <find>leggili</find>
-      <find>insiemeVuoto</find>
-      <find>listaVuota</find>
-<<<<<<< Updated upstream
-      <find>listPointerSortSort</find>
-      <find>listPointerSort</find>
-      <find>leggiListaT</find>
-      <find>leggilis</find>
-      <find>resize</find>
-      <find>values</find>
-      <find>leggilista</find>
-      <find>countNodi</find>
-      <find>changesubtree</find>
-      <find>head</find>
-      <find>leggiListaPosition</find>
-      <find>succLista</find>
-      <find>leggiLista</find>
-      <find>appartiene</find>
-      <find>create</find>
-      <find>operator</find>
-      <find>ins_sx</find>
-      <find>write</find>
-      <find>_root</find>
-      <find>ins_root</find>
-      <find>root</find>
-=======
-      <find>leggiLista</find>
-      <find>listPointer</find>
->>>>>>> Stashed changes
-    </findStrings>
-    <replaceStrings>
-      <replace>pila</replace>
-      <replace>listPointerSort</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pile/pileUlist.h" />
-        <option value="$PROJECT_DIR$/listaTemplate/listaPointer.h" />
-        <option value="$PROJECT_DIR$/listaTemplate/tester_vector.cpp" />
-        <option value="$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp" />
-        <option value="$PROJECT_DIR$/listaTemplate/tester_singlepointerflag.cpp" />
-        <option value="$PROJECT_DIR$/dizionari/Makefile" />
-        <option value="$PROJECT_DIR$/dizionari/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/dizionari/dictionary.h" />
-        <option value="$PROJECT_DIR$/dizionari/main.cpp" />
-        <option value="$PROJECT_DIR$/dizionari/hash_table.h" />
-        <option value="$PROJECT_DIR$/alberibinari/color_bin_tree.cpp" />
-        <option value="$PROJECT_DIR$/alberibinari/color_bin_tree.h" />
-        <option value="$PROJECT_DIR$/alberibinari/main.cpp" />
-        <option value="$PROJECT_DIR$/codepriority/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/codepriority/heap.h" />
-        <option value="$PROJECT_DIR$/codepriority/heap.cpp" />
-        <option value="$PROJECT_DIR$/alberinari/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/alberinari/tree.h" />
-        <option value="$PROJECT_DIR$/alberinari/main.cpp" />
-        <option value="$PROJECT_DIR$/alberi/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/alberi/TreeList.h" />
-        <option value="$PROJECT_DIR$/alberi/test.cpp" />
-        <option value="$PROJECT_DIR$/listaTemplate/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/listaTemplate/tester_pointer.cpp" />
-        <option value="$PROJECT_DIR$/insiemi/insiemi.h" />
-        <option value="$PROJECT_DIR$/code/main.cpp" />
-        <option value="$PROJECT_DIR$/code/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h" />
-<<<<<<< Updated upstream
-=======
-        <option value="$PROJECT_DIR$/listaTemplate/listaSinglePointer.h" />
-        <option value="$PROJECT_DIR$/code/codeUlist.h" />
-        <option value="$PROJECT_DIR$/insiemi/CMakeLists.txt" />
->>>>>>> Stashed changes
-        <option value="$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp" />
-        <option value="$PROJECT_DIR$/listaTemplate/linked_list.h" />
-        <option value="$PROJECT_DIR$/alberibinari/binarytree.h" />
-        <option value="$PROJECT_DIR$/insiemi/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/listaTemplate/lista.h" />
-        <option value="$PROJECT_DIR$/listaTemplate/listaPointerSort.h" />
-        <option value="$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h" />
-        <option value="$PROJECT_DIR$/alberibinari/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/alberibinari/Bin_tree.h" />
-        <option value="$PROJECT_DIR$/alberibinari/tester.cpp" />
-        <option value="$PROJECT_DIR$/alberibinari/alberiPuntatori.h" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -377,19 +68,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
     <option name="width" value="1358" />
     <option name="height" value="742" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,55 +89,16 @@
             <path>
               <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
               <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="alberibinari" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="insiemi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="listaTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="alberi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/alberibinari/CMakeLists.txt" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
-  </component>
-  <component name="RecentsManager">
-<<<<<<< Updated upstream
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/alberibinari" />
-      <recent name="$PROJECT_DIR$/listaTemplate" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/codepriority" />
-      <recent name="$PROJECT_DIR$/alberinari" />
-    </key>
-=======
->>>>>>> Stashed changes
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/insiemi" />
-      <recent name="$PROJECT_DIR$/alberibinari" />
-      <recent name="$PROJECT_DIR$/code" />
-      <recent name="$PROJECT_DIR$/listaTemplate" />
-      <recent name="$PROJECT_DIR$/alberi" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/listaTemplate" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/codepriority" />
-      <recent name="$PROJECT_DIR$/alberinari" />
-      <recent name="$PROJECT_DIR$/dizionari" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -462,774 +112,60 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/dizionari" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test_build" RUN_TARGET_NAME="main" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/listaTemplate" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/listaTemplate/t.o" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="listaTemplate" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/listaTemplate" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test_build" RUN_TARGET_NAME="main" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/alberibinari" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test_build" RUN_TARGET_NAME="main" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.listaTemplate" />
-      <item itemvalue="Application.main" />
-    </list>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1d458564-c75c-4235-bd63-f8e139df3fcf" name="Default" comment="" />
-      <created>1540390681353</created>
+      <changelist id="21a1f77b-0a89-4c11-85ac-431f65108613" name="Default Changelist" comment="" />
+      <created>1545325877255</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540390681353</updated>
-      <workItem from="1540390682468" duration="210000" />
-      <workItem from="1540390897885" duration="12000" />
-      <workItem from="1540390910670" duration="26000" />
-      <workItem from="1540625810865" duration="168000" />
-      <workItem from="1540925102621" duration="3770000" />
-      <workItem from="1541061528559" duration="4246000" />
-      <workItem from="1541099551617" duration="2027000" />
-      <workItem from="1541146046351" duration="1370000" />
-      <workItem from="1541750045405" duration="4664000" />
-      <workItem from="1541788461120" duration="4292000" />
-      <workItem from="1543231357956" duration="332000" />
-      <workItem from="1543232010761" duration="5022000" />
-      <workItem from="1543259958100" duration="714000" />
-      <workItem from="1543834630483" duration="1794000" />
-      <workItem from="1543836720901" duration="658000" />
-      <workItem from="1543837679645" duration="2203000" />
-      <workItem from="1543860474276" duration="1263000" />
-      <workItem from="1544168983171" duration="4823000" />
-      <workItem from="1544275188490" duration="7825000" />
-<<<<<<< Updated upstream
-      <workItem from="1544353670155" duration="2868000" />
-      <workItem from="1544688753581" duration="1654000" />
-      <workItem from="1544726740637" duration="1305000" />
-      <workItem from="1544773413582" duration="6797000" />
-      <workItem from="1544812852493" duration="3308000" />
-      <workItem from="1544858897174" duration="491000" />
-      <workItem from="1544901432452" duration="4509000" />
-=======
-      <workItem from="1544353670155" duration="3372000" />
-      <workItem from="1544373923852" duration="2683000" />
->>>>>>> Stashed changes
+      <updated>1545325877255</updated>
+      <workItem from="1545325881330" duration="53000" />
+      <workItem from="1545372128299" duration="298000" />
     </task>
-    <task id="LOCAL-00001" summary="inizio code, modificare leggicoda e fuoricoda">
-      <created>1540623922520</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1540623922520</updated>
-    </task>
-    <task id="LOCAL-00002" summary="code utilizzando le liste">
-      <created>1540624930925</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1540624930925</updated>
-    </task>
-    <task id="LOCAL-00003" summary="debug liste">
-      <created>1540929623011</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1540929623011</updated>
-    </task>
-    <task id="LOCAL-00004" summary="debug liste">
-      <created>1541061599513</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1541061599513</updated>
-    </task>
-    <task id="LOCAL-00005" summary="debug liste">
-      <created>1541061935412</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1541061935412</updated>
-    </task>
-    <task id="LOCAL-00006" summary="debug liste lista con doppio puntatore debuggata test passato">
-      <created>1541062246780</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1541062246780</updated>
-    </task>
-    <task id="LOCAL-00007" summary="debug liste con singolo puntatore contreollare predlista">
-      <created>1541065832460</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1541065832460</updated>
-    </task>
-    <task id="LOCAL-00008" summary="debug liste con singolo puntatore contreollare predlista">
-      <created>1541101601226</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1541101601226</updated>
-    </task>
-    <task id="LOCAL-00009" summary="creazione insieme">
-      <created>1541417931764</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1541417931764</updated>
-    </task>
-    <task id="LOCAL-00010" summary="creazione insieme">
-      <created>1541419402677</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1541419402677</updated>
-    </task>
-    <task id="LOCAL-00011" summary="esercizio 8.1">
-      <created>1541755461571</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1541755461571</updated>
-    </task>
-    <task id="LOCAL-00012" summary="esercizio 8.1 modificare la chiave di ricerca">
-      <created>1541757862834</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1541757862834</updated>
-    </task>
-    <task id="LOCAL-00013" summary="completare colo bin tree">
-      <created>1543236698002</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1543236698002</updated>
-    </task>
-    <task id="LOCAL-00014" summary="completare colo bin tree">
-      <created>1543237022245</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1543237022245</updated>
-    </task>
-    <task id="LOCAL-00015" summary="10.1 funzionante">
-      <created>1543342814769</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1543342814769</updated>
-    </task>
-    <task id="LOCAL-00016" summary="liste ordinate">
-      <created>1544279913510</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1544279913510</updated>
-    </task>
-    <task id="LOCAL-00017" summary="insiemi ultilizzando liste ordinate">
-      <created>1544281902546</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1544281902546</updated>
-    </task>
-    <task id="LOCAL-00018" summary="terminare insiemi">
-      <created>1544283062607</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1544283062607</updated>
-    </task>
-<<<<<<< Updated upstream
-    <task id="LOCAL-00019" summary="terminare insiemi">
-      <created>1544779523240</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1544779523240</updated>
-    </task>
-    <task id="LOCAL-00020" summary="terminare insiemi">
-      <created>1544860155155</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1544860155155</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76906000" />
+    <option name="totallyTimeSpent" value="351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="1358" height="742" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="746" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.13420245" />
-=======
-    <task id="LOCAL-00019" summary="puntatore non valido nell'insieme">
-      <created>1544356631472</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1544356631472</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62029000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1363" y="0" width="1372" height="771" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.16666667" />
->>>>>>> Stashed changes
-      <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.16287878" />
-      <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.17121212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32019705" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.41215107" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32766616" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.39876354" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32766616" />
-<<<<<<< Updated upstream
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.31973898" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" weight="0.5599343" />
-=======
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.32302937" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" visible="true" weight="0.44822258" />
->>>>>>> Stashed changes
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-<<<<<<< Updated upstream
-=======
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.16666667" />
-      <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.16287878" />
-      <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.17121212" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32612056" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.54714066" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32901135" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.39876354" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32766616" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49924242" weight="0.32302937" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49772727" visible="true" weight="0.44822258" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
->>>>>>> Stashed changes
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="c++ lab" />
-    <MESSAGE value="classe astratta" />
-    <MESSAGE value="implementazione curso non funzionante" />
-    <MESSAGE value="implementazione  funzionante" />
-    <MESSAGE value="lista con puntatori" />
-    <MESSAGE value="esercizio 5.1,esercizio 5.2" />
-    <MESSAGE value="migliorato listaCursori" />
-    <MESSAGE value="inizio code" />
-    <MESSAGE value="inizio code, modificare leggicoda e fuoricoda" />
-    <MESSAGE value="code utilizzando le liste" />
-    <MESSAGE value="debug liste" />
-    <MESSAGE value="debug liste lista con doppio puntatore debuggata test passato" />
-    <MESSAGE value="debug liste con singolo puntatore contreollare predlista" />
-    <MESSAGE value="risoluzione lista con puntatore flag" />
-    <MESSAGE value="creazione insieme" />
-    <MESSAGE value="esercizio 8.1" />
-    <MESSAGE value="esercizio 8.1 modificare la chiave di ricerca" />
-    <MESSAGE value="completare colo bin tree" />
-    <MESSAGE value="10.1 funzionante" />
-    <MESSAGE value="liste ordinate" />
-    <MESSAGE value="insiemi ultilizzando liste ordinate" />
-    <MESSAGE value="terminare insiemi" />
-    <MESSAGE value="puntatore non valido nell'insieme" />
-    <option name="LAST_COMMIT_MESSAGE" value="puntatore non valido nell'insieme" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/alberinari/tree.h</url>
-          <line>87</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/alberibinari/tester.cpp</url>
-          <line>43</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dizionari/CMakeLists.txt" />
-    <entry file="file:///usr/include/c++/6/bits/basic_string.h" />
-    <entry file="file://$PROJECT_DIR$/dizionari/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.cpp" />
-    <entry file="file://$PROJECT_DIR$/code/codavtprof.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/codavt.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="67" column="58" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/esercizio2-1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codepriority/heap.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codepriority/heap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberinari/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codepriority/codap.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberinari/tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alberi/Tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/list_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="130" column="26" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pile/pileUlist.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pile/pilaVector.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pile/pila.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/dictionary.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaCursoriGiuseppe.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaCursori.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/TreeList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-=======
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> Stashed changes
-    <entry file="file://$PROJECT_DIR$/code/code.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/codePointer.h">
-<<<<<<< Updated upstream
-=======
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/test.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/lista.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#164#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
->>>>>>> Stashed changes
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#1465#1496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-=======
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#164#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
->>>>>>> Stashed changes
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/codeUlist.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_singlepointer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaSinglePointerFlag.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/insiemi.h" />
-    <entry file="file://$PROJECT_DIR$/listaTemplate/linked_list.h" />
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_pointer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/binarytree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointerSort.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/lista.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="36" />
-=======
-    <entry file="file://$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#44#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/insiemeListeOrdinate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="88" column="25" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/tester_pointer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#1465#1494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#44#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/insiemi.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#90#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointerSort.h">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state>
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/codeUlist.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="281" column="25" selection-start-line="281" selection-start-column="19" selection-end-line="281" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/main_insieme_dizionari.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaVector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insiemi/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/insiemi/cmake-build-debug/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaTemplate/listaPointer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/Bin_treec.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="262" column="24" selection-start-line="262" selection-start-column="19" selection-end-line="262" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/Bin_tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/tester.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#1465#1493#0" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/alberiPuntatori.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="360">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>

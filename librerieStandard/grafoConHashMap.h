@@ -65,13 +65,25 @@ public:
     void cancnodo(T value){
         for(auto it=grafoInterno.begin(); it != grafoInterno.end(); ++it){
             list<arco<T>> listaAdiacenza = it->second;
-            cout << "nodo in esame " << it->first << " " << endl;
+            //cout << "nodo in esame " << it->first << " " << endl;
             for(auto el=listaAdiacenza.begin();el != listaAdiacenza.end(); ++el){
-                cout << el->nodo << " peso:" << el->peso << '\t';
+                if(el->nodo = value){
+                    listaAdiacenza.erase(el);
+                }
+                //cout << el->nodo << " peso:" << el->peso << '\t';
             }
-            cout << endl;
+            //cout << endl;
         }
         grafoInterno.erase(value);
+    }
+
+    void cancarco(T nodo_start , T nodo_end,double peso){
+        arco<T> arco1;
+        arco1.nodo = nodo_end;
+        arco1.peso = peso;
+        if(find(grafoInterno[nodo_start].begin(),grafoInterno[nodo_start].end(),arco1) != grafoInterno[nodo_start].end()){
+            grafoInterno[nodo_start].remove(arco1);
+        }
     }
 
 private:

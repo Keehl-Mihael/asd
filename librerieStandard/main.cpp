@@ -19,7 +19,8 @@ int main(){
     Grafo.insnodo(2);
     cout << endl;
     Grafo.insarco(1,2,10);
-    Grafo.cancnodo(1);
+    //Grafo.cancnodo(1);
+    Grafo.cancarco(1,2,10);
 
     return 0;
 }
