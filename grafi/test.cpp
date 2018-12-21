@@ -7,8 +7,9 @@ using namespace std;
 
 int main(){
 	GrafoList<string,double> G(10);
+	typedef typename GrafoList<string,double>::Nodo NodoG;
 
-	lab12<GrafoList<string,double>> esercizi;
+	lab12<string,double,NodoG> esercizi;
 
 	NodoG n1,n2,n3,n4,n5,n6;
 
@@ -63,7 +64,7 @@ int main(){
 	cout << endl;
 	cout << esercizi.meanOutDegree(G);
 	cout << endl;
-	//cout << esercizi.findPath(G,n1,n4);
+	cout << esercizi.findPath(G,n1,n4);
 
 
 
