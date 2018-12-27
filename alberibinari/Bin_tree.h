@@ -44,7 +44,7 @@ class Bin_tree {
     virtual bool dx_empty(Nodo) const = 0;
 
     //virtual void costr(Bin_tree<T,N>);
-    virtual void erase(Nodo) = 0;
+    virtual void erase(Nodo &n) = 0;
 
     virtual T read(Nodo) const = 0;
     virtual void write(Nodo ,const value_type &v ) = 0;

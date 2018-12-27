@@ -21,7 +21,7 @@
 #ifndef TREELIST_H
 #define TREELIST_H
 
-#include "list_vector.h"
+#include "../liste/listaPointer.h"
 #include "Tree.h"
 
 
@@ -37,7 +37,7 @@ class TreeList : public Tree<I, int> {
     struct Record {
         item e;
         bool used;
-        List_vector<int> childs;
+		listPointer<int> childs;
     };
 
 

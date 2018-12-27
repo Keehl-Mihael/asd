@@ -45,9 +45,6 @@ public:
      int predLista(int) const;
      void insLista(value_type value,int);
     void cancLista(int);
-    int lunghezza() const;
-    void inverti(){};
-    bool palindroma(){ return true;};
 
     // sovraccarico di operatori
     listaVector<T>& operator=(const listaVector<T>&); // the assignment operator
@@ -128,10 +125,6 @@ template <class T> void listaVector<T>::cancLista(int c){
 
 }
 
-template < class T>
-int listaVector<T>::lunghezza() const{
-     return this->lenght;
-}
 
 
 template<class T>

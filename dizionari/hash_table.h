@@ -152,7 +152,7 @@ public:
 
   void erase(const K& k);
 
-  void modify(const K& k, const E& e);
+  //void modify(const K& k, const E& e);
 
   HashTable(int);	    // the constructor
 
@@ -254,13 +254,18 @@ void HashTable<K,E>::insert(Entry<K, E>& e)
 
 template<class K, class E>
 void HashTable<K,E>::erase(const K& k){
-  //TO DO
+    // search the table for a matching element
+    int b = search(e.first);
+    // chack if matching element found
+    if (table[b] != NULL){
+        // no matching element and table not full
+        table[b] = NULL;
+        dsize--;
+    } else {
+        throw "nothing to erase";
+    }
 }
 
-template<class K, class E>
-void HashTable<K,E>::modify(const K& k, const E& e){
-  // TO DO
-}
 
 
 template<class K, class E>
@@ -278,26 +283,6 @@ bool HashTable<K,E>::lookfor(const E &e) const {
     return false;                                 // the table is full
 }
 
-template<class K, class E>
-E* HashTable<K,E>::values() const {
-    E *values = new E[divisor];
-    for (int i=0; i<divisor; i++){
-        if(table[i] != NULL){
-            values[i] = table[i]->second;
-        }
-    }
-    return values;
-}
 
-template<class K, class E>
-K* HashTable<K,E>::keys() const {
-    K *keys = new K[divisor];
-    for (int i=0; i<divisor; i++){
-        if(table[i] != NULL){
-            keys[i] = table[i]->first;
-        }
-    }
-    return keys;
-}
 
 #endif

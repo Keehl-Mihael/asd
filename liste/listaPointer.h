@@ -47,9 +47,7 @@ public:
     position predLista(position) const;
     void insLista(value_type,position);
     void cancLista(position);
-    int lunghezza() const;
-    void inverti() ;
-    bool palindroma() ;
+
 
     // sovraccarico di operatori
     listPointer<T>& operator=(const listPointer<T>&); // the assignment operator
@@ -80,47 +78,7 @@ void listPointer<T>::creaLista() {
         lenght = 0;
     }
 }
-template <class T>
-int listPointer<T>::lunghezza() const {
-    return (lenght);
-}
 
-template <class T>
-bool listPointer<T>::palindroma(){
-    int i;
-        position p_start, p_end;
-        p_start = succLista(head);
-        p_end = predLista(head);
-        for(i = 0; i <= (int)lenght+1/2; i++){
-            if(p_start->value != p_end->value)
-                return false;
-            else
-                p_end = predLista(p_end);
-                p_start = succLista(p_start);
-
-        }
-
-
-    return (true);
-}
-
-template <class T>
-void listPointer<T>::inverti(){
-    int i;
-    T temp ;
-    position p_start, p_end;
-    p_start = succLista(head);
-    p_end = predLista(head);
-    for(i = 0; i <= (int)lenght+1/2; i++){
-        temp = p_start->value;
-        p_start->value = p_end->value;
-        p_end->value = temp;
-        p_end = predLista(p_end);
-        p_start = succLista(p_start);
-    }
-
-
-}
 
 template <class T>
 bool listPointer<T>::listaVuota() const{

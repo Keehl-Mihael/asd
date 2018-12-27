@@ -41,7 +41,7 @@ int main(){
 	T.write(n1, 3);
 	T.ins_dx(n1);
 	T.write(T.dx(n1), 4);
-	//T.erase(n1);
+	T.erase(n1);
 	T.print();
 	cout << T;
 }

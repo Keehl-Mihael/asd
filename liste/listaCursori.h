@@ -28,9 +28,6 @@ public:
      cursor predLista(cursor) const;
      void insLista(T,cursor);
     void cancLista(cursor);
-    int lunghezza() const;
-    void inverti();
-    bool palindroma();
 
     // sovraccarico di operatori
     listaCursori<T>& operator=(const listaCursori<T>&); // the assignment operator
@@ -118,20 +115,7 @@ template <class T> void listaCursori<T>::cancLista(cursor c){
 
 }
 
-template < class T>
-int listaCursori<T>::lunghezza() const{
-     return this->lenght;
-}
 
-template < class T>
-void listaCursori<T>::inverti() {
-
-}
-
-template < class T>
-bool listaCursori<T>::palindroma() {
-
-}
 
 
 template<class T>

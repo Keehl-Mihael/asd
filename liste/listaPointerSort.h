@@ -48,10 +48,7 @@ public:
     position predLista(position) const;
     void insLista(value_type,position);
     void cancLista(position);
-    int lunghezza() const;
-    void inverti() ;
-    bool palindroma() ;
-    position getHead() const;
+
 
     // sovraccarico di operatori
     listPointerSort<T>& operator=(const listPointerSort<T>&); // the assignment operator
@@ -82,47 +79,10 @@ void listPointerSort<T>::creaLista() {
         lenght = 0;
     }
 }
-template <class T>
-int listPointerSort<T>::lunghezza() const {
-    return (lenght);
-}
-
-template <class T>
-bool listPointerSort<T>::palindroma(){
-    int i;
-        position p_start, p_end;
-        p_start = succLista(head);
-        p_end = predLista(head);
-        for(i = 0; i <= (int)lenght+1/2; i++){
-            if(p_start->value != p_end->value)
-                return false;
-            else
-                p_end = predLista(p_end);
-                p_start = succLista(p_start);
-
-        }
 
 
-    return (true);
-}
-
-template <class T>
-void listPointerSort<T>::inverti(){
-    int i;
-    T temp ;
-    position p_start, p_end;
-    p_start = succLista(head);
-    p_end = predLista(head);
-    for(i = 0; i <= (int)lenght+1/2; i++){
-        temp = p_start->value;
-        p_start->value = p_end->value;
-        p_end->value = temp;
-        p_end = predLista(p_end);
-        p_start = succLista(p_start);
-    }
 
 
-}
 
 template <class T>
 bool listPointerSort<T>::listaVuota() const{
@@ -250,8 +210,5 @@ bool listPointerSort<T>::operator==(const listPointerSort<T> &L) const{
     return true;
 }
 
-template<class T>
-typename listPointerSort<T>::position  listPointerSort<T>::getHead() const {
-    return head;
-}
+
 #endif //ASD_LISTAPOINTER_H

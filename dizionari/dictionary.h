@@ -57,10 +57,9 @@ public:
   virtual Entry< K, E>* find(const K& k) const = 0; // return the entry with key k
   virtual void insert(Entry< K, E>& e) = 0; // insert the entry e into the dictionary
   virtual void erase(const K& k) = 0;	// delete the entry with key k
-  virtual void modify(const K& k, const E& e) = 0; // modify the value of the entry with key k to e
+  //virtual void modify(const K& k, const E& e) = 0; // modify the value of the entry with key k to e
   virtual bool lookfor(const E &e) const = 0;
-    virtual E* values() const = 0 ;
-    virtual K* keys() const = 0 ;
+
 };
 
 #endif

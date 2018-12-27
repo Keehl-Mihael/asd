@@ -51,9 +51,6 @@ public:
     position predLista(position) const;
     void insLista(value_type,position);
     void cancLista(position);
-    int lunghezza() const ;
-    void inverti() ;
-    bool palindroma() ;
 
     // sovraccarico di operatori
     listasinglepointer<T>& operator=(const listasinglepointer<T>&); // the assignment operator
@@ -81,20 +78,11 @@ void listasinglepointer<T>::creaLista() {
         lenght = 0;
     }
 }
-template <class T>
-int listasinglepointer<T>::lunghezza() const{
-    return (lenght);
-}
 
-template <class T>
-bool listasinglepointer<T>::palindroma(){
-    return false;
-}
 
-template <class T>
-void listasinglepointer<T>::inverti(){
 
-}
+
+
 
 template <class T>
 bool listasinglepointer<T>::listaVuota() const{
