@@ -110,6 +110,39 @@ public:
     void ins_dx(Nodo n){
         n->dxn = new cella<T>;
     };
+    void previsit(Nodo n){
+        if (n == NULL) return;
+        cout << read(n) << endl; // Before
+        previsit(dx(n));
+        previsit(sx(n));
+    }
+    void invisit(Nodo n){
+        if (n == NULL) return;
+        invisit(dx(n));
+        cout << read(n) << endl; // Between
+        invisit(sx(n));
+    }
+
+    void postvisit(Nodo n){
+        if (n == NULL) return;
+        postvisit(dx(n));
+        postvisit(sx(n));
+        cout << read(n) << endl; // After
+    }
+    bool leaf(Nodo n){
+        if(dx_empty(n) && sx_empty(n)){
+            return true;
+        }
+        return false;
+    }
+    void costr(Bin_tree<T,cella<T>*> &t){
+        alberiPuntatori<T> newTree;
+        Nodo newRoot;
+        newTree.ins_root(newRoot);
+        newTree.ins_dx(this->root());
+        newTree.ins_sx(t.root());
+        //trovare modo di assegnare nuovo albero
+    }
 };
 
 #endif //TEST_BUILD_ALBERIPUNTATORI_H

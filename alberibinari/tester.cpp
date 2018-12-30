@@ -17,11 +17,12 @@
  *   Free Software Foundation, Inc.,                                       *
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
-
-#include "alberiPuntatori.h"
 #include <iostream>
-
 using namespace std;
+#include "alberiPuntatori.h"
+
+
+
 
 
 int main(){
@@ -42,7 +43,14 @@ int main(){
 	T.ins_dx(n1);
 	T.write(T.dx(n1), 4);
 	T.erase(n1);
-	T.print();
+	//T.print();
+	T.previsit(T.root());
+	cout << endl;
+	T.postvisit(T.root());
+	cout << endl;
+	T.invisit(T.root());
+
+
 	cout << T;
 }
 

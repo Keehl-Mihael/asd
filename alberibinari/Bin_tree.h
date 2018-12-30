@@ -43,7 +43,8 @@ class Bin_tree {
     virtual bool sx_empty(Nodo) const = 0;
     virtual bool dx_empty(Nodo) const = 0;
 
-    //virtual void costr(Bin_tree<T,N>);
+    virtual void costr(Bin_tree<T,N> &) =0 ;
+
     virtual void erase(Nodo &n) = 0;
 
     virtual T read(Nodo) const = 0;
@@ -52,11 +53,11 @@ class Bin_tree {
     virtual void ins_root(Nodo) = 0;
     virtual void ins_sx(Nodo) = 0;
     virtual void ins_dx(Nodo) = 0;
+    virtual bool leaf(Nodo) = 0;
 
-    // funzioni di servizio da implementare qui
-    //virtual void previsit(Nodo);
-    //virtual void invisita(Nodo);
-    //virtual void postvisit(Nodo);
+    virtual void previsit(Nodo) = 0;
+    virtual void invisit(Nodo) = 0;
+    virtual void postvisit(Nodo) = 0;
 
     virtual void print() const;
 

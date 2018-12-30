@@ -55,9 +55,8 @@ class TreeLink {
 	node firstChild (node) const ;
 	bool lastSibling (node) const ;
 	node nextSibling (node) const ;
-	// DA IMPLEMENTARE
-	//	void insFirstSubTree (node, TreeList &) ;
-	//	void insSubTree (node, TreeList &) ;
+	void insFirstSubTree (node, TreeList &) ;
+	void insSubTree (node, TreeList &) ;
 	void removeSubTree (node) ;
 
 	void insFirst(node, item);
@@ -200,6 +199,16 @@ void TreeLink<I>::writeNode (node n, item el){
 template <class I>
 typename TreeLink<I>::item TreeLink<I>::readNode (node n) const{
 	return n->_item;
+}
+
+template <class I>
+void TreeLink<I>::insFirstSubTree (node n, TreeList &t){
+	insFirst(n,root(t));
+}
+
+template <class I>
+void TreeLink<I>::insSubTree (node n, TreeList &t){
+	ins(n,root(t));
 }
 
 
