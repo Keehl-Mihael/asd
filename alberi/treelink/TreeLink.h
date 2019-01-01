@@ -19,6 +19,7 @@
 #define TREELINK_H
 
 #include <iostream>
+#include "Tree.h"
 
 template<class I>
 class TreeLink;
@@ -35,7 +36,7 @@ class TreeNode {
 
 
 template<class I>
-class TreeLink {
+class TreeLink : public tree<I,TreeNode<I>*>{
  public:
 
 	typedef I item;
@@ -45,6 +46,9 @@ class TreeLink {
 	TreeLink(){
 		create();
 	};
+    ~TreeLink(){
+      removeSubTree(root());
+    };
 
 	void create () ;
 	bool empty () const ;
@@ -55,8 +59,6 @@ class TreeLink {
 	node firstChild (node) const ;
 	bool lastSibling (node) const ;
 	node nextSibling (node) const ;
-	void insFirstSubTree (node, TreeList &) ;
-	void insSubTree (node, TreeList &) ;
 	void removeSubTree (node) ;
 
 	void insFirst(node, item);
@@ -201,15 +203,6 @@ typename TreeLink<I>::item TreeLink<I>::readNode (node n) const{
 	return n->_item;
 }
 
-template <class I>
-void TreeLink<I>::insFirstSubTree (node n, TreeList &t){
-	insFirst(n,root(t));
-}
-
-template <class I>
-void TreeLink<I>::insSubTree (node n, TreeList &t){
-	ins(n,root(t));
-}
 
 
 

@@ -38,5 +38,6 @@ int main(){
 	cout << "remove c" << endl;
 	tree.removeSubTree(tree.firstChild(tree.root()));
 	tree.print(tree.root());
+    tree.~TreeLink();
 	return 0;
 }

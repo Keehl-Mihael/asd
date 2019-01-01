@@ -35,9 +35,7 @@ public:
         create();
     };
     ~alberiPuntatori(){
-/*       while(!empty()){
-            erase();
-        }*/
+        erase(root());
         delete _root;
     };
     void create(){

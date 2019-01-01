@@ -36,9 +36,8 @@ template<class I, class N>
 	virtual node firstChild (node) const = 0;
 	virtual bool lastSibling (node) const = 0;
 	virtual node nextSibling (node) const = 0;
-	// DA IMPLEMENTARE
-	//	virtual void insFirstSubTree (node, Tree &) = 0;
-	//	virtual void insSubTree (node, Tree &) = 0;
+	virtual void insFirstSubTree (node, Tree &) = 0;
+	virtual void insSubTree (node, Tree &) = 0;
 	virtual void removeSubTree (node) = 0;
 
 	virtual void writeNode (node, item) = 0;
