@@ -26,7 +26,7 @@ public:
         Queue.push(t.root());
 
         while (!Queue.empty()) {
-            temp_node = Queue.back();
+            temp_node = Queue.front();
             Queue.pop();
 
             cout << t.read(temp_node) << endl;
@@ -49,63 +49,51 @@ public:
         }
 
     }
-void printLevels(alberiPuntatori<int> &t)
-{
-        int V = 10;
-    // array to store level of each node
-    int level[V];
-    bool marked[V];
-    node nx = t.root();
-    int x = t.read(nx);
+    int maxLevelSum(alberiPuntatori<int> &t)
+    {
+        node root = t.root();
+        // Base case
+        if (root == NULL)
+            return 0;
 
-    // create a queue
-    queue<int> que;
+        // Initialize result
+        int result = t.read(root);
 
-    // enqueue element x
-    que.push(x);
+        // Do Level order traversal keeping track of number
+        // of nodes at every level.
+        queue<node> q;
+        q.push(root);
+        while (!q.empty())
+        {
+            // Get the size of queue when the level order
+            // traversal for one level finishes
+            int count = q.size() ;
 
-    // initialize level of source node to 0
-    level[x] = 0;
+            // Iterate for all the nodes in the queue currently
+            int sum = 0;
+            while (count--)
+            {
+                // Dequeue an node from queue
+                node temp = q.front();
+                q.pop();
 
-    // marked it as visited
-    marked[x] = true;
+                // Add this node's value to current sum.
+                sum = sum + t.read(temp);
 
-    // do until queue is empty
-    while (!que.empty()) {
-
-        // get the first element of queue
-        x = que.front();
-
-        // dequeue element
-        que.pop();
-
-        // traverse neighbors of node x
-        for (int i = 0; i < 10; i++) {
-            // b is neighbor of node x
-            int b = t.;
-
-            // if b is not marked already
-            if (!marked[b]) {
-
-                // enqueue b in queue
-                que.push(b);
-
-                // level of b is level of x + 1
-                level[b] = level[x] + 1;
-
-                // mark b
-                marked[b] = true;
+                // Enqueue left and right children of
+                // dequeued node
+                if (t.sx(temp) != NULL)
+                    q.push(t.sx(temp));
+                if (t.dx(temp) != NULL)
+                    q.push(t.dx(temp));
             }
-        }
-    }
 
-    // display all nodes and their levels
-    cout << "Nodes"
-         << "    "
-         << "Level" << endl;
-    for (int i = 0; i < V; i++)
-        cout << " " << i << "   -->   " << level[i] << endl;
-} */
+            // Update the maximum node count value
+            result = max(sum, result);
+        }
+
+        return result;
+    }
 };
 
 #endif //TEST_BUILD_RICHIESTE_H

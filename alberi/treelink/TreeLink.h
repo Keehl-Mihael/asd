@@ -138,6 +138,7 @@ typename TreeLink<I>::node TreeLink<I>::firstChild (node n) const{
 
 template <class I>
 bool TreeLink<I>::lastSibling (node n) const {
+	if(n == NULL) return true;
 	return (n->_nextSibling==nullptr);
 }
 
@@ -180,17 +181,21 @@ void TreeLink<I>::removeSubTree (node n){
 		}
 		removeSubTree(p);
 	}
-	p = parent(n)->_firstChild;
-	if (p==n) {
-		parent(n)->_firstChild=p->_nextSibling;
-		delete n;
-	} else {
-		while (!lastSibling(p) || p->_nextSibling!=n) {
-			p=p->_nextSibling;
+
+	if(parent(n) != NULL){
+		p = parent(n)->_firstChild;
+		if (p==n) {
+			parent(n)->_firstChild=p->_nextSibling;
+			delete n;
+		} else {
+			while (!lastSibling(p) || p->_nextSibling!=n) {
+				p=p->_nextSibling;
+			}
+			p->_nextSibling=p->_nextSibling->_nextSibling;
+			delete p->_nextSibling;
 		}
-		p->_nextSibling=p->_nextSibling->_nextSibling;
-		delete p->_nextSibling;
 	}
+
 }
 
 template <class I>

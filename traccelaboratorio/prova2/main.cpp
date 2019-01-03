@@ -2,6 +2,8 @@
 // Created by arcangelo on 02/01/19.
 //
 
+
+
 #include <iostream>
 using namespace std;
 #include "../../alberibinari/alberiPuntatori.h"
@@ -27,6 +29,6 @@ int main(){
     T.ins_dx(n1);
     T.write(T.dx(n1), 4);
 
-    rich.breadthFirst(T);
+    cout << rich.maxLevelSum(T);
     return 0;
 }
