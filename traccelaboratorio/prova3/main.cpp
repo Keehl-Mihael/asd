@@ -1,28 +1,28 @@
+//
+// Created by arcangelo on 02/01/19.
+//
+
+
+
 #include <iostream>
-#include<map>	
-#include<stack>
 using namespace std;
+#include "../../alberi/treelink/TreeLink.h"
 #include "richieste.h"
 
 int main(){
-	
-	
-	stack<int>   pila;
-	richieste<int> rich;
-	
-	pila.push(1);
-	pila.push(3);
-	pila.push(2);
-	pila.push(5);
-	pila.push(7);
-	pila.push(4);
+    richieste rich;
+    TreeLink<int> tree;
 
-	rich.ordinapila(pila);
-	
-	while(!pila.empty()){
-		cout << pila.top() << endl;
-		pila.pop();
-	}	
-	
-	return 0;
+    tree.insRoot(1);
+
+    tree.insFirst(tree.root(), 2);
+    tree.insFirst(tree.root(), 3);
+    tree.ins(tree.firstChild(tree.root()),4);
+
+
+    tree.insFirst(tree.firstChild(tree.root()), 5);
+    tree.insFirst(tree.firstChild(tree.root()), 6);
+
+    cout << rich.maxLevelSum(tree);
+    return 0;
 }
