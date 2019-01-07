@@ -5,7 +5,8 @@
 #ifndef TEST_BUILD_LAB12_H
 #define TEST_BUILD_LAB12_H
 
-#include "../codepriority/heap.h"
+#include "../codepriority/codaPriorita.h"
+#include "../codepriority/appartiene.h"
 
 template<class E, class P, class N>
 class lab12 {
@@ -61,7 +62,8 @@ public:
 
     static bool findPath(Grafo<E, P, N> &grafo, Nodo r, Nodo d) {
         int n = grafo.numNodi();
-        HeapQueue<Nodo> c(n);
+        CodaPriorita<Nodo> c(n);
+        appartiene<int> app;
 
         int T[n], DIST[n];
         Nodo k,i,x;
@@ -71,7 +73,7 @@ public:
                 DIST[k] = 100;
             }
             c.insert(k,r);
-            while(c.size() != 0){
+            while(c.min() != NULL){
                 i = c.min();
                 c.deleteMin();
                 ListaNodi Lj = grafo.Adiacenti(i);
@@ -80,9 +82,9 @@ public:
                     if(DIST[i] + x->peso < DIST[x] ){
                         T[x] = i;
                         DIST[x] = DIST[i] + x->peso;
-/*                        if(c.){
-
-                        }*/
+                        if(!app.appart(c,x)){
+                            c.inserisciMin(x);
+                        }
                     }
                     m++;
                 }
