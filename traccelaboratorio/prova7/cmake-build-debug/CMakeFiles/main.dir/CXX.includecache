@@ -6,25 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/siroid/CLionProjects/asd/alberibinari/Bin_tree.h
+/home/siroid/CLionProjects/asd/grafi/Grafo.h
+list_vector.h
+/home/siroid/CLionProjects/asd/grafi/list_vector.h
+
+/home/siroid/CLionProjects/asd/grafi/GrafoList.h
+Grafo.h
+/home/siroid/CLionProjects/asd/grafi/Grafo.h
+list_vector.h
+/home/siroid/CLionProjects/asd/grafi/list_vector.h
+
+/home/siroid/CLionProjects/asd/grafi/linear_list.h
 iostream
 -
 
-/home/siroid/CLionProjects/asd/alberibinari/alberiPuntatori.h
-Bin_tree.h
-/home/siroid/CLionProjects/asd/alberibinari/Bin_tree.h
+/home/siroid/CLionProjects/asd/grafi/list_vector.h
+linear_list.h
+/home/siroid/CLionProjects/asd/grafi/linear_list.h
 
-/home/siroid/CLionProjects/asd/traccelaboratorio/prova5/main.cpp
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova7/main.cpp
 iostream
 -
-../../alberibinari/alberiPuntatori.h
-/home/siroid/CLionProjects/asd/alberibinari/alberiPuntatori.h
+../../grafi/GrafoList.h
+/home/siroid/CLionProjects/asd/grafi/GrafoList.h
 richieste.h
-/home/siroid/CLionProjects/asd/traccelaboratorio/prova5/richieste.h
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova7/richieste.h
 
-/home/siroid/CLionProjects/asd/traccelaboratorio/prova5/richieste.h
-queue
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova7/richieste.h
+map
 -
-math.h
+list
 -
 
