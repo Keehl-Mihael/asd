@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/siroid/CLionProjects/asd/alberibinari/Bin_tree.h
+iostream
+-
+
+/home/siroid/CLionProjects/asd/alberibinari/alberiPuntatori.h
+Bin_tree.h
+/home/siroid/CLionProjects/asd/alberibinari/Bin_tree.h
+
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova5/main.cpp
+iostream
+-
+../../alberibinari/alberiPuntatori.h
+/home/siroid/CLionProjects/asd/alberibinari/alberiPuntatori.h
+richieste.h
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova5/richieste.h
+
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova5/richieste.h
+queue
+-
+math.h
+-
+
