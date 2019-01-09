@@ -65,7 +65,7 @@ int main(){
 	cout << esercizi.meanOutDegree(G);
 	cout << endl;
 	cout << esercizi.findPath(G,n1,n4) << endl;
-	esercizi.findPath(n1,n2);
+	esercizi.findPath(G,n1,n2);
 
 
 

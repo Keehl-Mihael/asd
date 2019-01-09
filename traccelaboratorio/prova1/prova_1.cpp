@@ -9,9 +9,10 @@ using namespace std;
 
 int main(){
 
-    richieste rich;
+
     listPointer<int> list1;
     listPointer<int>::position iter;
+    richieste<int,cella<int>*> rich;
 
     int x;
 

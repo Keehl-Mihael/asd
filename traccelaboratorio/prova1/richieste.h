@@ -7,14 +7,15 @@
 
 #include <map>
 
+template <class T,class P>
 class richieste{
 private:
     map<int,int> mymap;
 public:
-    typedef typename listPointer<int>::position position;
-    typedef typename listPointer<int>::value_type value_type;
+    typedef typename listalineare <T,cella<T>*>::position position;
+    typedef typename listalineare <T,cella<T>*>::value_type value_type;
 
-    int freq(listPointer<int> &L, int k){
+    int freq(listalineare <int,cella<T>*> &L, int k){
         position p1;
         p1 = L.primoLista();
         int counter = 0;
@@ -30,7 +31,7 @@ public:
 
     }
 
-    void hits(listPointer<int> &L){
+    void hits(listalineare <int,cella<T>*> &L){
         mymap.clear();
         position p1;
         p1 = L.primoLista();
@@ -46,7 +47,7 @@ public:
 
     }
 
-    void remp(listPointer<int> &L){
+    void remp(listalineare <int,cella<T>*> &L){
         position p1,p2;
         p1 = L.primoLista();
         int counter = 0;

@@ -62,8 +62,8 @@ template<class E, class P>
     void insArco(Nodo, Nodo, Peso);
     void cancNodo(Nodo);
     void cancArco(Nodo, Nodo);
-    //    bool esisteNodo(Nodo);
-    //    bool esisteArco(Arco);
+    bool esisteNodo(Nodo);
+    bool esisteArco(Arco);
     ListaNodi Adiacenti(Nodo) const ;
     ListaNodi list_nodi() const ;
     Etichetta leggiEtichetta(Nodo) const ;
@@ -226,6 +226,35 @@ void GrafoList<E, P>::scriviPeso(Nodo n1, Nodo n2, P peso) {
 		I._to = n2;
 		matrice[n1.getId()].archi.write(I,p);
 	}
+}
+
+
+
+
+template<class E, class P>
+bool GrafoList<E, P>::esisteArco(Arco a1){
+    Nodo n1 = a1.nodo1,n2 = a1.nodo2;
+    typename List_vector<InfoArco<P>>::position p;
+    p = matrice[n1.getId()].archi.begin();
+    while (!matrice[n1.getId()].archi.end(p)){
+        if (matrice[n1.getId()].archi.read(p)._to.getId() == n2.getId())
+            return true;
+        else
+            p = matrice[n1.getId()].archi.next(p);
+    }
+    return false;
+}
+
+template<class E, class P>
+bool GrafoList<E, P>::esisteNodo(Nodo n) {
+    // ATTENZIONE: controllare prima che non ci siano archi uscenti o entranti in n
+    int i;
+    for (i=0; i < dimensione; i++)
+        if (!matrice[n.getId()].archi.empty())
+            return true;
+    // TODO: implementare il controllo sugli archi entranti
+
+    return false;
 }
 
 #endif

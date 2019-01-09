@@ -62,17 +62,17 @@ public:
 
     static bool findPath(Grafo<E, P, N> &grafo, Nodo r, Nodo d) {
         int n = grafo.numNodi();
-        CodaPriorita<Nodo> c(n);
+        CodaPriorita<E> c;
         appartiene<int> app;
 
         int T[n], DIST[n];
-        Nodo k,i,x;
+        int k,i,x;
         for (k = 0; k < n; k++) {
             if (k != r) {
                 T[k] = r;
                 DIST[k] = 100;
             }
-            c.insert(k,r);
+            c.inserisciMin(r.etichetta);
             while(c.min() != NULL){
                 i = c.min();
                 c.deleteMin();
@@ -92,6 +92,8 @@ public:
         }
         return false;
     }
+
+
 
 
 };
