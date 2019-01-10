@@ -12,14 +12,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21a1f77b-0a89-4c11-85ac-431f65108613" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geeksforgeeks/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geeksforgeeks/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geeksforgeeks/main2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafi/GrafoList2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/test_build.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traccelaboratorio/prova8/richieste.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafi/Grafo.h" beforeDir="false" afterPath="$PROJECT_DIR$/grafi/Grafo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafi/GrafoList.h" beforeDir="false" afterPath="$PROJECT_DIR$/grafi/GrafoList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafi/lab12.h" beforeDir="false" afterPath="$PROJECT_DIR$/grafi/lab12.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafi/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/grafi/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traccelaboratorio/prova1/prova_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/traccelaboratorio/prova1/prova_1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/traccelaboratorio/prova1/richieste.h" beforeDir="false" afterPath="$PROJECT_DIR$/traccelaboratorio/prova1/richieste.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/librerieStandard/cmake-build-debug/" />
@@ -33,6 +67,8 @@
     <ignored path="$PROJECT_DIR$/traccelaboratorio/prova5/cmake-build-debug/" />
     <ignored path="traccelaboratorio/prova7/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/traccelaboratorio/prova7/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/geeksforgeeks/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/traccelaboratorio/prova8/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,48 +118,49 @@
     <session id="-1748582966">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="30" />
+          <entry key="cpp" value="34" />
           <entry key="gitignore" value="1" />
-          <entry key="h" value="83" />
-          <entry key="txt" value="7" />
+          <entry key="h" value="100" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="7" />
-          <entry key="ObjectiveC" value="113" />
+          <entry key="CMakeLists.txt" value="9" />
+          <entry key="ObjectiveC" value="134" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="596" />
+          <entry key="cpp" value="754" />
           <entry key="gitignore" value="1" />
-          <entry key="h" value="3156" />
-          <entry key="txt" value="167" />
+          <entry key="h" value="4119" />
+          <entry key="txt" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="32" />
-          <entry key="ObjectiveC" value="3752" />
-          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="CMakeLists.txt" value="37" />
+          <entry key="ObjectiveC" value="4873" />
+          <entry key="PLAIN_TEXT" value="154" />
         </counts>
       </usages-collector>
     </session>
@@ -131,94 +168,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova1/richieste.h">
+        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova8/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-              <folding>
-                <element signature="e#127#144#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="194">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova1/prova_1.cpp">
+        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova8/richieste.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova1/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liste/listaPointer.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liste/lista.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova3/main.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova3/richieste.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="194">
+              <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
               <folding>
-                <element signature="e#8#18#0" expanded="true" />
+                <element signature="e#125#134#0" expanded="true" />
+                <element signature="e#232#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grafi/test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova4/richieste.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grafi/lab12.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova8/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -248,6 +221,7 @@
       <find>nodo</find>
       <find>scriviEtichetta</find>
       <find>Nodo</find>
+      <find>d</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -296,9 +270,15 @@
         <option value="$PROJECT_DIR$/grafi/GrafoList.h" />
         <option value="$PROJECT_DIR$/grafi/test.cpp" />
         <option value="$PROJECT_DIR$/grafi/lab12.h" />
-        <option value="$PROJECT_DIR$/traccelaboratorio/prova1/richieste.h" />
         <option value="$PROJECT_DIR$/traccelaboratorio/prova1/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/traccelaboratorio/prova1/prova_1.cpp" />
+        <option value="$PROJECT_DIR$/traccelaboratorio/prova1/richieste.h" />
+        <option value="$PROJECT_DIR$/grafi/GrafoList2.h" />
+        <option value="$PROJECT_DIR$/geeksforgeeks/main.cpp" />
+        <option value="$PROJECT_DIR$/geeksforgeeks/main2.cpp" />
+        <option value="$PROJECT_DIR$/geeksforgeeks/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/traccelaboratorio/prova8/main.cpp" />
+        <option value="$PROJECT_DIR$/traccelaboratorio/prova8/richieste.h" />
       </list>
     </option>
   </component>
@@ -321,7 +301,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,58 +311,19 @@
             <path>
               <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
               <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="grafi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="liste" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
               <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
               <item name="asd" type="462c0819:PsiDirectoryNode" />
               <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="prova1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="prova2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="prova3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="prova4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="prova5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="prova7" type="462c0819:PsiDirectoryNode" />
+              <item name="prova8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,17 +332,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/traccelaboratorio" />
+      <recent name="$PROJECT_DIR$/geeksforgeeks" />
+      <recent name="$PROJECT_DIR$/traccelaboratorio/prova1" />
+      <recent name="$PROJECT_DIR$/codepriority" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/traccelaboratorio/prova1" />
       <recent name="$PROJECT_DIR$/codepriority" />
       <recent name="$PROJECT_DIR$/alberi/treelink" />
       <recent name="$PROJECT_DIR$/alberibinari" />
       <recent name="$PROJECT_DIR$/grafi" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/traccelaboratorio/prova1" />
-      <recent name="$PROJECT_DIR$/traccelaboratorio" />
-      <recent name="$PROJECT_DIR$/codepriority" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,7 +397,8 @@
       <workItem from="1546856522751" duration="3249000" />
       <workItem from="1546932741959" duration="9716000" />
       <workItem from="1547029438726" duration="3955000" />
-      <workItem from="1547039647657" duration="1104000" />
+      <workItem from="1547039647657" duration="5888000" />
+      <workItem from="1547104968692" duration="4814000" />
     </task>
     <task id="LOCAL-00001" summary="file in più">
       <created>1545372446755</created>
@@ -507,23 +449,30 @@
       <option name="project" value="LOCAL" />
       <updated>1546945659377</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="prova 1 modificata">
+      <created>1547040809417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547040809417</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42408000" />
+    <option name="totallyTimeSpent" value="52006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1363" y="0" width="1372" height="771" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.21742424" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.22121212" />
       <window_info id="Structure" order="1" sideWeight="0.503864" side_tool="true" weight="0.19015151" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32612056" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39721793" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.438949" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -532,7 +481,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32561728" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32612056" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32612056" />
       <window_info anchor="right" id="make" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -555,7 +504,8 @@
     <MESSAGE value="prova 4 non risolta" />
     <MESSAGE value="prova 5 completata" />
     <MESSAGE value="prova 7 iniziata,prova 4 da completare" />
-    <option name="LAST_COMMIT_MESSAGE" value="prova 7 iniziata,prova 4 da completare" />
+    <MESSAGE value="prova 1 modificata" />
+    <option name="LAST_COMMIT_MESSAGE" value="prova 1 modificata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -570,89 +520,15 @@
           <line>49</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/traccelaboratorio/prova8/main.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alberi/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/Bin_treec.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/TreeList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/Tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codepriority/heap.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codepriority/codap.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/treelink/TreeLink.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
-          <folding>
-            <element signature="e#1349#1368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/treelink/Tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alberi/treelink/testLink.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/codavtprof.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-867" />
@@ -763,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_deque.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="1580" selection-start-line="1580" selection-end-line="1580" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alberibinari/alberiPuntatori.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-550">
@@ -802,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-          <folding>
-            <element signature="e#87#121#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,23 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grafi/Grafo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grafi/GrafoList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3298">
-          <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -844,13 +693,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova3/richieste.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#8#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova4/richieste.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -873,27 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grafi/lab12.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grafi/test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova1/richieste.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding>
-            <element signature="e#127#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,10 +730,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova1/richieste.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova1/prova_1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liste/listaVector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grafi/GrafoList2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#104#122#0" expanded="true" />
+            <element signature="e#162#171#0" expanded="true" />
+            <element signature="e#283#292#0" expanded="true" />
+            <element signature="e#302#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grafi/GrafoList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" selection-start-line="56" selection-start-column="4" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grafi/Grafo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grafi/lab12.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="62" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geeksforgeeks/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geeksforgeeks/main2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#104#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geeksforgeeks/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova8/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/move.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/alloc_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="486" selection-start-line="486" selection-end-line="486" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_deque.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="1612" selection-start-line="1612" selection-end-line="1612" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_stack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova8/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traccelaboratorio/prova8/richieste.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
+          <folding>
+            <element signature="e#125#134#0" expanded="true" />
+            <element signature="e#232#241#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -12,10 +12,10 @@ class richieste{
 private:
     map<int,int> mymap;
 public:
-    typedef typename listalineare <T,cella<T>*>::position position;
-    typedef typename listalineare <T,cella<T>*>::value_type value_type;
+    typedef typename listalineare <T,P>::position position;
+    typedef typename listalineare <T,P>::value_type value_type;
 
-    int freq(listalineare <int,cella<T>*> &L, int k){
+    int freq(listalineare <int,P> &L, int k){
         position p1;
         p1 = L.primoLista();
         int counter = 0;
@@ -31,7 +31,7 @@ public:
 
     }
 
-    void hits(listalineare <int,cella<T>*> &L){
+    void hits(listalineare <int,P> &L){
         mymap.clear();
         position p1;
         p1 = L.primoLista();
@@ -47,7 +47,7 @@ public:
 
     }
 
-    void remp(listalineare <int,cella<T>*> &L){
+    void remp(listalineare <int,P> &L){
         position p1,p2;
         p1 = L.primoLista();
         int counter = 0;
