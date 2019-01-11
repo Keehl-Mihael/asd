@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova8/main.cpp
+iostream
+-
+richieste.h
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova8/richieste.h
+
+/home/siroid/CLionProjects/asd/traccelaboratorio/prova8/richieste.h
+stack
+-
+
