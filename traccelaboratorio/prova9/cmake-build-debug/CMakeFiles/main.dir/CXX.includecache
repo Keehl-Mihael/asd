@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/siroid/CLionProjects/asd/traccelaboratorio/prova9/main.cpp
+/home/arcangelo/CLionProjects/asd/traccelaboratorio/prova9/main.cpp
 iostream
 -
 list
@@ -14,7 +14,7 @@ list
 map
 -
 richieste.h
-/home/siroid/CLionProjects/asd/traccelaboratorio/prova9/richieste.h
+/home/arcangelo/CLionProjects/asd/traccelaboratorio/prova9/richieste.h
 
-/home/siroid/CLionProjects/asd/traccelaboratorio/prova9/richieste.h
+/home/arcangelo/CLionProjects/asd/traccelaboratorio/prova9/richieste.h
 

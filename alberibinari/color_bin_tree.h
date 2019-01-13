@@ -12,12 +12,16 @@
 using namespace std;
 
 class color_bin_tree {
+private:
+    typedef int Nodo;
 
 public:
     template <class T>
     static int getNumberofRed(BinaryTree<T>*);
     template <class T>
     static int getNumberofGreenLeafs(BinaryTree<T>*);
+    template <class T>
+    static void countNodi(BinaryTree<int>* &t,Nodo nodo);
 
 };
 
@@ -117,5 +121,29 @@ int  color_bin_tree::getNumberofGreenLeafs(BinaryTree<T>* t){
         s = s->predecessorNode();
     }
     return count;
+}
+
+template <class T>
+void color_bin_tree::countNodi(BinaryTree<int>* &t,Nodo nodo){
+    int sommasin,sommades;
+    if(t->sx_empty(nodo) && t->dx_empty(nodo)){
+        t->write(nodo,1)
+    }else{
+        if(!t->sx_empty(nodo)){
+            countNodi(t,t->sx(nodo));
+            sommasin = t->read(t->sx(nodo));
+        }else{
+            sommasin = 0;
+            if(!t->dx_empty(nodo)){
+                countNodi(t,t->dx(nodo));
+                sommades = t->read(t->dx(nodo));
+            }else{
+                sommades = 0;
+                t->write(nodo,sommades+sommasin+1);
+            }
+
+        }
+
+    }
 }
 #endif //TEST_BUILD_COLOR_BIN_TREE_H
