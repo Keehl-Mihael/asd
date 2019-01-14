@@ -22,6 +22,9 @@ public:
     virtual bool lastSibling (node) const  = 0;
     virtual node nextSibling (node) const  = 0;
     virtual void removeSubTree (node)  = 0;
+    virtual void previsit(node) = 0;
+    virtual void postvisit(node) = 0;
+    virtual void invisit(node,int) = 0;
 
     virtual void insFirst(node, item) = 0;
     virtual void ins(node, item) = 0;

@@ -60,6 +60,9 @@ class TreeLink : public tree<I,TreeNode<I>*>{
 	bool lastSibling (node) const ;
 	node nextSibling (node) const ;
 	void removeSubTree (node) ;
+	void previsit(node);
+	void postvisit(node);
+	void invisit(node,int);
 
 	void insFirst(node, item);
 	void ins(node, item);
@@ -208,7 +211,51 @@ typename TreeLink<I>::item TreeLink<I>::readNode (node n) const{
 	return n->_item;
 }
 
+template <class I>
+void TreeLink<I>::previsit(node n){
+	node c;
+	std::cout << readNode(n) << std::endl;
+	if(!leaf(n)){
+		c=firstChild(n);
+		while(!lastSibling(c)){
+			previsit(c);
+			c=nextSibling(c);
+		}
+		previsit(c);
+	}
+}
+template <class I>
+void TreeLink<I>::postvisit(node n){
+	node c;
+	if(!leaf(n)){
+		c=firstChild(n);
+		while(!lastSibling(c)){
+			postvisit(c);
+			c=nextSibling(c);
+		}
+		postvisit(c);
+	}
+    std::cout << readNode(n) << std::endl;
+}
 
-
+template <class I>
+void TreeLink<I>::invisit(node n,int i){
+	if(leaf(n)){
+        std::cout << readNode(n) << std::endl;
+	}else{
+		node c = firstChild(n);
+		int k = 0;
+		while (!lastSibling(c) && k < i){
+			k++;
+			invisit(c,i);
+			c=nextSibling(c);
+		}
+        std::cout << readNode(c) << std::endl;
+		while (!lastSibling(c)){
+			invisit(c,i);
+			c=nextSibling(c);
+		}
+	}
+}
 
 #endif

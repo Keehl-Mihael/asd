@@ -33,11 +33,20 @@ int main(){
 	
 	tree.insFirst(tree.firstChild(tree.root()), 'e');
 	tree.insFirst(tree.firstChild(tree.root()), 'f');
-	
+
+	tree.postvisit(tree.root());
+	cout << endl;
+	tree.previsit(tree.root());
+	cout << endl;
+	tree.invisit(tree.root(),1);
+	cout << endl;
+
+
 	tree.print(tree.root());
 	cout << "remove c" << endl;
 	tree.removeSubTree(tree.firstChild(tree.root()));
 	tree.print(tree.root());
+
     tree.~TreeLink();
 	return 0;
 }
