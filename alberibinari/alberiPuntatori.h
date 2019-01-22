@@ -75,14 +75,18 @@ public:
 
 
     void erase(Nodo &n){
-
-        if(!dx_empty(n)) erase(n->dxn);
-        if(!sx_empty(n)) erase(n->sxn);
-
-
+        
         if(sx_empty(n) && dx_empty(n)){
             n = NULL;
+        }else{
+            if(!dx_empty(n)) erase(n->dxn);
+            if(!sx_empty(n)) erase(n->sxn);
         }
+
+
+
+
+
     };
 
 
