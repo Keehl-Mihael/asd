@@ -1,0 +1,30 @@
+DFS (G: GRAFO; u:NODO)
+ESAMINA IL NODO u E MARCALO “VISITATO”
+for
+ (TUTTI I v є A(u))
+do
+ESAMINA L’ARCO (u,v)
+if
+ (v NON E' “VISITATO”)
+then
+DFS(G,v)
+
+BFS (G:GRAFO; u:NODO)
+  CREACODA(Q)
+  INCODA(u,Q)
+while not
+ (CODAVUOTA(Q))
+do
+     u = LEGGICODA(Q)
+     FUORICODA(Q)
+     esamina u e marcalo “visitato”
+for
+ (TUTTI I NODI v є A(u))
+do
+       esamina l'arco (u,v)
+if
+ (v non è marcato “visitato” and v
+∉
+ Q)
+then
+         INCODA(v,Q)

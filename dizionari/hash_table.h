@@ -118,6 +118,15 @@ public:
     return size_t(hash_value);
   }
 };
+template<>
+class Hash<int>
+{
+public:
+    size_t operator()(const int the_key) const {
+        return size_t(the_key);
+    }
+};
+
 
 /* = LINEAR PROBING =
  *
@@ -255,7 +264,7 @@ void HashTable<K,E>::insert(Entry<K, E>& e)
 template<class K, class E>
 void HashTable<K,E>::erase(const K& k){
     // search the table for a matching element
-    int b = search(e.first);
+    int b = search(k);
     // chack if matching element found
     if (table[b] != NULL){
         // no matching element and table not full

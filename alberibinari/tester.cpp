@@ -20,7 +20,7 @@
 #include <iostream>
 using namespace std;
 #include "alberiPuntatori.h"
-#include "color_bin_tree.h"
+//#include "color_bin_tree.h"
 
 
 int main(){
@@ -41,14 +41,14 @@ int main(){
 	T.ins_dx(n1);
 	T.write(T.dx(n1), 4);
 	T.erase(n1);
-	//T.print();
+	T.print();
 	T.previsit(T.root());
 	cout << endl;
 	T.postvisit(T.root());
 	cout << endl;
 	T.invisit(T.root());
 
-	color_bin_tree::countNodi(T,T.root());
+	//color_bin_tree::countNodi(T,T.root());
 
 
 	cout << T;

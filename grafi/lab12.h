@@ -93,6 +93,45 @@ public:
         return false;
     }
 
+    static void bfs(Grafo<E, P, N> &grafo,Nodo u){
+        Coda c;
+        c.incoda(u);
+        while(!c.codaVuota()){
+            u = c.leggiCoda();
+            c.fuoriCoda();
+            cout << u << endl; //marcalo visitato
+            ListaNodi n;
+            n = grafo.Adiacenti(u);
+            position p;
+            p = n.begin();
+            Nodo v;
+            while(!n.end(p)){
+                v = n.read(p);
+                //esamina l'arco
+                if(//v non è visitato e v non appartiene a c){
+                //c.incoda(v)
+                // }
+                p = n.next(p);
+            }
+        }
+    }
+
+    static void dfs(Grafo<E, P, N> &grafo,Nodo u){
+        cout << u << endl; //marcalo visitato
+        ListaNodi n;
+        n = grafo.Adiacenti(u);
+        position p;
+        p = n.begin();
+        Nodo v;
+        while(!n.end(p)){
+            v = n.read(p);
+            //esamina l'arco e marcalo visitato
+            if(//v non è visitato)
+            dfs(grafo,v)
+
+        }
+    }
+
 
 
 
