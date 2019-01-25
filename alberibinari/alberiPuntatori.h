@@ -111,9 +111,13 @@ public:
     };
     void ins_sx(Nodo n){
         n->sxn = new cella<T>;
+        n->sxn->sxn = NULL;
+        n->sxn->dxn = NULL;
     };
     void ins_dx(Nodo n){
         n->dxn = new cella<T>;
+        n->dxn->sxn = NULL;
+        n->dxn->dxn = NULL;
     };
     void previsit(Nodo n){
         if (n == NULL) return;
