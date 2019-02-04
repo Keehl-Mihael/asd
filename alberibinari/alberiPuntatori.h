@@ -76,12 +76,13 @@ public:
 
     void erase(Nodo &n){
         
+
+        if(!dx_empty(n)) erase(n->dxn);
+        if(!sx_empty(n)) erase(n->sxn);
         if(sx_empty(n) && dx_empty(n)){
             n = NULL;
-        }else{
-            if(!dx_empty(n)) erase(n->dxn);
-            if(!sx_empty(n)) erase(n->sxn);
         }
+
 
 
 
@@ -111,9 +112,13 @@ public:
     };
     void ins_sx(Nodo n){
         n->sxn = new cella<T>;
+        n->sxn->sxn = NULL;
+        n->sxn->dxn = NULL;
     };
     void ins_dx(Nodo n){
         n->dxn = new cella<T>;
+        n->dxn->sxn = NULL;
+        n->dxn->dxn = NULL;
     };
     void previsit(Nodo n){
         if (n == NULL) return;
