@@ -7,6 +7,8 @@
 
 #include "../codepriority/codaPriorita.h"
 #include "../codepriority/appartiene.h"
+#include <map>
+#include <queue>
 
 template<class E, class P, class N>
 class lab12 {
@@ -14,13 +16,14 @@ public:
 
     typedef typename Grafo<E, P, N>::ListaNodi ListaNodi;
     typedef typename Grafo<E, P, N>::Nodo Nodo;
-    typedef typename Grafo<E, P, N>::ListaNodiPos p;
+    typedef typename Grafo<E, P, N>::ListaNodiPos position;
 
 
     static int outDegree(Grafo<E, P, N> &grafo, Nodo n) {
         int count = 0;
+
         ListaNodi l = grafo.Adiacenti(n);
-        p start = l.begin();
+        position start = l.begin();
         while (!l.end(start)) {
             start = l.next(start);
             count++;
@@ -31,9 +34,9 @@ public:
     static int inDegree(Grafo<E, P, N> &grafo, Nodo n) {
         int count = 0;
         ListaNodi ad;
-        p start2;
+        position start2;
         ListaNodi l = grafo.list_nodi();
-        p start = l.begin();
+        position start = l.begin();
         while (!l.end(start)) {
             ad = grafo.Adiacenti(start);
             start2 = ad.begin();
@@ -51,7 +54,7 @@ public:
     static double meanOutDegree(Grafo<E, P, N> &grafo) {
         ListaNodi l = grafo.list_nodi();
         int num_nodi = 0, sum_archi_usc = 0;
-        p start = l.begin();
+        position start = l.begin();
         while (!l.end(start)) {
             sum_archi_usc += inDegree(grafo, *(l.read(start)));
             start = l.next(start);
@@ -60,7 +63,7 @@ public:
         return sum_archi_usc / num_nodi;
     }
 
-    static bool findPath(Grafo<E, P, N> &grafo, Nodo r, Nodo d) {
+  /*  static bool findPath(Grafo<E, P, N> &grafo, Nodo r, Nodo d) {
         int n = grafo.numNodi();
         CodaPriorita<E> c;
         appartiene<int> app;
@@ -91,26 +94,53 @@ public:
             }
         }
         return false;
-    }
+    }*/
 
     static void bfs(Grafo<E, P, N> &grafo,Nodo u){
-        Coda c;
-        c.incoda(u);
-        while(!c.codaVuota()){
-            u = c.leggiCoda();
-            c.fuoriCoda();
-            cout << u << endl; //marcalo visitato
+      std::queue<Nodo> c;
+      std::queue<Nodo> temp;
+      std::map<Nodo,bool> visited;
+        bool flag=0;
+        c.push(u);
+        while(!c.empty()){
+            u = c.front();
+            c.pop();
+            cout << grafo.leggiEtichetta(u) << endl; //marcalo visitato
+            visited[u] = true;
             ListaNodi n;
             n = grafo.Adiacenti(u);
             position p;
             p = n.begin();
-            Nodo v;
+            Nodo *v;
             while(!n.end(p)){
                 v = n.read(p);
+                cout << v << endl;
+                visited[*v] = true;
+                flag = false;
+                /*while(!c.empty()) // q1 is your initial queue.
+                {
+                    int u = c.front();
+
+                    // do what you need to do with this value.
+
+                    q1.pop();
+                    tem.push(u);
+                }
+
+
+                while(!tem.empty())
+                {
+                    int u = tem.front();
+                    tem.pop();
+                    q1.push(u); // putting it back in our original queue.
+                }*/
+                for(auto i=c.begin();i!=c.end();++i){
+                    if(grafo.leggiEtichetta(*i) == grafo.leggiEtichetta(v)){ flag = true;}
+                }
                 //esamina l'arco
-                if(//v non è visitato e v non appartiene a c){
-                //c.incoda(v)
-                // }
+                if(!visited[*v] && flag){
+                    c.push(v);
+                 }
                 p = n.next(p);
             }
         }
@@ -126,11 +156,13 @@ public:
         while(!n.end(p)){
             v = n.read(p);
             //esamina l'arco e marcalo visitato
-            if(//v non è visitato)
-            dfs(grafo,v)
+            //if(//v non è visitato)
+            //dfs(grafo,v);
 
         }
     }
+
+
 
 
 

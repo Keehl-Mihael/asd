@@ -64,10 +64,12 @@ int main(){
 	cout << endl;
 	cout << esercizi.meanOutDegree(G);
 	cout << endl;
-	cout << esercizi.findPath(G,n1,n4) << endl;
-	esercizi.findPath(G,n1,n2);
+	//cout << esercizi.findPath(G,n1,n4) << endl;
+	//esercizi.findPath(G,n1,n2);
+
+	esercizi.bfs(G,n1);
 
 
-
+	return 0;
 
 }

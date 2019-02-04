@@ -12,16 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21a1f77b-0a89-4c11-85ac-431f65108613" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dizionari/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dizionari/histogram.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dizionari/histogram.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafi/visite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alberibinari/tester.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/alberibinari/tester.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizionari/hash_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/hash_table.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizionari/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dizionari/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafi/GrafoList.h" beforeDir="false" afterPath="$PROJECT_DIR$/grafi/GrafoList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grafi/lab12.h" beforeDir="false" afterPath="$PROJECT_DIR$/grafi/lab12.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafi/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/grafi/test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/librerieStandard/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/grafi/cmake-build-debug/" />
@@ -43,42 +38,42 @@
     <session id="-250544581">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="7" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
-          <entry key="cpp" value="21" />
-          <entry key="h" value="42" />
+          <entry key="cpp" value="22" />
+          <entry key="h" value="46" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="9" />
-          <entry key="ObjectiveC" value="63" />
+          <entry key="ObjectiveC" value="68" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="407" />
-          <entry key="h" value="2577" />
-          <entry key="txt" value="201" />
+          <entry key="cpp" value="432" />
+          <entry key="h" value="3098" />
+          <entry key="txt" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="28" />
-          <entry key="ObjectiveC" value="2984" />
-          <entry key="PLAIN_TEXT" value="173" />
+          <entry key="ObjectiveC" value="3530" />
+          <entry key="PLAIN_TEXT" value="197" />
         </counts>
       </usages-collector>
     </session>
@@ -89,58 +84,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dizionari/histogram.cpp">
+        <entry file="file://$PROJECT_DIR$/grafi/GrafoList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+            <state relative-caret-position="-1080">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="41" />
               <folding>
-                <element signature="e#5172#5181#0" expanded="true" />
+                <element signature="e#41#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alberibinari/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/grafi/Grafo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="-68">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alberibinari/tester.cpp">
+        <entry file="file://$PROJECT_DIR$/grafi/lab12.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+              <folding>
+                <element signature="e#96#137#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.h">
+        <entry file="file://$PROJECT_DIR$/grafi/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dizionari/histogram.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="195">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -165,9 +145,12 @@
       <find>removeSubTree</find>
       <find>HeapQueue</find>
       <find>sx_empty</find>
+      <find>fuoriCoda</find>
     </findStrings>
     <replaceStrings>
       <replace>Queue</replace>
+      <replace>push</replace>
+      <replace>pop</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -185,17 +168,18 @@
         <option value="$PROJECT_DIR$/alberi/treelink/TreeLink.h" />
         <option value="$PROJECT_DIR$/grafi/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/codepriority/appartiene.h" />
-        <option value="$PROJECT_DIR$/grafi/test.cpp" />
         <option value="$PROJECT_DIR$/alberibinari/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/alberibinari/color_bin_tree.h" />
         <option value="$PROJECT_DIR$/grafi/visite.txt" />
-        <option value="$PROJECT_DIR$/grafi/lab12.h" />
         <option value="$PROJECT_DIR$/dizionari/main.cpp" />
-        <option value="$PROJECT_DIR$/dizionari/histogram.h" />
         <option value="$PROJECT_DIR$/dizionari/histogram.cpp" />
         <option value="$PROJECT_DIR$/dizionari/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/dizionari/hash_table.h" />
         <option value="$PROJECT_DIR$/alberibinari/tester.cpp" />
+        <option value="$PROJECT_DIR$/dizionari/histogram.h" />
+        <option value="$PROJECT_DIR$/grafi/GrafoList.h" />
+        <option value="$PROJECT_DIR$/grafi/test.cpp" />
+        <option value="$PROJECT_DIR$/grafi/lab12.h" />
       </list>
     </option>
   </component>
@@ -218,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,50 +213,12 @@
             <path>
               <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
               <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="alberibinari" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="codepriority" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="dizionari" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
               <item name="grafi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="prova1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asd" type="462c0819:PsiDirectoryNode" />
-              <item name="traccelaboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="prova9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +288,9 @@
       <workItem from="1547371942481" duration="1135000" />
       <workItem from="1547539512210" duration="3913000" />
       <workItem from="1547553562503" duration="1576000" />
-      <workItem from="1548145623517" duration="174000" />
+      <workItem from="1548145623517" duration="292000" />
+      <workItem from="1549215068852" duration="747000" />
+      <workItem from="1549267958074" duration="3775000" />
     </task>
     <task id="LOCAL-00001" summary="file in più">
       <created>1545372446755</created>
@@ -385,17 +334,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547373049610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="per lo stronzo di flavio">
+      <created>1548145838158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548145838158</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26237000" />
+    <option name="totallyTimeSpent" value="30877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-2" width="1372" height="752" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49618322" visible="true" weight="0.2469697" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49618322" visible="true" weight="0.16818182" />
       <window_info id="Structure" order="1" sideWeight="0.502451" side_tool="true" weight="0.19551778" />
       <window_info id="Favorites" order="2" sideWeight="0.5038168" side_tool="true" weight="0.23556231" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -431,7 +387,8 @@
     <MESSAGE value="prova 2.1 risoluzione corretta del problema 2 delle tracce di laboratorio" />
     <MESSAGE value="cammini minimi per inter implementato ma non testo" />
     <MESSAGE value="aggiunta count nodi" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunta count nodi" />
+    <MESSAGE value="per lo stronzo di flavio" />
+    <option name="LAST_COMMIT_MESSAGE" value="per lo stronzo di flavio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -466,13 +423,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codepriority/codap.h">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grafi/Grafo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alberi/treelink/Tree.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -560,20 +510,6 @@
     <entry file="file://$PROJECT_DIR$/codepriority/coda.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/codepriority/appartiene.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grafi/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grafi/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -619,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grafi/GrafoList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grafi/linear_list.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-920" />
@@ -640,13 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grafi/lab12.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -697,20 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dizionari/histogram.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dizionari/hash_table.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
+        <state relative-caret-position="-843">
           <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
-          <folding>
-            <element signature="e#5172#5181#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,17 +633,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alberibinari/tester.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alberibinari/color_bin_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
+        <state relative-caret-position="144">
           <caret line="128" selection-start-line="128" selection-end-line="128" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alberibinari/tester.cpp">
+    <entry file="file://$PROJECT_DIR$/dizionari/histogram.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codepriority/appartiene.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grafi/Grafo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grafi/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grafi/GrafoList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grafi/lab12.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+          <folding>
+            <element signature="e#96#137#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
